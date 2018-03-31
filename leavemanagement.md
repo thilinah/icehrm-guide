@@ -98,7 +98,7 @@ When adding a leave type you need to set following fields
       <td><p>Carried Forward Leave Availability Period</p></td>
       <td><p>
         
-        For how many days carried forward leaves are available in start date of current leave period.
+        For how many days carried forward leaves are available from the start date of next leave period.
       
       </p></td>
     </tr>
