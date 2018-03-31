@@ -18,17 +18,7 @@ Singapore company has three leave types.
 
 Every employee gets 14 days off per year. Remaining leave days can be carried forward indefinitely. For an example, if you were an employee since 2016 and took 10, 13 annual leave days respectively in 2016 and 2017, by 2018 you will have 19 annual leave days. 14 from 2018 and 5 days from previous years.
 
-#### Casual Leave
-
-Each employee gets 7 days per year. Can not be carried forward
-
-#### Maternity Leave
-
-A working mother can take this leave 4 weeks before expected date of childbirth. Up to 48 leave days can be taken.
-
-### Implementing Leave Policy for Singapore
-
-#### Creating Leave Type for Annual Leave
+##### Creating Leave Type for Annual Leave
 
 1. Login to IceHrm installation as an admin
 2. Goto Admin -> Leave Settings
@@ -46,12 +36,31 @@ A working mother can take this leave 4 weeks before expected date of childbirth.
 
 ![](/assets/singapore-annual-leave-type.png)
 
-#### Creating Leave Type for Casual Leave
+
+#### Casual Leave
+
+Each employee gets 7 days per year. Can not be carried forward
+
+##### Creating Leave Type for Casual Leave
 
 1. Add a new leave type for Casual Leave. The settings can be seen in the screenshot
 2. Note that you should set *Leave Carried Forward* to No
 
 ![](/assets/singapore-casual-leave-icehrm.png)
+
+
+
+
+
+#### Maternity Leave
+
+A working mother can take this leave 4 weeks before expected date of childbirth. Up to 48 leave days can be taken.
+
+### Implementing Leave Policy for Singapore
+
+
+
+
 
 
 
