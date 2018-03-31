@@ -50,8 +50,6 @@ Each employee gets 7 days per year. Can not be carried forward
 
 
 
-
-
 #### Maternity Leave
 
 A working mother can take this leave 4 weeks before expected date of childbirth. Up to 48 leave days can be taken.
