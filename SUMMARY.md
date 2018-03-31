@@ -12,4 +12,5 @@
 * [Vacation and Leave Management](leavemanagement.md)
 * [REST Api](rest-api.md)
 * [How To's](how-to-icehrm.md)
+* [Advanced Leave Policy](advanced-leave-policy.md)
 
