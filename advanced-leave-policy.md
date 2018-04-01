@@ -34,7 +34,7 @@ Every employee gets 14 days off per year. Remaining leave days can be carried fo
 12. Set *Send Notification Emails* to Yes. This will send out emails to approvers when a leave application is submitted
 13. Select a *Leave Color*. This will be used to show leave details on leave calendar
 
-![](/assets/singapore-annual-leave-type.png)
+![](/assets/singapore-annual-leave-icehrm.png)
 
 
 #### Casual Leave
@@ -54,12 +54,59 @@ Each employee gets 7 days per year. Can not be carried forward
 
 A working mother can take this leave 4 weeks before expected date of childbirth. Up to 48 leave days can be taken.
 
-For implementing *Maternity
+##### Creating Leave Type for Maternity Leave
 
+1. Add a new leave type for Maternity Leave. The settings can be seen in the screenshot
+2. For maternity leave, we do not need to enable accrue or carry forward.
 
+![](/assets/singapore-materlity-leave-icehrm.png)
 
+#### Initial Test for Leave Settings
 
+##### Adding test employees
 
+For testing, we have added 5 employees.
 
+![](/assets/leave-employee-list-icehrm.png)
 
+As you can see some employees are based in Singapore and some are based in Germany.
 
+##### Initial Test for Leave Balances
+
+For testing the leave balance of each of them you can use the *Employee Leave Entitlement* report. Go to *Admin Reports* => *Reports* to generate it.
+
+![](/assets/employee-leave-entitlement-report.png)
+
+Here all the employees are entitled to have all the leave types. Also, the leave numbers are as expected.
+
+![](/assets/leave-list-1.png)
+
+#### Adding Leave Types by Country
+
+As you can see there is a problem with above leave entitlement report. The leave types we have defined are entitled to all the employees, even the ones based in Germany.
+
+In order to, correct the problem, you need to use leave groups. Leave groups is a way to allow only certain employees the ability to apply for certain types of leave.
+
+##### Defining a Leave Group for Singapore
+
+Define a Leave Group for Singapore under *Admin => Leave Settings => Leave Groups => Edit Leave Groups*
+
+![](/assets/define-singapore-leave-group.png)
+
+Then add Singapore employees to this group under *Admin => Leave Settings => Leave Groups => Leave Group Employees*
+
+![](/assets/add-singapore-employees-to-leave-group.png)
+
+As the next step set *Leave Group* of the *Annual Leave* to *Singapore*
+
+![](/assets/annual-leave-set-leave-group.png)
+
+Repeat this for other two Leave Types as well.
+
+![](/assets/singapore-leave-types-setting-leave-group.png)
+
+##### Second Test for Leave Balances
+
+Now generate the  *Employee Leave Entitlement* report again. Now you will see that only Singapore based employees are entitled for Leave Types we just created.
+
+![](/assets/leave-list-2.png)
