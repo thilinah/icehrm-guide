@@ -8,7 +8,7 @@ This section describes the process of implementing an advanced leave policy whic
 
 ## Example Leave Policy
 
-Let's think of a company operating in **Germany** and **Singapore**. For the company in Singapore, the leave policy is simple. But for the German company, it's a bit complicated with additional leave types.
+Let's think of a company operating in **Germany** and **Singapore**.
 
 ### Leave Types in Singapore
 
@@ -140,5 +140,66 @@ We still have a problem with above leave entitlement for Singapore. Only working
 Now generate the  *Employee Leave Entitlement* report again. Now you will see that Nicole Smith is entitled to Maternity Leave. This is because of *Maternity Leave* is under Leave Group *Singapore Working Mothers* and only *Nicole Smith* is in that Leave Group.
 
 ![](/assets/leave-list-3.png)
+
+### Leave Types in Germany
+
+The German company has three leave types.
+
+#### Vacation
+
+Every employee gets 25 days off per year. Remaining leave days can be carried forward for three months.
+
+If the employee has been working for more than 2 years. They get 1 additional vacation day.
+
+If the employee has been working for more than 3 years. They get another 1 additional vacation day.
+
+If the employee has been working for more than 4 years. They get another 2 additional vacation days.
+
+For an example of your 5th year in the company, you get 29 vacation days.
+
+##### Creating Leave Type for Vacation
+
+1. Create a Leave Group for Germany
+
+![](/assets/leave-group-gemeny.png)
+
+2. Add all other employees to this Leave Group
+
+![](/assets/leave-group-employees-germany.png)
+
+3. Create a Leave Type named Vacation. Set leave carry forward enable and allow carry forward to 3 months. Also, make sure to set the *Leave Group* to ***Germany***
+
+![](/assets/leave-type-vacation.png)
+
+#### Sick Leave
+
+Employees are entitled to Sick Leave given without a limitation. We will set a limit of 14 days per year for **Sick Leave** but allow employees to apply it without a restriction by setting ****Employees can apply beyond the current leave balance*** to **Yes**.
+
+##### Creating Leave Type for Sick Leave
+
+![](/assets/leave-type-sick-leave.png)
+
+#### Forth Test for Leave Balances
+
+Now generate the  *Employee Leave Entitlement* report again. Only employees in Germany should be entitled to Vacation and Sick Leave.
+
+![](/assets/leave-list-4.png)
+
+
+*************
+***But still, we have a problem with Vacation Leave. How to apply different amounts of leave to employees based on years of experience.*** 
+
+**This can be implemented using Leave Rules.**
+
+
+
+
+
+
+
+
+
+
+
 
 
