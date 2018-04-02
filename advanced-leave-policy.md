@@ -173,7 +173,7 @@ For an example of your 5th year in the company, you get 29 vacation days.
 
 #### Sick Leave
 
-Employees are entitled to Sick Leave given without a limitation. We will set a limit of 14 days per year for **Sick Leave** but allow employees to apply it without a restriction by setting ****Employees can apply beyond the current leave balance*** to **Yes**.
+Employees are entitled to Sick Leave given without a limitation. We will set a limit of 14 days per year for **Sick Leave** but allow employees to apply it without a restriction by setting ****Employees can apply beyond the current leave balance**** to **Yes**.
 
 ##### Creating Leave Type for Sick Leave
 
@@ -186,7 +186,6 @@ Now generate the  *Employee Leave Entitlement* report again. Only employees in G
 ![](/assets/leave-list-4.png)
 
 
-*************
 ***But still, we have a problem with Vacation Leave. How to apply different amounts of leave to employees based on years of experience.*** 
 
 **This can be implemented using Leave Rules.**
