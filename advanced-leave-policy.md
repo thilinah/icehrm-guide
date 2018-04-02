@@ -110,3 +110,35 @@ Repeat this for other two Leave Types as well.
 Now generate the  *Employee Leave Entitlement* report again. Now you will see that only Singapore based employees are entitled for Leave Types we just created.
 
 ![](/assets/leave-list-2.png)
+
+#### Allow Maternity Leave only to Working Mothers
+
+We still have a problem with above leave entitlement for Singapore. Only working mothers should be allowed to apply for Maternity Leave. This can be achieved by adding a new *Leave Group*.
+
+1. Add a Leave Group Named "Singapore Working Mothers"
+
+![](/assets/leave-group-sg-working-mothers.png)
+
+2. Add Nicole Smith to Leave Group "Singapore Working Mothers"
+
+![](/assets/add-employees-to-sg-working-mothers.png)
+
+3. Go to Leave Type tab and change the Leave Group for *Maternity Leave* to "Singapore Working Mothers"
+
+![](/assets/leave-type-list-sg-working-mothers.png)
+ 
+4. Under *Employees => Employees* switch to *Nicole Smith*. This will let you use the application as *Nicole Smith*
+
+![](/assets/employee-list-switch-employee.png)
+
+5. Open *Leave => Leave Management => Leave Entitlement*. This will show all three leave types
+
+![](/assets/leave-entitlement-nicole-smith.png)
+
+#### Third Test for Leave Balances
+
+Now generate the  *Employee Leave Entitlement* report again. Now you will see that Nicole Smith is entitled to Maternity Leave. This is because of *Maternity Leave* is under Leave Group *Singapore Working Mothers* and only *Nicole Smith* is in that Leave Group.
+
+![](/assets/leave-list-3.png)
+
+
