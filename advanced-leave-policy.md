@@ -201,9 +201,13 @@ Leave rules are a way to alter Leave Types for individual or specific groups of 
 
 2. Create a new Leave Rule for Leave Type **Vacation**. Set the **Required Experience (Days)** to 730 which is 2 years and Number of Leave Days to 27, as we need to give 2 additional leave day to employees who worked more than 2 years. *** This Leave Rule will be applied to the employees having more than 730 days between the joined date listed on profile and the start date of the current leave period.
 
+![](/assets/vacation-leave-rule-2years.png)
 
+3. In order to create the Leave Rule for 3 years, copy the 2-year leave rule and change **Required Experience (Days)** to **1095 (3 Years)** and Number of Leave Days to 28
 
+4. In order to create the Leave Rule for 4 years, copy the 3-year leave rule and change **Required Experience (Days)** to **1460 (4 Years)** and Number of Leave Days to 30
 
+![](/assets/leave-rules-vacation.png)
 
 
 
