@@ -233,10 +233,65 @@ Now generate the *Employee Leave Entitlement* report again.
 - **Johanna Fischer** has 27 leave days as she is eligible for 2-Year vacation leave rule. She joined in May 2015 and there are more than 730 days and less than 1095 days from the joined date to 1st of Jan 2018
 
 
+### Adding Information about previously taken Leave Days
+
+Even though you just configured your company leave policy in IceHrm, your employees might have been applying for leaves even before. 
+
+Assume you migrated to IceHrm in March 2018. In this case, you can use Paid time off tab to add already taken leave details for employees. For an example assume **Jason Wood** has already taken 5 Vacation Days off. And **Johanna Fischer** still have 6 Vacation days carried forward from the previous year.
+
+** In order to implement this you can add a negative paid time off for Jason Wood positive paid time off for Johanna Fischer. **
+
+1. Visit ** Admin => Leave Settings => Paid Time off **
+
+2. Add -5 Vacation days for **Jason Wood**
+
+![](/assets/paid-time-off-jw.png)
+
+3. Add 6 Vacation days for **Johanna Fischer**
+
+![](/assets/paid-time-off-list.png)
 
 
+#### Sixth Test for Leave Balances
 
+Now generate the *Employee Leave Entitlement* report again.
 
+![](/assets/leave-list-6.png)
+
+As you can see **Jason Wood's** Vacation days are reduced from 30 to 25 and **Johanna Fischer's** Vacation days are increased from 27 to 33.
+
+### Adding compensated Leave days
+
+Assume **Johanna Fischer** worked 2 additional Saturdays to get your urgent project released. So you can compensate her with two additional Vacation days using Paid time off.
+
+![](/assets/compensated-leave.png)
+
+### Making Saturday a Half Day in Singapore 
+
+Currently, both offices only work from Monday to Friday. Let's say you want to make Singapore employees work half a day on Saturday also.
+
+1. Visit ** Admin => Leave Settings => Work Week **
+2. Add a work day for Saturday in Singapore
+
+![](/assets/work-week-saturday-half.png)
+
+** Note that this will be applied to employees having **Country set to Singapore** on there profile.
+
+![](/assets/work-week-list.png)
+
+### Few Last Notes
+
+1. When an employee applied for a Leave his/her Leave Balance will be updated only when the leave is approved
+
+2. Until the Leave is approved employee has the ability to delete it.
+
+3. After the approval, the employee can cancel the Leave. But the cancellation request will be sent to the supervisor and only after the cancellation request is approved, the leave balance will be updated.
+
+4. Leave days will be carried forward only from Leave Period defined. For an example, if you have leave periods defined for 2017 and 2018, leave days will be carried forward only from 2017 to 2108. Leave days could have been carried forward from 2016 will be ignored. 
+
+5. After configuring Leave Types if you are seeing wired numbers as balances first check whether you have previous leave periods defined which are actually not required. When you enable leave carry forwarding and there is a previous leave period defined, current leave period will get leave days carried forward from previous leave period.
+
+6. All the employee leave requests should be approved by the supervisor or an admin. An admin can approve any leave request.
 
 
 
