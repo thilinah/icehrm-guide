@@ -10,7 +10,7 @@
 * [Import - Export Payrolls](import-export-payrolls.md)
 * [Recruitment & Candidates](recruitment-management.md)
 * [Vacation and Leave Management](leavemanagement.md)
+* [How to Setup Leave Policy](advanced-leave-policy.md)
 * [REST Api](rest-api.md)
 * [How To's](how-to-icehrm.md)
-* [Advanced Leave Policy](advanced-leave-policy.md)
 

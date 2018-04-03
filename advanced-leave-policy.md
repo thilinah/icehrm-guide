@@ -1,4 +1,4 @@
-# Implementing an Advanced Leave Policy with IceHrm
+# Implementing a Sample Leave Policy with IceHrm
 
 ## Introduction
 
