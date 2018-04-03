@@ -10,6 +10,16 @@ This section describes the process of implementing an advanced leave policy whic
 
 Let's think of a company operating in **Germany** and **Singapore**.
 
+### Setup Leave Periods
+
+In IceHrm each Leave day is attached to a Leave Period. So It's important to configure the Leave Periods. Leave Periods are displayed under ** Admin => Leave Settings => Leave Periods **
+
+![](/assets/leave-periods.png)
+
+If your company has not been using icehrm before, it is recommended to delete all previous leave periods and keep only the current leave period.
+
+** After setting up leave types you can manually add all details about carried forward leave days and already taken leave days using **Paid Time off** tab under **Leave Settings**
+
 ### Leave Types in Singapore
 
 Singapore company has three leave types.
@@ -208,6 +218,24 @@ Leave rules are a way to alter Leave Types for individual or specific groups of 
 4. In order to create the Leave Rule for 4 years, copy the 3-year leave rule and change **Required Experience (Days)** to **1460 (4 Years)** and Number of Leave Days to 30
 
 ![](/assets/leave-rules-vacation.png)
+
+
+#### Fifth Test for Leave Balances
+
+Now generate the *Employee Leave Entitlement* report again.
+
+![](/assets/leave-list-5.png)
+
+- **Jason Wood** has 30 days of Vacation as he joined in Aug 2005
+
+- **Noah Schmidt** has 25 days of vacation. He joined in March 2016. But there is not more than 730 days between joined date and 1st day of the current leave period which is 1st of Jan 2018
+
+- **Johanna Fischer** has 27 leave days as she is eligible for 2-Year vacation leave rule. She joined in May 2015 and there are more than 730 days and less than 1095 days from the joined date to 1st of Jan 2018
+
+
+
+
+
 
 
 
