@@ -191,7 +191,15 @@ Now generate the  *Employee Leave Entitlement* report again. Only employees in G
 **This can be implemented using Leave Rules.**
 
 
+#### Creating Leave Rules for Vacations
 
+Leave rules are a way to alter Leave Types for individual or specific groups of employees. For an example, you can increase the number of leave days only for employees having permanent work contracts by adding a Leave Rule.
+
+##### Vacation Leave Rule (Employees having 2 Years of Experience)
+
+1. Goto **Admin => Leave Settings => Leave Rules **
+
+2. Create a new Leave Rule for Leave Type **Vacation**. Set the **Required Experience (Days)** to 730 which is 2 years and Number of Leave Days to 27, as we need to give 2 additional leave day to employees who worked more than 2 years. *** This Leave Rule will be applied to the employees having more than 730 days between the joined date listed on profile and the start date of the current leave period.
 
 
 
