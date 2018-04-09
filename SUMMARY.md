@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Installation and Settings](installation-and-setup.md)
 * [Manual Installation](manual-installation.md)
+* [Basic Settings](basic-settings.md)
 * [Setup Company Details](setup-company-details.md)
 * [Employee Setup](employee-information-setup.md)
 * [Training Module](training.md)
@@ -13,6 +14,5 @@
 * [How to Setup Leave Policy](advanced-leave-policy.md)
 * [REST Api](rest-api.md)
 * [Using LDAP ](using-ldap.md)
-* [How To's](how-to-icehrm.md)
 * [Basic Settings](basic-settings.md)
 
