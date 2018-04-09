@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Installation and Settings](installation-and-setup.md)
+* [Installation](installation-and-setup.md)
 * [Manual Installation](manual-installation.md)
 * [Basic Settings](basic-settings.md)
 * [Setup Company Details](setup-company-details.md)

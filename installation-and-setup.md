@@ -1,5 +1,4 @@
-#
-Installation
+# Installation
 
 **_If you are using icehrm cloud please skip this chapter_**
 
