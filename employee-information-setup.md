@@ -2,6 +2,14 @@
 
 Employees module is used to list, edit, add and search employees in your company. You can use the search box to search employees by ID, name or department. Also you can use filter button to filter employees by job title, department or supervisor.
 
+
+## Company structure
+
+Company structure module allows you to define the structure of your company. Let you create parent structure of the company, branches, departments and other company units. Also it provides a graphical overview of how each of your company units are connected.
+
+![Company Structure](https://icehrm.s3.amazonaws.com/images/blog-images/Company_stucture.png)
+
+
 ### Difference Between Users and Employees
 
 A user is a person who can login to icehrm. It’s not required for admin users to have an employee attached but each non admin user must have an associated employee. Having an employee added in icehrm won’t allow the person to login to icehrm. You need to create user with a Manager or Employee user level for that employee to be able to login to the system.

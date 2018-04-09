@@ -4,7 +4,6 @@
 * [Installation](installation-and-setup.md)
 * [Manual Installation](manual-installation.md)
 * [Basic Settings](basic-settings.md)
-* [Setup Company Details](setup-company-details.md)
 * [Employee Management](employee-information-setup.md)
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
