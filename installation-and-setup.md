@@ -11,11 +11,11 @@ Before installing IceHrm please make sure your system supports following require
 
 * [PHP 5.3 or Higher](http://php.net/)
 * Net\_SMTP extension for PHP
-* [MySQL v5.5](http://dev.mysql.com/downloads/)
+* [MySQL](http://dev.mysql.com/downloads/)
 * [php-mysql extention](http://php.net/manual/en/mysqli.installation.php)
+$&gt; sudo apt-get install php-mysql
 * [PHP GD library](http://php.net/manual/en/mysqli.installation.php)
-$&gt; apt-get update -$
-$&gt; apt-get install php5-gd
+$&gt; sudo apt-get install php7.0-gd
 
 ###### Optional Modules {#optional-modules}
 
@@ -404,14 +404,18 @@ To trigger the scheduler you need to run following file
 This section describe the process of configuring LDAP with IceHrm
 
 <div class="note warning">
-<h5>php5-ldap</h5>
+<h5>php-ldap</h5>
 <p>PHP5 LDAP extension should be installed for LDAP to work. Also make sure all required outbound ports are opened</p>
 </div>
 
-Before using please install php5-ldap module. R
-Run following command to install php5-ldap
+Before using please install php-ldap module.
 
+**For PHP 5.3**
 <code>$> sudo apt-get install php5-ldap</code>
+
+**For PHP 7.0**
+<code>$> sudo apt-get install php-ldap</code>
+
 
 For using php ldap on windows please [refer](http://stackoverflow.com/questions/16864306/fatal-error-call-to-undefined-function-ldap-connect)
 
