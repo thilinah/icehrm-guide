@@ -14,4 +14,5 @@
 * [REST Api](rest-api.md)
 * [Using LDAP ](using-ldap.md)
 * [How To's](how-to-icehrm.md)
+* Basic Settings
 
