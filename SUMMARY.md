@@ -14,5 +14,4 @@
 * [How to Setup Leave Policy](advanced-leave-policy.md)
 * [REST Api](rest-api.md)
 * [Using LDAP ](using-ldap.md)
-* [Basic Settings](basic-settings.md)
 
