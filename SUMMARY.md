@@ -12,6 +12,6 @@
 * [Vacation and Leave Management](leavemanagement.md)
 * [How to Setup Leave Policy](advanced-leave-policy.md)
 * [REST Api](rest-api.md)
-* [How To's](how-to-icehrm.md)
 * [Using LDAP ](using-ldap.md)
+* [How To's](how-to-icehrm.md)
 
