@@ -2,7 +2,7 @@
 
 This section explains the process of an employee applying for a Leave and supervisors, approvers or admins approving or rejecting the leave request.
 
-# Applying for Leave
+## Applying for Leave
 
 Any employee can apply for a leave via ** Leave =&gt; Leave Management ** menu
 
@@ -47,4 +47,16 @@ When the leave request is approved or rejected, an email is sent to the employee
 Leave entitlement of the employee is updated accordingly. Amount of leave days is 1.875 because it has a full day \(1\), half-day \(0.5\) and a three-hour leave \(3/8\). 1 + 0.5 + 3/8 = 1.875
 
 ![](/assets/employee-leave-entitlement.png)
+
+### Canceling Leave Requests
+
+1. If a leave request is not approved, it can be just cancelled by the employee
+
+2. For approved leave requests, the employee needs to send a cancellation request (via Leave Management, Approved Leave tab). This cancellation request will be sent to the supervisor and only when the supervisor approve the cancellation request the employee's leave entitlement will be updated
+
+## Manage Leave Requests as an Admin
+
+An admin has access to all the employee leave requests via ** Admin => Leave Settings => Employee Leave List **. The filter button can be used to filter leave requests from older leave periods also. Admin has the right to approve/reject any leave request
+
+![](/assets/employee-leave-list.png)
 
