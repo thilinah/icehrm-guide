@@ -11,6 +11,7 @@
 * [Recruitment & Candidates](recruitment-management.md)
 * [Vacation and Leave Management](leavemanagement.md)
 * [How to Setup Leave Policy](advanced-leave-policy.md)
+* [Leave Approval](applying-for-leave.md)
 * [REST Api](rest-api.md)
 * [Using LDAP ](using-ldap.md)
 
