@@ -1,4 +1,4 @@
-# Leave Approval
+# Leave Requests and Approval
 
 This section explains the process of an employee applying for a Leave and supervisors, approvers or admins approving or rejecting the leave request.
 
