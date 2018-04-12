@@ -159,7 +159,7 @@ In training module we have courses, training sessions and training subscription 
 2. Go to "All Training Sessions" tab
 3. Click on subscribe button
 
-![Subscribing to a Training Session] (https://icehrm.s3.amazonaws.com/images/blog-images/employee_training_sessions.png)
+![](https://icehrm.s3.amazonaws.com/images/blog-images/employee_training_sessions.png)
 
 
 <div class="note warning">
