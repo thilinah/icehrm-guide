@@ -42,10 +42,28 @@ These are optional components which could improve icehrm performance
 After installation the settings module can be accessed by login in as admin and going to System->Settings
 
 
-## Cron for Notifications
+## Cron (Scheduled Task) for Notifications
 
 Notification cron is used to send periodic notifications. Document expiry notifications will depend on this scheduler.
 
 To trigger the scheduler you need to run following file
 
-<code>(IceHrm Root)/app/cron.php</code>
+```
+(IceHrm Root)/app/cron.php
+```
+
+#### Setting up Linux Cron
+In linux environment a cron should be setup to run every 10 minutes.
+
+This can be done by placing following line in your crontab. Depending on your server you can edit crontab sudo vi /etc/crontab
+
+or you can use crontab -e command
+
+```
+/10 * (IceHrm Root)/app/cron.php
+```
+
+make sure that (IceHrm Root)/app/cron.php file is executable *
+Setting up Windows Scheduler
+For setting up the windows scheduler please check [http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7](http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7)
+
