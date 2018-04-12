@@ -60,3 +60,5 @@ An admin has access to all the employee leave requests via ** Admin => Leave Set
 
 ![](/assets/employee-leave-list.png)
 
+
+
