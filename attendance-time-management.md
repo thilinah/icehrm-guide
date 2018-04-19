@@ -1,6 +1,8 @@
+# Attendance - Time Management
+
 IceHrm has several different tools for managing and recording employee time.
 
-## Attendance Module
+## Attendance Tracking
 
 Attendance represents the time you were in office. 
 
@@ -24,15 +26,15 @@ you should have a time zone for each department defined. When an employee attach
 icehrm uses the time in departments timezone to generate the correct time. All you need to do is set the proper
 time zone and set <code>Attendance: Use Department Time Zone</code> to Yes.
 
-![Punch in with server time](https://icehrm.s3.amazonaws.com/images/blog-images/attendance_punch_in1.png)
+![Punch in with server time](https://icehrm.s3.amazonaws.com/images/blog-images/attendance_punch_in2.png)
 
-Admins can monitor attendance via Employees->Monitor attendance
+### Monitoring Attendance
 
-Employees can register attendance via Time Management -> Attendance
+Attendance details of employees can be viewed/edited via <code>Employees => Monitor attendance</code> module. Admin users can view all employee attendance while Managers can view attendance data for subordinates (direct reports).
 
-
-
-
+### Uploading Attendance Data
+ 
+You can upload attendance data from your attendance recording devices instead of allowing employees to punch in/out using icehrm.
 
 
 
