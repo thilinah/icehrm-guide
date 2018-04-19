@@ -1,4 +1,4 @@
-# Attendance - Time Management
+# Attendance Module
 
 IceHrm has several different tools for managing and recording employee time.
 

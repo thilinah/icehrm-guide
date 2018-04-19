@@ -6,7 +6,7 @@
 * [Basic Settings](basic-settings.md)
 * [Employee Management](employee-information-setup.md)
 * [Employee Data Import](employee-data-import.md)
-* [Attendance - Time Management](attendance-time-management.md)
+* [Attendance Module](attendance-time-management.md)
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
 * [Import - Export Payrolls](import-export-payrolls.md)
