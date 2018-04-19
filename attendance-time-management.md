@@ -49,6 +49,8 @@ You can upload attendance data from your attendance recording devices instead of
 
 ### Attendance with photo proof
 
+![](https://cdn-images-1.medium.com/max/1600/1*k7LWas2GYxe0gFhfOSgsKw.png)
+
 This feature lets your employees take a photo of him/her at the office or at any place you want them to be via the webcam when punching in or out. This help to make sure the employee is at his/her desk when adding attendance entry.
 
 [Read more about this here](https://medium.com/@icehrm/how-to-prevent-buddy-punching-and-time-theft-73eb4c83aa29)
