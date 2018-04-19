@@ -36,5 +36,17 @@ Attendance details of employees can be viewed/edited via <code>Employees => Moni
  
 You can upload attendance data from your attendance recording devices instead of allowing employees to punch in/out using icehrm.
 
+1. Download the sample attendance file from [here](https://s3.amazonaws.com/icehrm/images/blog-files/attendance_sample_import.csv)
+
+2. Then add your attendance data in the same format.
+
+3. Goto <code>System -> Data -> Data Import Files</code> tab
+
+4. Create a new data import as shown below. Use a descriptive name
+![](/assets/data-import-create-attendance.png)
+5. Save and from the "data import file list" click process button
+![](/assets/data-import-attendance-process.png)
+
+
 
 
