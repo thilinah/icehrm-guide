@@ -5,6 +5,7 @@
 * [Manual Installation](manual-installation.md)
 * [Basic Settings](basic-settings.md)
 * [Employee Management](employee-information-setup.md)
+* [Employee Data Import](employee-data-import.md)
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
 * [Import - Export Payrolls](import-export-payrolls.md)
@@ -13,5 +14,4 @@
 * [How to Setup Leave Policy](advanced-leave-policy.md)
 * [Leave Requests and Approval](applying-for-leave.md)
 * [REST Api](rest-api.md)
-* [Using LDAP ](using-ldap.md)
 
