@@ -14,4 +14,5 @@
 * [How to Setup Leave Policy](advanced-leave-policy.md)
 * [Leave Requests and Approval](applying-for-leave.md)
 * [REST Api](rest-api.md)
+* [Attendance - Time Management](attendance-time-management.md)
 
