@@ -6,6 +6,7 @@
 * [Basic Settings](basic-settings.md)
 * [Employee Management](employee-information-setup.md)
 * [Employee Data Import](employee-data-import.md)
+* [Attendance - Time Management](attendance-time-management.md)
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
 * [Import - Export Payrolls](import-export-payrolls.md)
@@ -13,6 +14,4 @@
 * [Vacation and Leave Management](leavemanagement.md)
 * [How to Setup Leave Policy](advanced-leave-policy.md)
 * [Leave Requests and Approval](applying-for-leave.md)
-* [REST Api](rest-api.md)
-* [Attendance - Time Management](attendance-time-management.md)
 
