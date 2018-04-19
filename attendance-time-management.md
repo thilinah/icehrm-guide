@@ -55,6 +55,12 @@ This feature lets your employees take a photo of him/her at the office or at any
 
 [Read more about this here](https://medium.com/@icehrm/how-to-prevent-buddy-punching-and-time-theft-73eb4c83aa29)
 
+## Attendance Sheets
+
+Attendance Sheets which can be accessed via <code>Time Management => Attendance Sheets</code> is a way for employees to group attendance details for the whole week and send it for approval to the supervisor. This feature is useful when you pay employees based on attendance. In such cases, there should be an approval process in place.
+
+![](/assets/attendance-sheets.png)
+
 
 
 
