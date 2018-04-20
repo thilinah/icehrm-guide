@@ -8,10 +8,11 @@
 * [Employee Data Import](employee-data-import.md)
 * [Attendance Module](attendance-time-management.md)
 * [Timesheets](time-sheets.md)
+* [Document Management](document-management.md)
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
 * [Import - Export Payrolls](import-export-payrolls.md)
 * [Recruitment & Candidates](recruitment-management.md)
 * [Vacation and Leave Management](leavemanagement.md)
-* [How to Setup Leave Policy](advanced-leave-policy.md)
+* [Documents](documents.md)
 
