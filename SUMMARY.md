@@ -9,6 +9,7 @@
 * [Attendance Module](attendance-time-management.md)
 * [Timesheets](time-sheets.md)
 * [Vacation and Leave Management](leavemanagement.md)
+* [Company Leave Policy](advanced-leave-policy.md)
 * [Document Management](document-management.md)
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
