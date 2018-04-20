@@ -7,7 +7,7 @@
 * [Employee Management](employee-information-setup.md)
 * [Employee Data Import](employee-data-import.md)
 * [Attendance Module](attendance-time-management.md)
-* [Time Sheets](time-sheets.md)
+* [Timesheets](time-sheets.md)
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
 * [Import - Export Payrolls](import-export-payrolls.md)
