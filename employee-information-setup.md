@@ -70,6 +70,12 @@ If you want to remove all the data related to the employee you can delete data i
 
 When billing for cloud-hosted installation, we consider count of active employees and employees under **"Temporarily Deactivated Employees"** tab. So if you do not want to get billed for an employee you need to delete the employee from **"Temporarily Deactivated Employees"** tab also.
 
+### Employee History
+
+You can view details on how employee data changed over the time you can use <code>Employees => Employee History</code>
+
+![](/assets/employee-history.png)
+
 # Job Details Setup
 
 _**\(Admin &gt; Job Details Setup\)**_
