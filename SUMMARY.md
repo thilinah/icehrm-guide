@@ -13,5 +13,4 @@
 * [Training Module](training.md)
 * [Payroll Management](payroll-management.md)
 * [Import - Export Payrolls](import-export-payrolls.md)
-* [Vacation and Leave Management](leavemanagement.md)
 
