@@ -14,5 +14,4 @@
 * [Import - Export Payrolls](import-export-payrolls.md)
 * [Recruitment & Candidates](recruitment-management.md)
 * [Vacation and Leave Management](leavemanagement.md)
-* [Documents](documents.md)
 
