@@ -12,7 +12,6 @@
 * [Company Leave Policy](advanced-leave-policy.md)
 * [Leave Requests and Approval](applying-for-leave.md)
 * [Recruitment Management](recruitment-management.md)
-* [Candidate Management](candidate-management.md)
 * [Document Management](document-management.md)
 * [Training Module](training.md)
 * [Expense Management](expense-management.md)
