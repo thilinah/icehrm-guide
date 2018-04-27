@@ -12,7 +12,7 @@
 
 - Replace icehrm/app/icehrm.key with the same file included in new release
 
-![](/assets/icehrm-upgrade.gif)
+![](https://s3.amazonaws.com/icehrm-public/images/icehrm-upgrade.gif)
 
 ### Upgrade IceHrm Open Source
 
