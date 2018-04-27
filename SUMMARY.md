@@ -36,5 +36,6 @@
 ### Part 8
 * [Rest Api](rest-api.md)
 * [Using LDAP](using-ldap.md)
+* [Upgrade Self Hosted](upgrade-icehrm.md)
 * [FAQ](how-to-icehrm.md)
 
