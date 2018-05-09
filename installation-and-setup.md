@@ -8,7 +8,7 @@ Getting IceHrm installed only take a few minutes. If it ever becomes a problem, 
 
 Before installing IceHrm please make sure your system supports following requirements you’ll need to make sure your system has before you start.
 
-* [PHP 5.3 or Higher](http://php.net/)
+* [PHP 5.6 or Higher](http://php.net/)
 * Net\_SMTP extension for PHP
 * [MySQL](http://dev.mysql.com/downloads/)
 * [php-mysql extention](http://php.net/manual/en/mysqli.installation.php)
