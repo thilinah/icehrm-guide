@@ -29,13 +29,21 @@ location /icehrm/app/api/ {
 }
 ```
 
-For apache web server we have already included a .htaccess file under icehrm/app/api
+## Setting up IceHrm Open Source and Pro REST Api - Apache (XAMPP, WAMPP)
+
+For apache web server we have already included a .htaccess file under icehrm/app/api. This will redirect api request properly
+
+## Testing Rest Api
+
+- First you should enable REST api via Settings -> Other -> Enable REST Api setting
+- Visit ```your-icehrm-url.com/app/api/echo```
+- This should output an echo with a random number
 
 ## Using REST Api with Open Source and IceHrmPro
 
-Your api url base will be "http://your-icehrm-url.com/icehrm-pro-dev/app/api".
+Your api url base will be ```http://your-icehrm-url.com/app/api```.
 
-If you want to call employees/me, you should send a request to "http://your-icehrm-url.com/icehrm-pro-dev/app/api/employees/me".
+If you want to call employees/me, you should send a request to ```http://your-icehrm-url.com/app/api/employees/me```.
 
  
 ## Using REST Api with Cloud installations
