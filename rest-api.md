@@ -5,9 +5,29 @@ Currently icehrm expose employee details and attendance data via the REST api.
 Full Api Documentation can be found here:
 [https://icehrm.docs.apiary.io/#](https://icehrm.docs.apiary.io/#)
 
-## Setting up IceHrm Open Source and Pro REST Api
+## Setting up IceHrm Open Source and Pro REST Api - Nginx
 
-Please refer [http://icehrm.github.io/docs/setup-rest-api/](http://icehrm.github.io/docs/setup-rest-api/) for instuctions on setting up rest api with Nginx.
+IceHrm includes a REST api but it needs to be configured via web server configurations.
+
+Basically all the requests coming to icehrm.url/app/api/ should be redirected to icehrm.url/app/index.php
+
+For an example if you are using Nginx web server you need to add following location block inside your sever block
+in Nginx config file for your site
+ 
+```
+location /app/api/ {
+    try_files $uri /app/api/index.php?/$uri&$args;
+}
+```
+
+If IceHrm is not loaded from web root, for an example if your icehrm url is ```your-icehrm-url.com/icehrm``` instead of
+```your-icehrm-url.com``` you should add any directory in relative path to location block as in following example
+
+```
+location /icehrm/app/api/ {
+    try_files $uri /icehrm/app/api/index.php?/$uri&$args;
+}
+```
 
 For apache web server we have already included a .htaccess file under icehrm/app/api
 
