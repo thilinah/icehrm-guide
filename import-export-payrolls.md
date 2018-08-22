@@ -7,7 +7,7 @@ IceHrm team has already created few sample payrolls which you can import and use
 #### Download Payroll Files
 - [Sample Payroll Setup](https://s3.amazonaws.com/icehrm/payroll/Sample-Country-Payroll.txt)
 
-- [Sri Lanka Payroll Setup](https://s3.amazonaws.com/icehrm/payroll/Sample-Country-Payroll.txt)
+- [Sri Lanka Payroll Setup](https://s3.amazonaws.com/icehrm/payroll/SriLanka-Payroll.txt)
 
 - [Ghana Payroll Setup](https://s3.amazonaws.com/icehrm/payroll/Ghana-Payroll.txt)
 
