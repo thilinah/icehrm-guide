@@ -16,3 +16,6 @@ IceHrm defines a clear and simple process for conducting performance reviews for
 1. Manager and Employee with meets for the review (optionally based on your company performance review process)
 2. The manager uses the self-assessment and feedback as an indication to evaluate the employee for the given period
 3. Manager adds notes to the performance review
+
+
+{% youtube src="https://www.youtube.com/watch?v=3iBxbXOrBus" %}{% endyoutube %}

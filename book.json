@@ -1,0 +1,5 @@
+{
+  "gitbook": "1.0.0",
+  "plugins": ["youtube"],
+  "pluginsConfig": {}
+}
