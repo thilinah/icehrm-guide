@@ -24,6 +24,7 @@
 * [Document Management](document-management.md)
 * [Training Module](training.md)
 * [Expense Management](expense-management.md)
+* [Performance Reviews](performance-reviews.md)
 
 ### Part 6
 * [Payroll Management](payroll-management.md)
@@ -38,4 +39,5 @@
 * [Using LDAP](using-ldap.md)
 * [Upgrade Self Hosted](upgrade-icehrm.md)
 * [FAQ](how-to-icehrm.md)
+* [Close Cloud Account](how-to-close-icehrm-cloud.md)
 
