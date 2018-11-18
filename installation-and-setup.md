@@ -67,3 +67,16 @@ make sure that (IceHrm Root)/app/cron.php file is executable *
 Setting up Windows Scheduler
 For setting up the windows scheduler please check [http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7](http://windows.microsoft.com/en-au/windows/schedule-task#1TC=windows-7)
 
+## Configure PDF Downloads
+
+IceHrm uses [WKHTMLTOPDF](https://wkhtmltopdf.org/index.html)
+
+You can download and install the correct release for your OS here [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html)
+
+Then you should find the path to 'wkhtmltopdf' and update ```icehrm/core/config.base.php``` as shown below
+
+```
+if(!defined('WK_HTML_PATH')){
+    define('WK_HTML_PATH', '/usr/local/bin/wkhtmltopdf');
+}
+```
