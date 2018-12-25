@@ -18,3 +18,9 @@ Price for both depends on the number of employees you have. You can check the pr
 IceHrm cloud is free for 5 employees. From the 6th employee, we start charging 2 USD per employee per month. The per employee fee goes down when your company is growing. You can get an estimate of monthly subscription by entering the number of employee you have here: [https://icehrm.com/cloud-hosting-charges](https://icehrm.com/cloud-hosting-charges)
 
 
+#### How to Update VAT ID
+
+If your company is based in Germany you will be charged 19% Vat on your payment.
+If your company is based in another country in EU other than Germany you will be charged 19% unless you have provided your VAT ID.
+
+You can update your Billing country and VAT ID under Settings -> Company section
