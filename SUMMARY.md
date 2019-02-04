@@ -5,6 +5,7 @@
 * [Installation](installation-and-setup.md)
 * [Manual Installation](manual-installation.md)
 * [Basic Settings](basic-settings.md)
+* [Mobile App](icehrm-mobile.md)
 
 ### Part 2
 * [Employee Management](employee-information-setup.md)
