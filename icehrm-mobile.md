@@ -3,11 +3,11 @@
 You can download IceHrm mobile app on App Store and Google Play. Currently the app support only attendance and Staff Directory
 
 <a href="https://itunes.apple.com/gb/app/icehrm/id1450757357?mt=8" target="_blank">
-<img width="200" alt="portfolio_view" src="https://s3.amazonaws.com/icehrm-public/images/appstore-icon.svg">
+<img width="200" src="https://s3.amazonaws.com/icehrm-public/images/appstore-icon.png">
 </a>
 
 <a href="https://play.google.com/store/apps/details?id=com.icehrm.mobile" target="_blank">
-<img width="200" alt="portfolio_view" src="https://s3.amazonaws.com/icehrm-public/images/playstore-icon.svg">
+<img width="200" src="https://s3.amazonaws.com/icehrm-public/images/playstore-icon.png">
 </a>
 
 ## Login to IceHrm
