@@ -88,9 +88,9 @@ For updating urls you need to know the absolute path of your icehrm installation
 For an example we assume path to icehrm is : **/var/www/icehrm/** and icehrm web url to be [http://your-company-domain.com/icehrm](http://your-company-domain.com/icehrm) then paths and urls should be updated as below.
 
 ```
-define('APP_BASE_PATH', '/var/www/icehrm/');
+define('APP_BASE_PATH', '/var/www/icehrm/core/');
 define('CLIENT_BASE_PATH', '/var/www/icehrm/app/');
-define('BASE_URL','http://your-company-domain.com/icehrm/');
+define('BASE_URL','http://your-company-domain.com/icehrm/web/');
 define('CLIENT_BASE_URL','http://your-company-domain.com/icehrm/app/');
 ```
 
@@ -99,7 +99,7 @@ If you are using windows note that all the path should be specified with forward
 e.g
 
 ```
-define('APP_BASE_PATH', 'C:/xampp/htdocs/icehrm/');
+define('APP_BASE_PATH', 'C:/xampp/htdocs/icehrm/core/');
 ```
 
 Then you can update the database configurations as shown below:
