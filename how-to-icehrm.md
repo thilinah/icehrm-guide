@@ -10,7 +10,7 @@ database manager like PHPMyAdmin and run following sql command
 Update Settings set value = md5(value) where name = 'Instance : ID';
 ```
 
-Then go navigate to dashboard and try to verify your installation again
+Then navigate to dashboard and try to verify your installation again
 
 ## Leave Management
 
