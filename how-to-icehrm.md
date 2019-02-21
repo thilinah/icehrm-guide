@@ -1,5 +1,17 @@
 # Frequently Asked Questions
 
+## Setup
+
+#### Not able to Verify Instance Key
+
+If you are having trouble verifying the instance key please access your icehrm database via mysql console client or a graphical 
+database manager like PHPMyAdmin and run following sql command
+```sql
+Update Settings set value = md5(value) where name = 'Instance : ID';
+```
+
+Then go navigate to dashboard and try to verify your installation again
+
 ## Leave Management
 
 #### How to add a leave type only visible to limited number of employees
