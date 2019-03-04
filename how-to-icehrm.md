@@ -39,8 +39,8 @@ You can update your Billing country and VAT ID under Settings -> Company section
 
 #### How to Upgrade to IceHrm Cloud
 
-When you create a new IceHrm Install you will get to use a trail of IceHrm Cloud. After the 14 day trail period you will
-be able to continue using your installation will IceHrm Lite, which has a limited number of features.
+When you create a new IceHrm hosted installation you will get to use a trail of IceHrm Cloud. After the 14 day free trail period you will
+be able to continue using your installation with IceHrm Lite, which has a limited number of features.
 
 You can upgrade your installation, via billing module.
 
