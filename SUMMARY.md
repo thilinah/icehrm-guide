@@ -15,21 +15,21 @@
 * [Attendance Module](attendance-time-management.md)
 * [Timesheets](time-sheets.md)
 
+### Documents
+* [Document Management](document-management.md)
+
 ### Leave Management
 * [Vacation and Leave Management](leavemanagement.md)
 * [Company Leave Policy](advanced-leave-policy.md)
 * [Leave Requests and Approval](applying-for-leave.md)
 
-### Recruitment and Training
-* [Recruitment Management](recruitment-management.md)
+### Recruitment
+* [Recruitment Setup](recruitment-management.md)
+* [Candidates](candidate-management.md)
+
+### Training and Reviews
 * [Document Management](document-management.md)
 * [Training Module](training.md)
-* [Expense Management](expense-management.md)
-* [Performance Reviews](performance-reviews.md)
-
-### Documents and Reviews
-* [Document Management](document-management.md)
-* [Performance Reviews](performance-reviews.md)
 
 ### Payroll and Expenses
 * [Payroll Management](payroll-management.md)
@@ -38,6 +38,10 @@
 
 ### Insights
 * [Charts](analytics.md)
+* [Reporting](reporting.md)
+
+### Other Modules
+* [Company Assets](company-assets.md)
 * [Reporting](reporting.md)
 
 ### Api and Single Sign-on
