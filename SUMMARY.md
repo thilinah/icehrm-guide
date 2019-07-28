@@ -1,44 +1,55 @@
 # Summary
 
-### Part 1
+### Getting Started
 * [Introduction](README.md)
 * [Installation](installation-and-setup.md)
 * [Manual Installation](manual-installation.md)
 * [Basic Settings](basic-settings.md)
 * [Mobile App](icehrm-mobile.md)
 
-### Part 2
+### Employees
 * [Employee Management](employee-information-setup.md)
 * [Employee Data Import](employee-data-import.md)
 
-### Part 3
+### Time and Attendance
 * [Attendance Module](attendance-time-management.md)
 * [Timesheets](time-sheets.md)
 
-### Part 4
+### Leave Management
 * [Vacation and Leave Management](leavemanagement.md)
 * [Company Leave Policy](advanced-leave-policy.md)
 * [Leave Requests and Approval](applying-for-leave.md)
 
-### Part 5
+### Recruitment and Training
 * [Recruitment Management](recruitment-management.md)
 * [Document Management](document-management.md)
 * [Training Module](training.md)
 * [Expense Management](expense-management.md)
 * [Performance Reviews](performance-reviews.md)
 
-### Part 6
+### Documents and Reviews
+* [Document Management](document-management.md)
+* [Performance Reviews](performance-reviews.md)
+
+### Payroll and Expenses
 * [Payroll Management](payroll-management.md)
 * [Import - Export Payrolls](import-export-payrolls.md)
+* [Expense Management](expense-management.md)
 
-### Part 7
+### Insights
 * [Charts](analytics.md)
 * [Reporting](reporting.md)
 
-### Part 8
+### Api and Single Sign-on
 * [Rest Api](rest-api.md)
 * [Using LDAP](using-ldap.md)
-* [Upgrade Self Hosted](upgrade-icehrm.md)
+
+### FAQ
+* [Upgrade IceHrmPro](upgrade-icehrm.md)
 * [FAQ](how-to-icehrm.md)
 * [Close Cloud Account](how-to-close-icehrm-cloud.md)
+
+### Release Notes
+* [Release Notes IceHrmPro](release-notes-pro.md)
+* [Release Notes IceHrm Open Source](release-notes-open.md)
 
