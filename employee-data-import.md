@@ -3,7 +3,7 @@ You can import data into icehrm using CSV files. By default, we support importin
 
 ### Preparing Employee Data for Upload
 
-1. Download sample data file <a href="https://s3.amazonaws.com/icehrm/images/blog-files/employees.csv" target="_blank">here</a>
+1. Download sample data file <a href="https://s3.amazonaws.com/icehrm/images/blog-files/employees.csv?v=2" target="_blank">here</a>
 2. The file has following columns which matches with default employee data file definition
 
     - employee_id = The id of the employee (this id should be unique, if the employee with same id exists in the system then employee details will be replaced)
