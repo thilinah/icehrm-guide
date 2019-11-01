@@ -49,7 +49,7 @@ Here is an example of creating a Data Importer for updating supervisors and some
 3. Each importer should have one ID column. For employees, the id column should be employee\_id. Here is how you can add this unique id column.
 4. Edit the newly created data importer and add a new column named employee\_id. Note that the value "is ID field" is true
 
-   ![Process data import file](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_add_employee_id.png)
+   ![Process data import file](../.gitbook/assets/employee_id.PNG)
 
 5. Then add the column for Supervisor. We call this type of a column a reference type column because it depends on another row in a different or same entity
 
