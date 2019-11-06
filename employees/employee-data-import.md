@@ -4,7 +4,7 @@ You can import data into icehrm using CSV files. By default, we support importin
 
 ## Preparing Employee Data for Upload
 
-1. Download sample data file [here](https://s3.amazonaws.com/icehrm/images/blog-files/employees.csv?v=2)
+1. Download sample data file [https://docs.google.com/spreadsheets/d/1vCEgc-HbYcYqpeJ0vvPEyO20d75EZhBxFz5MrbM0CQ8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1vCEgc-HbYcYqpeJ0vvPEyO20d75EZhBxFz5MrbM0CQ8/edit?usp=sharing) \(File -&gt; Download -&gt; Download as CSV\)
 2. The file has following columns which matches with default employee data file definition
    * employee\_id = The id of the employee \(this id should be unique, if the employee with same id exists in the system then employee details will be replaced\)
    * first\_name, middle\_name, last\_name = Employee names
@@ -12,11 +12,8 @@ You can import data into icehrm using CSV files. By default, we support importin
    * gender = Male or Female
    * marital\_status = Married, Single, Divorced, Widowed, Other
    * birthday = MM/DD/YY format
-   * Nationality/nationality = Any nationality defined in System -&gt; Manage Meta Data -&gt; Nationality
-   * Ethnicity/ethnicity = Any ethnicity defined under System -&gt; Manage Meta Data -&gt; Ethnicity
-   * EmergencyContact/name = Emergency contact name
-   * EmergencyContact/relationship = Emergency contact relationship
-   * EmergencyContact/home\_phone = Emergency contact phone
+   * nationality = Any nationality defined in System -&gt; Manage Meta Data -&gt; Nationality
+   * ethnicity = Any ethnicity defined under System -&gt; Manage Meta Data -&gt; Ethnicity
    * ssn\_num = Social security number or ID number
    * job\_title = Job Title \(this should be predefined in Admin -&gt; Job Details Setup -&gt; Job Titles\)
    * employment\_status = Employment Status \(should be predefined in Admin -&gt; Job Details Setup -&gt; Employment Status\)
