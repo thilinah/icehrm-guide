@@ -46,7 +46,7 @@ Here is an example of creating a Data Importer for updating supervisors and some
 3. Each importer should have one ID column. For employees, the id column should be employee\_id. Here is how you can add this unique id column.
 4. Edit the newly created data importer and add a new column named employee\_id. Note that the value "is ID field" is true
 
-   ![Process data import file](../.gitbook/assets/employee_id.PNG)
+   ![Process data import file](../.gitbook/assets/capture.PNG)
 
 5. Then add the column for Supervisor. We call this type of a column a reference type column because it depends on another row in a different or same entity
 
@@ -72,4 +72,38 @@ Here is an example of creating a Data Importer for updating supervisors and some
     ![Add custom field](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_employee_supervisors_file.png)
 
 13. Process the file
+
+## **Creating a Data Importer for Updating Approvers**
+
+As explained in the above, first we need to create columns for the Approvers. 
+
+1.  To do that, go to the Data under System. Then click on the Add New option under the Data Importers. Name the Date Importer with a meaningful name. Then Select Employee Data as the Data Type.
+
+![](../.gitbook/assets/image%20%288%29.png)
+
+2.  Click on the Add button to create columns. First column should be employee\_id. 
+
+3. Name the column ID as employee\_id. Data Type should be normal for the Employee ID. Note that the value "is Key field" is False and the  "is ID field" is true
+
+![Process data import file](../.gitbook/assets/capture.PNG)
+
+4. Then create columns for the Approvers. Click on the Add button to create more columns. Name the Column ID as "approver1".
+
+5. Then select the Type as Reference. As the depends on select Employee and you need to type the name of the depends on field. In this example it will be employee\_id. Note that the value "Is Key Field" is true and the  "is ID field" is False
+
+![](../.gitbook/assets/image%20%287%29.png)
+
+6. Repeat the same steps for other levels of approvers as well. And click on the Save button to save the changes. 
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+7. Then go to the Data Import Files tab. Click on New to create a new Data Import File. Name the File accordingly and Select Employee Data Import option for the Data Import Definitions. Then upload the CSV file and click on Save.
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+8. Sample CSV file for this example is here. 
+
+9. Then click on the Process button. 
+
+![](../.gitbook/assets/image%20%281%29.png)
 
