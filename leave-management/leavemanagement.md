@@ -176,6 +176,14 @@ Let's assume Jhon Doe joined the company in May 2015 and should not be allowed t
 
 If this is set then Jhon Doe will only be entitled for 18 \* \(8/12\) annual leaves for the year given he has joined on 1st of May 2015
 
+### Employee Leave Periods
+
+With IceHrm now you can have employee leave periods which are started from joined date of the employee. For an example assume you  have an employee joining the company on 20th March, 2019. This employee should get 12 days of annual leave for the year. The leave balance should be updated again after one year from the joined date, which is 20th March 2020.
+
+In-order to implement this you need Employee Leave Periods
+
+
+
 ## Leave Management FAQ
 
 ### Leave/Paid Time Off Management

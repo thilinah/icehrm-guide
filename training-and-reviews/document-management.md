@@ -10,7 +10,7 @@ Company documents can be added via `Employees => Document Management`. Depending
 
 ![](../.gitbook/assets/edit-company-documents.png)
 
-Employees can view company documents via  `Documents => My Documents => Company Documents`
+Employees can view company documents via `Documents => My Documents => Company Documents`
 
 ![](../.gitbook/assets/view-company-documents.png)
 

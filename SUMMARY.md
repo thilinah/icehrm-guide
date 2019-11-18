@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-* [Introduction](getting-started/readme.md)
+* [Introduction](getting-started/getting-started.md)
 * [Installation](getting-started/installation-and-setup.md)
 * [Manual Installation](getting-started/manual-installation.md)
 * [Basic Settings](getting-started/basic-settings.md)
