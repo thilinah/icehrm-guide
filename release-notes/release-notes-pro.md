@@ -1,5 +1,25 @@
 # Release Notes IceHrmPro
 
+## Release note v26.7.0.PRO
+
+### Leave Management
+* Leave periods can be based on employee joined date or confirmation date
+* Now you can see the detailed leave calculation for each leave type in leave entitlement
+
+### Data Import Improvements
+* Download file template via data importer (the file will be automatically generated using fileds in data importer)
+* Add a common data importer which makes it easy to create custom data importers
+* Custom field data can now be imported
+* Improvemnts to import file validations
+
+### Payroll & Payslip
+* Payroll columns can have simple java script based calculations
+* Any employee information (general fields or custom fields) can now be shown on payslip
+* Any employee information (general fields or custom fields) can be used for payroll calculations
+
+### Other
+* Improvements to automated E2E test
+
 ## Release note v26.6.0.PRO
 
 ### Improved Recruitment
