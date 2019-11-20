@@ -180,7 +180,17 @@ If this is set then Jhon Doe will only be entitled for 18 \* \(8/12\) annual lea
 
 With IceHrm now you can have employee leave periods which are started from joined date of the employee. For an example assume you  have an employee joining the company on 20th March, 2019. This employee should get 12 days of annual leave for the year. The leave balance should be updated again after one year from the joined date, which is 20th March 2020.
 
-In-order to implement this you need Employee Leave Periods
+In-order to implement this you need Employee Leave Periods.
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+Once you save the changes you will find Use Employee Leave Period option as default and you won't be able to change it in future. 
+
+![](../.gitbook/assets/image.png)
+
+When you enable this option, leave entitlement will show according to the employee's leave period. 
+
+![](../.gitbook/assets/image%20%286%29.png)
 
 
 
