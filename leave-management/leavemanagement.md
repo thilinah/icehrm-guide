@@ -182,15 +182,15 @@ With IceHrm now you can have employee leave periods which are started from joine
 
 In-order to implement this you need Employee Leave Periods.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 Once you save the changes you will find Use Employee Leave Period option as default and you won't be able to change it in future. 
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 When you enable this option, leave entitlement will show according to the employee's leave period. 
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 
 
@@ -213,4 +213,48 @@ Assume that an employee worked on a holiday due to some urgent issue. You need t
 **I've not been using IceHrm during 2015, But when configuring leave balances for 2016 different employees are having different leave balances carried forwarded from 2015. How to handle this?**
 
 You should add these as PTO amounts for leave period 2016 under "Paid Tome Off" tab. You will have to add one record for each employee. This is a one time setup, from 2017 you can use automatic leave carry forwarding.
+
+## **Checking leave entitlement**
+
+In order to check each users leave entitlement, Users can log into their accounts and go to the Leave Management module. Then click on the Leave Entitlement tab, so they can see the number of leaves entitles for each leave category. 
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+Apart from checking the leave entitlement, you also can find out how the leave balance of each leave type has been calculated. 
+
+To check it, click on the Show Calculation option on the bottom of each leave entitlement category. 
+
+![](../.gitbook/assets/image%20%2813%29.png)
+
+### Understand the Leave Calculation
+
+To understand how IceHrm Leave calculation works, Lets take one employees' leave entitlement as an example.
+
+Assume an employee Joined in 2015 Mar 20th and he is entitle for 25 Vacation Leave days for one leave period. The leave period for this leave type is not the employee's leave period, it is from 1st Jan to 31 Dec every year. 
+
+You can find the employee's leave entitlement for each leave period separately under show calculation.
+
+This is the total leave entitlement of the employee.
+
+![](../.gitbook/assets/image.png)
+
+Let's take a look of the calculation period by period.
+
+**Leave entitlement for 2019 is as below.**
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+ Leave accrue option has been enabled to this leave type. So according to the leave calculation for this leave period he is entitle for 22.9 as per the accrual. 
+
+IceHrm calculation is also showing how employee's leave carried forward has been calculated for each leave period.
+
+![](../.gitbook/assets/image%20%2817%29.png)
+
+In 2017 this employee hasn't taken any leaves so the total of leaves will be carried forwards to the next leave period.
+
+![](../.gitbook/assets/image%20%2810%29.png)
+
+In 2018 employee has applied for one vacation for this leave period. If we calculate based on that the manual calculation will be 25+25+22.9 - 1. So the total is 71.9 but the leave entitlement shows as 66.9. This is where we need IceHrm show calculation option to avoid human errors in leave calculation. According to the last screen shot, you can see the employee has -5 PTO's. Because of that, this employee is entitle for only 20 vacation days for 2018. With his requested leave he has a balance of 18. So the total leave entitlement is 18+25+22.9=66.9.
+
+Because of this show calculation option, you can easily find out the employees leave history. 
 
