@@ -33,7 +33,7 @@
 ## Recruitment
 
 * [Recruitment Setup](recruitment/recruitment-management.md)
-* [Candidates](recruitment/candidate-management.md)
+* [Recruitment Management](recruitment/recruitment-management-1.md)
 
 ## Training and Reviews
 

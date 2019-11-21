@@ -1,4 +1,0 @@
-# Candidates
-
-Work in Progress...
-
