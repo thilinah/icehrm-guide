@@ -71,3 +71,7 @@
 * [Release Notes IceHrmPro](release-notes/release-notes-pro.md)
 * [Release Notes IceHrm Open Source](release-notes/release-notes-open.md)
 
+## Mobile Application
+
+* [Attendance Tracking](mobile-application/mobile-attendance-tracking.md)
+
