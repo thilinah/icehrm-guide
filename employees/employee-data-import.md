@@ -79,7 +79,7 @@ As explained in the above, first we need to create columns for the Approvers.
 
 1.  To do that, go to the Data under System. Then click on the Add New option under the Data Importers. Name the Date Importer with a meaningful name. Then Select Employee Data as the Data Type.
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 2.  Click on the Add button to create columns. First column should be employee\_id. 
 
@@ -91,19 +91,19 @@ As explained in the above, first we need to create columns for the Approvers.
 
 5. Then select the Type as Reference. As the depends on select Employee and you need to type the name of the depends on field. In this example it will be employee\_id. Note that the value "Is Key Field" is true and the  "is ID field" is False
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 6. Repeat the same steps for other levels of approvers as well. And click on the Save button to save the changes. 
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 7. Then go to the Data Import Files tab. Click on New to create a new Data Import File. Name the File accordingly and Select Employee Data Import option for the Data Import Definitions. Then upload the CSV file and click on Save.
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 8. Sample CSV file for this example is here. 
 
 9. Then click on the Process button. 
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 

@@ -37,11 +37,11 @@ Using recruitment setup you can add/edit Employment Types, Experience levels, Jo
 2. Under the recruitment module, Click on Recruitment set up 
 3. Go to the Edit Employment Types tab and click on to the Add New Icon
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 4. Then provide a **name** and **Save**
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 **How to add a new experience level?**
 
@@ -50,13 +50,13 @@ Using recruitment setup you can add/edit Employment Types, Experience levels, Jo
 3. Go to the Edit Experience Levels tab and click on to the Add New Icon
 4. Then give a meaningful name and Save
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 **How to add or edit a new Job function?**
 
 As of the above, you can add a new job function. In the IceHrm Recruitment set up, we have defined most of the important job functions. If you want to make changes to the names, you can click on the edit button and make changes.
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 ### **Posting a Job**
 
@@ -90,39 +90,39 @@ You should select a display type when posting a job position. This section detai
 
 Ex: Job Position for Web Developer
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 I have filled the relevant fields according to the above job details. You can check this as an example and try creating a new job position.
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 Once you created a job position according to the above steps, you will be able to see the job post as below;
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 ### Sharing your job position on social media and using direct links
 
 You can share created job positions on Google+, Facebook, Twitter and LinkedIn directly from IceHrm using social links on job positions module. Also you can get a direct link to the job position which you can send via email or any other media by clicking on "Job Link" icon.
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 You can open up the link and view your job post prior to share it on social media. Then a candidate can apply for this job and the candidate details will be available under candidate listing**.**
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 Also using the IceHrm Job recruitment module, you can directly post the job post on social media. 
 
 For example, let’s see how to post it on Facebook. Click on the Facebook Icon in front of the job post.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Then it will lead to your Facebook Newsfeed as below so you can share it with a necessary caption.
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 When candidates apply for a job post, candidates and the relevant hiring managers will receive email notifications.
 
@@ -146,13 +146,13 @@ There are two ways that the candidates get added to IceHrm.
 
 For added a candidate manually, go to the Candidate module under the Recruitment module and click on to Add New. Then fill the required fields. The advantages of this session are you can attach the candidate's CV and record the basic details of the candidate as below example.
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 Once you fill the required fields, you can view the candidate details as below.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 ![Candidate Details](https://icehrm.s3.amazonaws.com/images/blog-images/candidates.png)
 
@@ -162,15 +162,15 @@ Here you can schedule interviews and add notes related to the candidate. Notes c
 
 Go to the candidate tab and click on the view button of the candidate you wish to make changes.
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 Click on to Schedule an Interview option.
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 Fill the fields as per your requirement and then Save.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 When the interview is scheduled the hiring manager and the interviewers will be notified via an email. The hiring manager is responsible for contacting the candidate and arranging the interview. But we are planing to automate this part of the recruitment also in next release.
 
