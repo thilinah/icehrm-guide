@@ -33,7 +33,6 @@
 ## Recruitment
 
 * [Recruitment Setup](recruitment/recruitment-management.md)
-* [Recruitment Management](recruitment/recruitment-management-1.md)
 
 ## Training and Reviews
 
