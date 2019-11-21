@@ -60,18 +60,19 @@
 * [Rest Api](api-and-single-sign-on/rest-api.md)
 * [Using LDAP](api-and-single-sign-on/using-ldap.md)
 
+## Mobile Application
+
+* [Attendance Tracking](mobile-application/mobile-attendance-tracking.md)
+
 ## FAQ
 
 * [Upgrade IceHrmPro](faq/upgrade-icehrm.md)
 * [FAQ](faq/how-to-icehrm.md)
 * [Close Cloud Account](faq/how-to-close-icehrm-cloud.md)
+* [Blog](faq/blog.md)
 
 ## Release Notes
 
 * [Release Notes IceHrmPro](release-notes/release-notes-pro.md)
 * [Release Notes IceHrm Open Source](release-notes/release-notes-open.md)
-
-## Mobile Application
-
-* [Attendance Tracking](mobile-application/mobile-attendance-tracking.md)
 
