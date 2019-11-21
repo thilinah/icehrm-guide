@@ -1,4 +1,4 @@
-# Recruitment Setup
+# Recruitment Management
 
 ## Recruitment
 
