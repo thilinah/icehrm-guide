@@ -71,6 +71,10 @@
 * [Close Cloud Account](faq/how-to-close-icehrm-cloud.md)
 * [Blog](faq/blog.md)
 
+## Developer Guide
+
+* [Create a New Module](developer-guide/create-new-module.md)
+
 ## Release Notes
 
 * [Release Notes IceHrmPro](release-notes/release-notes-pro.md)
