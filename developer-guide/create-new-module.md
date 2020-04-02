@@ -243,6 +243,8 @@ include APP_BASE_PATH.'modulejslibs.inc.php';
 
 and `meta.json` file 
 
+When instantiating `RoomsAdapter` the endpoint and tab name are provided as parameters.
+
 We are creating this `Meeting Room` module inside a main menu named `Remote Work`.
 
 ```
