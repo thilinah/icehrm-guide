@@ -1,13 +1,16 @@
 # Release Notes IceHrmPro
 
 ## Release note v26.9.0.PRO
+
 ### New features
+
 * Teams module for creating teams in company
 * Enable custom user roles
 * Introducing fine-grained user role management by adding restricted user roles
-* Introducing new Gender group 'Divers' for employees and candidates (according to German intersex law)
+* Introducing new Gender group 'Divers' for employees and candidates \(according to German intersex law\)
 
 ### Bug fixes
+
 * Show only active job posts
 * For employee leave period based leave types - fix available leave balance amount when applying for a leave
 * Fix eave calculations using leave rules depends on employee experience

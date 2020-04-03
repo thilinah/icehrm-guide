@@ -1,4 +1,8 @@
-# Creating a new module
+---
+description: How to create a new module in icehrm
+---
+
+# Create a New Module
 
 You can create a new module in IceHrm without putting much effort. Let's create a sample module called 'rooms'.
 
@@ -12,14 +16,14 @@ Create a new php file inside `core -> migrations` and name it accordingly.
 
 Write sql query to create the new table.
 
-```
+```text
 <?php
    namespace Classes\Migration;
-   
+
    class v20200331_270009_add_meeting_rooms_table extends AbstractMigration {
-   
+
        public function up(){
-   
+
            $sql = <<<'SQL'
    create table `MeetingRooms` (
    `id` bigint(20) NOT NULL AUTO_INCREMENT,
@@ -33,15 +37,14 @@ Write sql query to create the new table.
    `created` datetime default NULL
    ) engine=innodb default charset=utf8;
    SQL;
-   
+
          return $this->executeQuery($sql);
-   
+
        }
        public function down(){
            return true;
        }
    }
-
 ```
 
 Add the file name of this migration to the top of `list.php` file inside the same directory.
@@ -54,38 +57,37 @@ Create a folder called 'Rooms' inside `core->src` and create the model class ins
 
 Its better to maintain the existing folder structure of the project throughout creating this new module. So refer the existing modules.
 
-
-```
+```text
 <?php
    namespace Rooms\Common\Model;
-   
+
    use Classes\ModuleAccess;
    use Model\BaseModel;
-   
+
    class MeetingRoom extends BaseModel
    {
        public $table = 'MeetingRooms';
-   
+
        public function getAdminAccess()
        {
            return ["get","element","save","delete"];
        }
-   
+
        public function getManagerAccess()
        {
            return ["get","element","save"];
        }
-   
+
        public function getUserAccess()
        {
            return [];
        }
-   
+
        public function getAnonymousAccess()
        {
            return [];
        }
-   
+
        public function getModuleAccess()
        {
            return [
@@ -93,12 +95,11 @@ Its better to maintain the existing folder structure of the project throughout c
            ];
        }
    }
-
 ```
 
 Create RoomsAdminManger.php file inside `core->src->Rooms->Api`
 
-```
+```text
 <?php
 namespace Rooms\Admin\Api;
 
@@ -141,22 +142,22 @@ class RoomsAdminManager extends AbstractModuleManager
 }
 ```
 
-
 #### Create javascript files
 
 Javascript files are inside `web` folder.
 
 Create a new folder named `rooms` inside `web->admin->src`
 
-Create `index.js` 
+Create `index.js`
 
-```
+```text
 import { RoomsAdapter } from './lib';
 window.RoomsAdapter = RoomsAdapter;
 ```
+
 and `lib.js` files.
 
-```
+```text
 import AdapterBase from '../../../api/AdapterBase';
 
 class RoomsAdapter extends AdapterBase {
@@ -192,18 +193,18 @@ class RoomsAdapter extends AdapterBase {
 
 module.exports = { RoomsAdapter };
 ```
+
 `getDataMapping()` and `getHeaders()` methods should contain the same fields.
 
 You can use the form data input types accordingly from `getFormFields()` method.
-
-
 
 ### Creating admin files
 
 Create a folder named rooms inside `core->admin`
 
 Let's create the `index.php`
-```
+
+```text
 <?php
 
 $moduleName = 'rooms';
@@ -241,13 +242,13 @@ include APP_BASE_PATH.'modulejslibs.inc.php';
 <?php include APP_BASE_PATH.'footer.php';?>
 ```
 
-and `meta.json` file 
+and `meta.json` file
 
 When instantiating `RoomsAdapter` the endpoint and tab name are provided as parameters.
 
 We are creating this `Meeting Room` module inside a main menu named `Remote Work`.
 
-```
+```text
 {
   "label": "Meeting Rooms",
   "menu": "Remote Work",
@@ -261,13 +262,11 @@ We are creating this `Meeting Room` module inside a main menu named `Remote Work
   "model_namespace": "\\Rooms\\Common\\Model",
   "manager": "\\Rooms\\Admin\\Api\\RoomsAdminManager"
 }
-
 ```
 
 Give a label name and a suitable font awesome icon name. Add the correct paths to model and manger.
 
 We can provide a suitable font awesome icon to the main menu by editing `core->admin->meta.json`
-
 
 ### Include module in gulpfile.json
 
@@ -276,9 +275,11 @@ There is a `gulpfile.json` file inside root. You need to add the new module unde
 Finally you have to rebuild the frontend with gulp command.
 
 vagrant ssh and log into vagrant machine.
-```
+
+```text
 ~ $ cd /vagrant
 ~ $ gulp
 ```
 
 The new module should be created now.
+
