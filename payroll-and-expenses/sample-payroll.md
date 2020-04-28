@@ -213,9 +213,6 @@ Payslip for IceHrm Employee will look like this:
 
 Once you configure your payroll for initially, generating it for the second month can be done in few minutes.
 
-### Clone a previous Payroll Report using **Copy button**
-
-
 ### Change Dates and set status to Draft
 
 
