@@ -7,7 +7,7 @@ Company payroll is available under Payroll =&gt; Payroll Reports menu. We are go
 
 First we should start with adding a **Payroll Group.** Go to Payroll Group Menu under Payroll and add a new payroll group. As an example we will be using India.
 
-![](../.gitbook/assets/in-payroll-group.png)
+![](../assets/in-payroll-group.png)
 
 ## Adding Payroll Columns
 
@@ -41,7 +41,7 @@ So now we can start adding payroll columns. It's a good idea to prefix your payr
 
 Now you can go to the tab "Payroll Columns" and click on "Add".
 
-![](../.gitbook/assets/in-basic-salary.png)
+![](../assets/in-basic-salary.png)
 
 As this column only depends on Basic Salary component you can just select that salary component from the list. \(Note that in some cases you can add multiple salary components to same column\).
 
@@ -51,7 +51,7 @@ The **column order should be 1** because it should be the first column in your p
 
 ### Adding Payroll Column for Gross Salary
 
-![](../.gitbook/assets/in-gross-salary.png)
+![](../assets/in-gross-salary.png)
 
 ### Adding Payroll Column for Basic Pay
 
@@ -61,38 +61,38 @@ First create a new payroll column.Then, click on "Add" button next to Calculatio
 . Here you are adding the previously defined **gross salary column as a parameter named X**  so you can use it to do various calculations using these columns
 
 
-![](../.gitbook/assets/in-basic-pay.png)
+![](../assets/in-basic-pay.png)
 
 ### Adding Payroll Column for Province
 
 We need to select Get Employee Data in predefined calculations and enter province_Name in the function field in order to get employee's province
 
-![](../.gitbook/assets/in-province.png)
+![](../assets/in-province.png)
 
 ### Adding Payroll Column for Professional Tax Slap
 
 This is calculated based on employee's state and basic pay. So you need to add those two calculation columns and write the function
 to calculate pts.
 
-![](../.gitbook/assets/in-pts.png)
+![](../assets/in-pts.png)
 
 ### Adding Payroll Column for Employee birthday
 
 We need to select Get Employee Data in predefined calculations and enter birthday(Employees table column name) in the function field in order to get employee's province
 
-![](../.gitbook/assets/in-birthday.png)
+![](../assets/in-birthday.png)
 
 ### Adding Payroll Column for Employee age
 
 We need to get employee's birthday as a calculation column and write a javascript function to calculate age from that.
 
-![](../.gitbook/assets/in-age.png)
+![](../assets/in-age.png)
 
 ### Adding Payroll Column for Income Tax
 
 We need to use employee's age and basic pay and write a function to calculate income tax.
 
-![](../.gitbook/assets/in-income-tax.png)
+![](../assets/in-income-tax.png)
 
 ### Adding Payroll Column for ESI employee contribution
 
@@ -107,44 +107,44 @@ Now click on add button on Calculation Process filed to define the actual calcul
 
 Now we need to create a payroll column and add this calculation method to that column.
 
-![](../.gitbook/assets/in-esi-employee.png)
+![](../assets/in-esi-employee.png)
 
 Please also play attention how we are assigning **column order** to each column.
 
 
 ### Adding Payroll Column for PF employee contribution
 
-![](../.gitbook/assets/in-pf-employee.png)
+![](../assets/in-pf-employee.png)
 
 ### Adding Payroll Column for Total Deductions
 
-![](../.gitbook/assets/in-deductions.png)
+![](../assets/in-deductions.png)
 
 ### Adding Payroll Column for Other Allowances
 
-![](../.gitbook/assets/in-other-allowances.png)
+![](../assets/in-other-allowances.png)
 
 ### Adding Payroll Column for ESI employer contribution
 
-![](../.gitbook/assets/in-esi-employer.png)
+![](../assets/in-esi-employer.png)
 
 ### Adding Payroll Column for PF employer contribution
 
-![](../.gitbook/assets/in-pf-employer.png)
+![](../assets/in-pf-employer.png)
 
 ### Adding Payroll Column for ESI Total
 
-![](../.gitbook/assets/in-esi-total.png)
+![](../assets/in-esi-total.png)
 
 ### Adding Payroll Column for PF Total
 
-![](../.gitbook/assets/in-pf-total.png)
+![](../assets/in-pf-total.png)
 
 ### Add "Net Salary" column
 
 Net Salary is Gross salary minus Total deductions. So we create Net Salary column as shown below:
 
-![](../.gitbook/assets/in-net-salary.png)
+![](../assets/in-net-salary.png)
 
 Now we have finished defining payroll columns. When you go to Payroll columns and search "IN - " you can see all the fields in Indian payroll.
 
