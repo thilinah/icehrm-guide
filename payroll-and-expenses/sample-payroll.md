@@ -1,7 +1,6 @@
 # Create a sample Payroll
 
-
-Company payroll is available under Payroll =&gt; Payroll Reports menu. We are going to create a sample payroll for India.
+Company payroll is available under **Payroll =&gt; Payroll Reports** menu. We are going to create a sample payroll for India.
 
 ## Adding a Payroll Group For India
 
@@ -11,28 +10,28 @@ First we should start with adding a **Payroll Group.** Go to Payroll Group Menu 
 
 ## Adding Payroll Columns
 
-One of the best ways to decide which columns you need have in your payroll report is to think of rows in your employees payslip.
+One of the best ways to decide which columns you need to have in your payroll report is to think of rows in your employees' payslip.
 
 Now here are the list of columns to show on the Indian payroll we are creating:
 
 1. Basic Salary
 2. Gross Salary
 3. Basic Pay
-4. province
-5. Professional Tax Slap
-6. employee birthday
-7. employee age
+4. Province
+5. Professional Tax Slab
+6. Employee Birthday
+7. Employee Age
 8. Income Tax
-9. ESI employee contribution
-10. PF employee contribution
+9. ESI Employee Contribution
+10. PF Employee Contribution
 11. Total Deductions
 12. Other Allowances
-13. ESI employer contribution
-14. PF employer contribution
-15. ESI total
-16. PF total
-17. Net salary
-18. Residential area
+13. ESI Employer Contribution
+14. PF Employer Contribution
+15. ESI Total
+16. PF Total
+17. Net Salary
+18. Residential Area
 19. HRA
 
 So now we can start adding payroll columns. It's a good idea to prefix your payroll columns with its respective country code to make it easier to find.
@@ -55,10 +54,9 @@ The **column order should be 1** because it should be the first column in your p
 
 ### Adding Payroll Column for Basic Pay
 
-Based on the previous column you have added, now you can create the hourly pay based column as shown below:
+Based on the previous column you have added, now you can create the basic pay column as shown below:
 
-First create a new payroll column.Then, click on "Add" button next to Calculation Columns
-. Here you are adding the previously defined **gross salary column as a parameter named X**  so you can use it to do various calculations using these columns
+First create a new payroll column.Then, click on "Add" button next to Calculation Columns. Here you are adding the previously defined **gross salary column as a parameter named X**  so you can use it to do various calculations using these columns
 
 
 ![](../assets/in-basic-pay.png)
@@ -69,16 +67,16 @@ We need to select Get Employee Data in predefined calculations and enter provinc
 
 ![](../assets/in-province.png)
 
-### Adding Payroll Column for Professional Tax Slap
+### Adding Payroll Column for Professional Tax Slab
 
 This is calculated based on employee's state and basic pay. So you need to add those two calculation columns and write the function
-to calculate pts.
+to calculate PTS.
 
 ![](../assets/in-pts.png)
 
 ### Adding Payroll Column for Employee birthday
 
-We need to select Get Employee Data in predefined calculations and enter birthday(Employees table column name) in the function field in order to get employee's province
+We need to select Get Employee Data in predefined calculations and enter birthday(Employees table column name) in the function field in order to get employee's birthday
 
 ![](../assets/in-birthday.png)
 
@@ -101,7 +99,7 @@ As you have seen you can do some calculations at column level. But things such a
 
 You can create a saved calculation based on a Salary component group \(type\), a Salary component or an Existing payroll column. In this case we use an existing payroll column.
 
-Now click on add button on Calculation Process filed to define the actual calculation. According to our example for the full range of esi is 0.75%. So we don't need to define any ranges and can calculate the tax as follows.
+Now click on add button on Calculation Process filed to define the actual calculation. According to our example for the full range of ESI is 0.75%. So we don't need to define any ranges and can calculate the tax as follows.
 
 
 
@@ -140,7 +138,31 @@ Please also play attention how we are assigning **column order** to each column.
 
 ![](../assets/in-pf-total.png)
 
-### Add "Net Salary" column
+### Add Payroll Column for Residential Area
+
+To calculate HRA we need to know whether an employee lives in a metro or non-metro area. As this is not a default employee data field, we need to add a custom field for residential area.
+
+#### Add Custom Field for Residential Area
+
+Go to **Admin => Employee Custom Fields**
+
+Under **Employee Custom Fields** tan add a new custom field named residential_area
+
+![](../assets/in-custom-field.png)
+
+Now you can edit the residential area of each employee from **Employees => Employees**
+
+You can use this data by selecting Get Employee data in Predefined Calculations. use residential_area in the Function field.
+
+![](../assets/in-residence.png)
+
+### Add Payroll Column for hra
+
+You can add basic pay and residential area as calculation columns and write a function to find hra quite easily.
+
+![](../assets/in-hra.png)
+
+### Add Net Salary column
 
 Net Salary is Gross salary minus Total deductions. So we create Net Salary column as shown below:
 
@@ -160,15 +182,19 @@ A payslip template has can be created by adding following items:
 4. Separators \(For separating sections on payslip\)
 5. Payroll columns
 
+Click on Add New button and create the payslip template as you want.
 
+![](../assets/in-payslip-template1.png)
+
+![](../assets/in-payslip-template2.png)
 
 ## Create Payroll Report
 
 Payroll Report is the unit used to combine all the payroll columns and calculate monthly payments for all the selected employees.
 
-.Goto Payroll Reports tab and create a new Payroll Report.
+Goto Payroll Reports tab and create a new Payroll Report.
 
-
+![](../assets/in-payroll-reports.png)
 
 When you create the payroll report it should be in **Draft** state. Only when it is processing completed it should go to **Completed** state.
 
@@ -176,20 +202,19 @@ Also you need to select all the payroll columns you defined earlier for Indian p
 
 ## Selecting Employees For Your Payroll Report
 
-Above payroll is for monthly paid employees who are in Indian Payroll Calculation group. So you need to add some employees satisfying above requirements under **"Company Payroll"** tab.
+Above payroll is for monthly paid employees who are in Indian Payroll Calculation group. So you need to add some employees satisfying above requirements under **"Payroll Employees"** tab.
 
+As shown below we have added three employees to Indian payroll.
 
-
-As shown below we have added two employees to Indian payroll
-
+![](../assets/in-payroll-employees.png)
 
 ## Configure Employee Salary Components
 
-Since the payroll depends on employee salary components you should make sure all employee salary components are defined properly. You can do this by going to **Payroll -&gt; Salary** module and selecting **Employee Salary** tab.
+Since the payroll depends on employee salary components you should make sure all employee salary components are defined properly. You can do this by going to **Payroll -&gt; Salary** module and selecting **Employee Salary Components** tab.
 
-As you can see here **IceHrm Employee** is getting a Basic and Allowance while **Lala Lamees** getting paid per hour. As we have configured our payroll report application now able to calculate the tax and other payroll columns properly.
+As we have configured our payroll report application now we are  able to calculate the tax and other payroll columns properly.
 
-Processing Payroll Report
+##Processing Payroll Report
 
 Click on the blue color "Process" button on your payroll report under Payroll Report tab. This will show salaries of all the employees in your payroll. 
 
@@ -197,24 +222,30 @@ As you can see here IceHrm can now calculate your payroll.
 
 After checking figures manually you can click on finalize button which will change the payroll report status to **Completed**.
 
+![](../assets/in-payslip-draft.png)
+
 ## Downloading Payslips
 
-Now your employee can login and download payslip for the payroll period 2017-08-01 to 2017-08-31.
+Now your employee can login and download payslip for the payroll period 2020-06-01 to 2020-06-30.
 
 Login as the employee and goto **User Reports -&gt; Reports** module.
 
 And then download the Payslip from any completed payroll report
 
-
 Payslip for IceHrm Employee will look like this:
 
+![](../assets/in-payslip.png)
 
 ## Generating Payroll for Next Month
 
 Once you configure your payroll for initially, generating it for the second month can be done in few minutes.
 
-### Change Dates and set status to Draft
+Clone a previous Payroll Report using Copy button.
 
+![](../assets/in-payslip-copy1.png)
+
+Change Dates and set the Status to Draft.
+
+![](../assets/in-payslip-copy2.png)
 
 Then save the new Payroll Report and process and finalize it.
-
