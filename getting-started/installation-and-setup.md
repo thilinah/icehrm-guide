@@ -4,13 +4,21 @@ _**If you are using icehrm cloud please skip this chapter**_
 
 Getting IceHrm installed only take a few minutes. If it ever becomes a problem, please [file an issue](https://github.com/gamonoid/icehrm/issues/new) describing the issue you encountered and how we might make the process easier.
 
-### Requirements <a id="requirements"></a>
+### Software Requirements <a id="requirements"></a>
 
-Before installing IceHrm please make sure your system supports following requirements you’ll need to make sure your system has before you start.
+Before installing IceHrm please make sure your system supports following requirements you’ll need to make sure your system has before you start. 
 
-* [PHP 7.0 ](http://php.net/)or Higher
+**Operating system:** Dabian \(8/9/10\) or Ubuntu \(18 LTS or 20 LTS\) - Any other linux distribution will also, but we recommend to select a long term support \(LTS\) release
+
+**Web Server**: Nginx \(Recommended\) or Apache. If you are using windows please use WAMPP \([https://bitnami.com/stack/wamp/installer](https://bitnami.com/stack/wamp/installer)\) to host IceHrm
+
+**Database:** MySQL 5.7 \(MySQL 8.0 is not supported yet\)
+
+**PHP**: PHP 7.0 or Higher \(IceHrm works with PHP 5.6 but the support will be removed soon\)
+
+**PHP Extensions**
+
 * Net\_SMTP extension for PHP
-* [MySQL](http://dev.mysql.com/downloads/)
 * [php-mysql extention](http://php.net/manual/en/mysqli.installation.php)
 
   $&gt; sudo apt-get install php-mysql
@@ -19,11 +27,20 @@ Before installing IceHrm please make sure your system supports following require
 
   $&gt; sudo apt-get install php7.0-gd
 
-#### Optional Modules <a id="optional-modules"></a>
+#### Optional Extensions <a id="optional-modules"></a>
 
 These are optional components which could improve icehrm performance
 
 * [Memcache](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-memcache-on-ubuntu-14-04)
+
+### Hardware Requirements <a id="requirements"></a>
+
+|  | 100 Employees | 500 Employees | 2000 Employees |
+| :--- | :--- | :--- | :--- |
+| **CPU** | 1 Core | 2 Cores | 4 Cores |
+| **RAM** | 2 GB | 4 GB | 8 GB |
+| Storage \(Avg\) | 15 GB | 40 GB | 80 GB |
+| Data Transfer \(Avg / Month\) | 20 GB | 100 GB | 400 GB |
 
 ### Installation <a id="installation"></a>
 
