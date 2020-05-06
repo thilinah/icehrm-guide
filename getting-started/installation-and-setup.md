@@ -8,7 +8,7 @@ Getting IceHrm installed only take a few minutes. If it ever becomes a problem, 
 
 Before installing IceHrm please make sure your system supports following requirements you’ll need to make sure your system has before you start.
 
-* [PHP 5.6 or Higher](http://php.net/)
+* [PHP 7.0 ](http://php.net/)or Higher
 * Net\_SMTP extension for PHP
 * [MySQL](http://dev.mysql.com/downloads/)
 * [php-mysql extention](http://php.net/manual/en/mysqli.installation.php)
@@ -28,7 +28,7 @@ These are optional components which could improve icehrm performance
 ### Installation <a id="installation"></a>
 
 * If you are installing the open source version, download the latest release from [GitHub](https://github.com/gamonoid/icehrm/releases/latest)
-* If you are installing the pro version or enterprise you should have received the files after purchase.
+* If you are installing the IceHrmPro you should have received the files after purchase.
 * Copy the downloaded file to the path you want to install iCE Hrm in your server and extract.
 * Create a mysql DB for and user. Grant all on iCE Hrm DB to new DB user.
 * Visit iCE Hrm installation path in your browser.
