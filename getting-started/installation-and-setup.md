@@ -10,7 +10,11 @@ Before installing IceHrm please make sure your system supports following require
 
 **Operating system:** Dabian \(8/9/10\) or Ubuntu \(18 LTS or 20 LTS\) - Any other linux distribution will also, but we recommend to select a long term support \(LTS\) release
 
-**Web Server**: Nginx \(Recommended\) or Apache. If you are using windows please use WAMPP \([https://bitnami.com/stack/wamp/installer](https://bitnami.com/stack/wamp/installer)\) to host IceHrm
+**Web Server**: 
+
+Nginx \(Recommended\) or Apache.
+
+ If you are using windows please use WAMPP \([https://bitnami.com/stack/wamp/installer](https://bitnami.com/stack/wamp/installer)\) to host IceHrm
 
 **Database:** MySQL 5.7 \(MySQL 8.0 is not supported yet\)
 
