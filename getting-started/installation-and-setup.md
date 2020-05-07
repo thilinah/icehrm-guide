@@ -39,8 +39,8 @@ These are optional components which could improve icehrm performance
 | :--- | :--- | :--- | :--- |
 | **CPU** | 1 Core | 2 Cores | 4 Cores |
 | **RAM** | 2 GB | 4 GB | 8 GB |
-| Storage \(Avg\) | 15 GB | 40 GB | 80 GB |
-| Data Transfer \(Avg / Month\) | 20 GB | 100 GB | 400 GB |
+| **Storage \(Avg\)** | 15 GB | 40 GB | 80 GB |
+| **Data Transfer \(Avg / Month\)** | 20 GB | 100 GB | 400 GB |
 
 ### Installation <a id="installation"></a>
 
