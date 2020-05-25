@@ -6,15 +6,24 @@ description: How to create a new module in icehrm
 
 You can create a new module in IceHrm without putting much effort. Let's create a sample module called 'rooms'.
 
-There are 2 types of modules in IceHrm. Here we are creating an admin module. There are user modules as well. You need to choose `admin` or `module` folders inside `core` and `web` according to the module type you are creating.
+There are 2 types of modules in IceHrm.
 
-## Create Migration
+These modules are directly separated to allow different access level. In IceHrm we have three main user levels, Admin, Manager and Employee. Users with Employee level access can only  
+
+1. **common**: `common` modules live under icehrm/core/modules and icehrm/web/modules directories. There modules can be accessed by all three main user levels \(`Admin` / `Manager` / `Employee`\)
+2. **admin**: `admin` modules can only be accessed by `Admin` and `Manager` level users. By default a user with `Admin` user level get access to all these modules. But for Manager user level access should be provided explicitly.
+
+Here we are creating an admin module. The new module is called Meeting Rooms, and allow users to create some new meeting rooms
+
+## Create a Migration
 
 First we need to create a migration to add a new database table called 'MeetingRooms'.
 
-Create a new php file inside `core -> migrations` and name it accordingly.
+Create a new php file inside `core -> migrations` and name it accordingly. Name is formatted as `v<date_YYYYMMDD>_<TARGET_VERSION>_<migration name>.php`
 
-Write sql query to create the new table.
+Make sure to keep the class name and migration name in sync
+
+Write sql query to create the new table. \(in just ignoring migration down function here\)
 
 ```text
 <?php
@@ -32,9 +41,9 @@ Write sql query to create the new table.
    `meeting_link` varchar(500),
    `departments` varchar(250),
    `teams` varchar(250),
-   primary key (`id`),
    `updated` datetime default NULL,
-   `created` datetime default NULL
+   `created` datetime default NULL,
+   primary key (`id`),
    ) engine=innodb default charset=utf8;
    SQL;
 
@@ -47,15 +56,17 @@ Write sql query to create the new table.
    }
 ```
 
-Add the file name of this migration to the top of `list.php` file inside the same directory.
+Add the file name of this migration to the top of `list.php` file inside the `core -> migrations` directory.
 
-Migration will run automatically and create the table.
+Migration will run automatically and create the table. When you refresh any page in IceHrm
 
 ### Create model class
 
 Create a folder called 'Rooms' inside `core->src` and create the model class inside. We'll name it as 'MeetingRoom.php'. We can provide module access here.
 
-Its better to maintain the existing folder structure of the project throughout creating this new module. So refer the existing modules.
+It's better to maintain the existing folder structure of the project throughout creating this new module. So refer the existing modules.
+
+Add `MeetingRoom.php` file inside `core/src/Rooms/Common/Model`
 
 ```text
 <?php
@@ -97,7 +108,29 @@ Its better to maintain the existing folder structure of the project throughout c
    }
 ```
 
-Create RoomsAdminManger.php file inside `core->src->Rooms->Api`
+Here you can provide different access levels to different user levels
+
+for an example following code allows an `Admin` level users to:
+
+* `get` - read all meeting rooms
+* `element` - read a single meeting room
+* `save` - save or update a meeting room
+* `delete` - delete a meeting room
+
+```text
+public function getAdminAccess()
+{
+   return ["get","element","save","delete"];
+}
+```
+
+### Implement the Module Manager Class
+
+{% hint style="info" %}
+`setupModuleClassDefinitions` method
+{% endhint %}
+
+Add `RoomsAdminManger.php` file inside `core/src/Rooms/Admin/Api`
 
 ```text
 <?php
@@ -142,20 +175,17 @@ class RoomsAdminManager extends AbstractModuleManager
 }
 ```
 
-#### Create javascript files
+### Implement frontend changes
 
 Javascript files are inside `web` folder.
 
-Create a new folder named `rooms` inside `web->admin->src`
+Create a new folder named `rooms` inside `icehrm/web/admin/src`
 
-Create `index.js`
+Then add `RoomsAdapter` class as shown below in`icehrm/web/admin/src/rooms/lib.js` 
 
-```text
-import { RoomsAdapter } from './lib';
-window.RoomsAdapter = RoomsAdapter;
-```
-
-and `lib.js` files.
+* **getDataMapping** - defines which data is displayed in the table
+* **getHeaders** - defines table headers \(the order of the headers is used to map headers to data\)
+* **getFormFields** - defines the form for adding a meeting room
 
 ```text
 import AdapterBase from '../../../api/AdapterBase';
@@ -194,15 +224,22 @@ class RoomsAdapter extends AdapterBase {
 module.exports = { RoomsAdapter };
 ```
 
-`getDataMapping()` and `getHeaders()` methods should contain the same fields.
+Add `icehrm/web/admin/src/rooms/index.js`
 
-You can use the form data input types accordingly from `getFormFields()` method.
+This file wires the ES6 class above to the window so we can use it frontend
+
+```text
+import { RoomsAdapter } from './lib';
+window.RoomsAdapter = RoomsAdapter;
+```
+
+
 
 ### Creating admin files
 
-Create a folder named rooms inside `core->admin`
+Create the folder `icehrm/core/admin/rooms`
 
-Let's create the `index.php`
+Then create the `index.php`
 
 ```text
 <?php
@@ -270,16 +307,34 @@ We can provide a suitable font awesome icon to the main menu by editing `core->a
 
 ### Include module in gulpfile.json
 
-There is a `gulpfile.json` file inside root. You need to add the new module under admin-js or module-js according to its type.
+There is a `gulpfile.js` file inside root. You need to add the new module under admin-js or module-js according to its type. In this case it's admin-js
+
+```text
+gulp.task('admin-js', (done) => {
+  // we define our input files, which we want to have
+  // bundled:
+  let files = [
+    'attendance',
+    'company_structure',
+    'clients',
+    'dashboard',
+    'data',
+    'rooms'
+    ....
+  ];
+
+```
 
 Finally you have to rebuild the frontend with gulp command.
 
-vagrant ssh and log into vagrant machine.
+### Vagrant ssh and log into vagrant machine
+
+RUN `gulp` inside your vagrant machine path /vagrant
 
 ```text
 ~ $ cd /vagrant
 ~ $ gulp
 ```
 
-The new module should be created now.
+The new module should be created now. Refresh your icehrm to see the new module
 
