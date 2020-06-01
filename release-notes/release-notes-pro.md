@@ -1,5 +1,29 @@
 # Release Notes IceHrmPro
 
+## Release note v27.0.0.PRO
+
+### New features
+* UI/UX improvements (new fonts / better spacing)
+* Payroll module improvements
+* Security improvements to password policy
+* Adding total leave days column, when displaying employee leave data
+* Adding more leave information to the email sent to managers for approving leave requests
+* Ability to limit leave requests to full-day and half-day
+* Albanian language is now available
+* Ability to deploy using docker
+
+### For developers
+* Developer environment based on docker [https://www.youtube.com/watch?v=sz8OV_ON6S8](https://www.youtube.com/watch?v=sz8OV_ON6S8)
+* [Developer guide](https://icehrm.gitbook.io/icehrm/developer-guide/create-new-module)
+* Fully support from php 5.6 upto 7.4 (php 5.3 support is deprecated)
+
+### Bug fixes
+* Fixes to newly found vulnerabilities (https://github.com/gamonoid/icehrm/issues/213): credits to: [Talos](https://talosintelligence.com/)
+* Fixing leave module, calculations for complex leave rule combinations
+* Fixed the travel request approval for managers
+* Fixed the issue with attendance source IP display
+* Fixing Api issues in PHP 7.3
+
 ## Release note v26.9.0.PRO
 
 ### New features
