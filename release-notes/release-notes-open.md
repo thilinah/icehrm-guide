@@ -3,6 +3,7 @@
 ## Release note v27.0.0.OS
 
 ### New features
+* Employee document management is now available for open-source version
 * UI/UX improvements (new fonts / better spacing)
 * Payroll module improvements
 * Security improvements to password policy
