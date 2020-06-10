@@ -1,5 +1,17 @@
 # Release Notes IceHrm Open Source
 
+## Release note v27.0.2.OS
+
+This fixes some major issues found in v27.0.1.OS
+
+### 🐛  Bug fixes
+* Filtering across whole application was broken and now it's fixed
+* Fixed the issue related to photo not being shown to the admin when photo attendance is enabled
+
+### 🧑🏻‍💻 For developers
+* We have added support for vagrant development environment based on Debian 10 / PHP 7.3 (with Xdebug)  / Nginx / MySQL
+
+
 ## Release note v27.0.0.OS
 
 ### New features
@@ -13,7 +25,7 @@
 ### For developers
 * Developer environment based on docker [https://www.youtube.com/watch?v=sz8OV_ON6S8](https://www.youtube.com/watch?v=sz8OV_ON6S8)
 * [Developer guide](https://icehrm.gitbook.io/icehrm/developer-guide/create-new-module)
-* Fully support from php 7.0 upto 7.4 (php 5.6 support is deprecated and not recommended)
+* Fully supports all php versions >= 5.6 upto v7.3 (php 5.6 support is deprecated and not recommended)
 
 ### Bug fixes
 * Fixes to newly found vulnerabilities (https://github.com/gamonoid/icehrm/issues/213): credits to: [Talos](https://talosintelligence.com/)
