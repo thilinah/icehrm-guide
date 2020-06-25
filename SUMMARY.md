@@ -39,11 +39,14 @@
 * [Document Management](training-and-reviews/document-management.md)
 * [Training Module](training-and-reviews/training.md)
 
-## Payroll and Expenses
+## Payroll
 
-* [Payroll Management](payroll-and-expenses/payroll-management.md)
-* [Import - Export Payrolls](payroll-and-expenses/import-export-payrolls.md)
-* [Expense Management](payroll-and-expenses/expense-management.md)
+* [Payroll Management](payroll/payroll-management.md)
+* [Import - Export Payrolls](payroll/import-export-payrolls.md)
+* [Building Payroll For India](payroll/sample-payroll.md)
+
+## Expenses
+* [Expense Management](expenses/expense-management.md)
 
 ## Insights
 
