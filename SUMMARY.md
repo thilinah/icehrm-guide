@@ -14,6 +14,7 @@
 
 * [Employee Management](employees/employee-information-setup.md)
 * [Employee Data Import](employees/employee-data-import.md)
+* [User permissions](employees/user-permissions.md)
 
 ## Time and Attendance
 
@@ -46,6 +47,7 @@
 * [Building Payroll For India](payroll/sample-payroll.md)
 
 ## Expenses
+
 * [Expense Management](expenses/expense-management.md)
 
 ## Insights

@@ -5,30 +5,34 @@
 This fixes some major issues found in v27.0.1.OS
 
 ### 🐛  Bug fixes
+
 * Filtering across whole application was broken and now it's fixed
 * Fixed the issue related to photo not being shown to the admin when photo attendance is enabled
 
 ### 🧑🏻‍💻 For developers
-* We have added support for vagrant development environment based on Debian 10 / PHP 7.3 (with Xdebug)  / Nginx / MySQL
 
+* We have added support for vagrant development environment based on Debian 10 / PHP 7.3 \(with Xdebug\)  / Nginx / MySQL
 
 ## Release note v27.0.0.OS
 
 ### New features
+
 * Employee document management is now available for open-source version
-* UI/UX improvements (new fonts / better spacing)
+* UI/UX improvements \(new fonts / better spacing\)
 * Payroll module improvements
 * Security improvements to password policy
 * Albanian language is now available
 * Ability to deploy using docker
 
 ### For developers
-* Developer environment based on docker [https://www.youtube.com/watch?v=sz8OV_ON6S8](https://www.youtube.com/watch?v=sz8OV_ON6S8)
+
+* Developer environment based on docker [https://www.youtube.com/watch?v=sz8OV\_ON6S8](https://www.youtube.com/watch?v=sz8OV_ON6S8)
 * [Developer guide](https://icehrm.gitbook.io/icehrm/developer-guide/create-new-module)
-* Fully supports all php versions >= 5.6 upto v7.3 (php 5.6 support is deprecated and not recommended)
+* Fully supports all php versions &gt;= 5.6 upto v7.3 \(php 5.6 support is deprecated and not recommended\)
 
 ### Bug fixes
-* Fixes to newly found vulnerabilities (https://github.com/gamonoid/icehrm/issues/213): credits to: [Talos](https://talosintelligence.com/)
+
+* Fixes to newly found vulnerabilities \([https://github.com/gamonoid/icehrm/issues/213](https://github.com/gamonoid/icehrm/issues/213)\): credits to: [Talos](https://talosintelligence.com/)
 * Fixed the travel request approval for managers
 * Fixed the issue with attendance source IP display
 * Fixing Api issues in PHP 7.3

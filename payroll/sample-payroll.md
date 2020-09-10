@@ -1,4 +1,4 @@
-# Create a sample Payroll
+# Building Payroll For India
 
 Company payroll is available under **Payroll =&gt; Payroll Reports** menu. We are going to create a sample payroll for India.
 
@@ -6,7 +6,7 @@ Company payroll is available under **Payroll =&gt; Payroll Reports** menu. We ar
 
 First we should start with adding a **Payroll Group.** Go to Payroll Group Menu under Payroll and add a new payroll group. As an example we will be using India.
 
-![](../assets/in-payroll-group.png)
+![](../.gitbook/assets/in-payroll-group.png)
 
 ## Adding Payroll Columns
 
@@ -40,7 +40,7 @@ So now we can start adding payroll columns. It's a good idea to prefix your payr
 
 Now you can go to the tab "Payroll Columns" and click on "Add".
 
-![](../assets/in-basic-salary.png)
+![](../.gitbook/assets/in-basic-salary.png)
 
 As this column only depends on Basic Salary component you can just select that salary component from the list. \(Note that in some cases you can add multiple salary components to same column\).
 
@@ -50,50 +50,47 @@ The **column order should be 1** because it should be the first column in your p
 
 ### Adding Payroll Column for Gross Salary
 
-![](../assets/in-gross-salary.png)
+![](../.gitbook/assets/in-gross-salary.png)
 
 ### Adding Payroll Column for Basic Pay
 
 Based on the previous column you have added, now you can create the basic pay column as shown below:
 
-First create a new payroll column.Then, click on "Add" button next to Calculation Columns. Here you are adding the previously defined **gross salary column as a parameter named X**  so you can use it to do various calculations using these columns
+First create a new payroll column.Then, click on "Add" button next to Calculation Columns. Here you are adding the previously defined **gross salary column as a parameter named X** so you can use it to do various calculations using these columns
 
-
-![](../assets/in-basic-pay.png)
+![](../.gitbook/assets/in-basic-pay.png)
 
 ### Adding Payroll Column for Province
 
-We need to select Get Employee Data in predefined calculations and enter province_Name in the function field in order to get employee's province
+We need to select Get Employee Data in predefined calculations and enter province\_Name in the function field in order to get employee's province
 
-![](../assets/in-province.png)
+![](../.gitbook/assets/in-province.png)
 
 ### Adding Payroll Column for Professional Tax Slab
 
-This is calculated based on employee's state and basic pay. So you need to add those two calculation columns and write the function
-to calculate PTS.
+This is calculated based on employee's state and basic pay. So you need to add those two calculation columns and write the function to calculate PTS.
 
-![](../assets/in-pts.png)
+![](../.gitbook/assets/in-pts.png)
 
 ### Adding Payroll Column for Employee birthday
 
-We need to select Get Employee Data in predefined calculations and enter birthday(Employees table column name) in the function field in order to get employee's birthday
+We need to select Get Employee Data in predefined calculations and enter birthday\(Employees table column name\) in the function field in order to get employee's birthday
 
-![](../assets/in-birthday.png)
+![](../.gitbook/assets/in-birthday.png)
 
 ### Adding Payroll Column for Employee age
 
 We need to get employee's birthday as a calculation column and write a javascript function to calculate age from that.
 
-![](../assets/in-age.png)
+![](../.gitbook/assets/in-age.png)
 
 ### Adding Payroll Column for Income Tax
 
 We need to use employee's age and basic pay and write a function to calculate income tax.
 
-![](../assets/in-income-tax.png)
+![](../.gitbook/assets/in-income-tax.png)
 
 ### Adding Payroll Column for ESI employee contribution
-
 
 As you have seen you can do some calculations at column level. But things such as tax which are having different percentages and multiple slabs it's better to use saved calculations. Now you should go to **Saved Calculations** tab and add a new saved calculation.
 
@@ -101,42 +98,39 @@ You can create a saved calculation based on a Salary component group \(type\), a
 
 Now click on add button on Calculation Process filed to define the actual calculation. According to our example for the full range of ESI is 0.75%. So we don't need to define any ranges and can calculate the tax as follows.
 
-
-
 Now we need to create a payroll column and add this calculation method to that column.
 
-![](../assets/in-esi-employee.png)
+![](../.gitbook/assets/in-esi-employee.png)
 
 Please also play attention how we are assigning **column order** to each column.
 
-
 ### Adding Payroll Column for PF employee contribution
 
-![](../assets/in-pf-employee.png)
+![](../.gitbook/assets/in-pf-employee.png)
 
 ### Adding Payroll Column for Total Deductions
 
-![](../assets/in-deductions.png)
+![](../.gitbook/assets/in-deductions.png)
 
 ### Adding Payroll Column for Other Allowances
 
-![](../assets/in-other-allowances.png)
+![](../.gitbook/assets/in-other-allowances.png)
 
 ### Adding Payroll Column for ESI employer contribution
 
-![](../assets/in-esi-employer.png)
+![](../.gitbook/assets/in-esi-employer.png)
 
 ### Adding Payroll Column for PF employer contribution
 
-![](../assets/in-pf-employer.png)
+![](../.gitbook/assets/in-pf-employer.png)
 
 ### Adding Payroll Column for ESI Total
 
-![](../assets/in-esi-total.png)
+![](../.gitbook/assets/in-esi-total.png)
 
 ### Adding Payroll Column for PF Total
 
-![](../assets/in-pf-total.png)
+![](../.gitbook/assets/in-pf-total.png)
 
 ### Add Payroll Column for Residential Area
 
@@ -144,29 +138,29 @@ To calculate HRA we need to know whether an employee lives in a metro or non-met
 
 #### Add Custom Field for Residential Area
 
-Go to **Admin => Employee Custom Fields**
+Go to **Admin =&gt; Employee Custom Fields**
 
-Under **Employee Custom Fields** tan add a new custom field named residential_area
+Under **Employee Custom Fields** tan add a new custom field named residential\_area
 
-![](../assets/in-custom-field.png)
+![](../.gitbook/assets/in-custom-field.png)
 
-Now you can edit the residential area of each employee from **Employees => Employees**
+Now you can edit the residential area of each employee from **Employees =&gt; Employees**
 
-You can use this data by selecting Get Employee data in Predefined Calculations. use residential_area in the Function field.
+You can use this data by selecting Get Employee data in Predefined Calculations. use residential\_area in the Function field.
 
-![](../assets/in-residence.png)
+![](../.gitbook/assets/in-residence.png)
 
 ### Add Payroll Column for hra
 
 You can add basic pay and residential area as calculation columns and write a function to find hra quite easily.
 
-![](../assets/in-hra.png)
+![](../.gitbook/assets/in-hra.png)
 
 ### Add Net Salary column
 
 Net Salary is Gross salary minus Total deductions. So we create Net Salary column as shown below:
 
-![](../assets/in-net-salary.png)
+![](../.gitbook/assets/in-net-salary.png)
 
 Now we have finished defining payroll columns. When you go to Payroll columns and search "IN - " you can see all the fields in Indian payroll.
 
@@ -184,9 +178,9 @@ A payslip template has can be created by adding following items:
 
 Click on Add New button and create the payslip template as you want.
 
-![](../assets/in-payslip-template1.png)
+![](../.gitbook/assets/in-payslip-template1.png)
 
-![](../assets/in-payslip-template2.png)
+![](../.gitbook/assets/in-payslip-template2.png)
 
 ## Create Payroll Report
 
@@ -194,7 +188,7 @@ Payroll Report is the unit used to combine all the payroll columns and calculate
 
 Goto Payroll Reports tab and create a new Payroll Report.
 
-![](../assets/in-payroll-reports.png)
+![](../.gitbook/assets/in-payroll-reports.png)
 
 When you create the payroll report it should be in **Draft** state. Only when it is processing completed it should go to **Completed** state.
 
@@ -206,23 +200,23 @@ Above payroll is for monthly paid employees who are in Indian Payroll Calculatio
 
 As shown below we have added three employees to Indian payroll.
 
-![](../assets/in-payroll-employees.png)
+![](../.gitbook/assets/in-payroll-employees.png)
 
 ## Configure Employee Salary Components
 
 Since the payroll depends on employee salary components you should make sure all employee salary components are defined properly. You can do this by going to **Payroll -&gt; Salary** module and selecting **Employee Salary Components** tab.
 
-As we have configured our payroll report application now we are  able to calculate the tax and other payroll columns properly.
+As we have configured our payroll report application now we are able to calculate the tax and other payroll columns properly.
 
-##Processing Payroll Report
+## Processing Payroll Report
 
-Click on the blue color "Process" button on your payroll report under Payroll Report tab. This will show salaries of all the employees in your payroll. 
+Click on the blue color "Process" button on your payroll report under Payroll Report tab. This will show salaries of all the employees in your payroll.
 
 As you can see here IceHrm can now calculate your payroll.
 
 After checking figures manually you can click on finalize button which will change the payroll report status to **Completed**.
 
-![](../assets/in-payslip-draft.png)
+![](../.gitbook/assets/in-payslip-draft.png)
 
 ## Downloading Payslips
 
@@ -234,7 +228,7 @@ And then download the Payslip from any completed payroll report
 
 Payslip for IceHrm Employee will look like this:
 
-![](../assets/in-payslip.png)
+![](../.gitbook/assets/in-payslip.png)
 
 ## Generating Payroll for Next Month
 
@@ -242,10 +236,11 @@ Once you configure your payroll for initially, generating it for the second mont
 
 Clone a previous Payroll Report using Copy button.
 
-![](../assets/in-payslip-copy1.png)
+![](../.gitbook/assets/in-payslip-copy1.png)
 
 Change Dates and set the Status to Draft.
 
-![](../assets/in-payslip-copy2.png)
+![](../.gitbook/assets/in-payslip-copy2.png)
 
 Then save the new Payroll Report and process and finalize it.
+
