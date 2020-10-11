@@ -1,5 +1,21 @@
 # Release Notes IceHrmPro
 
+## Release note v27.1.0.PRO
+
+### New features
+
+* UI/UX improvements
+* Custom user role permissions
+* Employee edit form updated
+* Employee daily task list
+* Attendance and employee distribution charts on dashboard
+* Improvements to company structure and company assets module
+
+[Read more about the release here](https://medium.com/icehrm/some-new-compelling-changes-to-icehrm-eba62c40ef9f)
+
+### 🐛  Bug fixes
+* Fix leave carry forward issues, when employee leave periods used in combination with leave rules
+
 ## Release note v27.0.2.PRO
 
 This fixes some major issues found in v27.0.1.PRO
