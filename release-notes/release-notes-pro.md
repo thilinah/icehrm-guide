@@ -5,7 +5,7 @@
 ### 🧲 New features
 
 * Improved tables for displaying data in several modules
-* Faster data loading (specially for employee module)
+* Faster data loading \(specially for employee module\)
 * Initials based profile pictures
 * Re-designed login page
 * Re-designed user profile page
@@ -13,6 +13,7 @@
 * New REST endpoints for employee qualifications 
 
 ### 🐛 Bug fixes
+
 * Fixed, issue with managers being able to create performance reviews for employees who are not their direct reports
 * Fixed, issues related to using full profile image instead of using smaller version of profile image
 * Changing third gender to other
@@ -33,6 +34,7 @@
 [Read more about the release here](https://medium.com/icehrm/some-new-compelling-changes-to-icehrm-eba62c40ef9f)
 
 ### 🐛  Bug fixes
+
 * Fix leave carry forward issues, when employee leave periods used in combination with leave rules
 
 ## Release note v27.0.2.PRO

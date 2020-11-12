@@ -78,6 +78,7 @@
 
 ## Developer Guide
 
+* [Setup Development Environment](developer-guide/setup-development-environment.md)
 * [Create a New Module](developer-guide/create-new-module.md)
 
 ## Release Notes
