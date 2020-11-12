@@ -1,5 +1,19 @@
 # Release Notes IceHrm Open Source
 
+## Release note v28.2.0.OS
+
+###  New features
+
+* 🦠 💉 Custom extensions [https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension](https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension)
+
+## Release note v28.1.1.OS
+
+### 🐛 Bug fixes
+
+* Fixing inability to filter employee documents
+* Fixed the issue with selecting projects when adding timesheets details
+* Fix issues occurred due to incorrectly configured API
+
 ## Release note v28.1.0.OS
 
 ### 🧲 New features
@@ -18,6 +32,7 @@
 * New REST endpoints for employee qualifications 
 
 ### 🐛 Bug fixes
+
 * Fixed, issue with managers being able to create performance reviews for employees who are not their direct reports
 * Fixed, issues related to using full profile image instead of using smaller version of profile image
 * Changing third gender to other

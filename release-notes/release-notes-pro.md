@@ -1,5 +1,17 @@
 # Release Notes IceHrmPro
 
+## Release note v28.2.0.PRO
+
+###  New features
+
+* 🦠 💉 Custom extensions [https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension](https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension)
+
+### 🐛 Bug fixes
+
+* Fixing inability to filter employee documents
+* Fixed the issue with selecting projects when adding timesheets details
+* Fix issues occurred due to incorrectly configured API
+
 ## Release note v28.1.0.PRO
 
 ### 🧲 New features
