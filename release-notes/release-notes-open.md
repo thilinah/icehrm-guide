@@ -24,7 +24,7 @@
 * Attendance and employee distribution charts on dashboard
 * Improvements to company structure module
 * Improved tables for displaying data in several modules
-* Faster data loading (specially for employee module)
+* Faster data loading \(specially for employee module\)
 * Initials based profile pictures
 * Re-designed login page
 * Re-designed user profile page

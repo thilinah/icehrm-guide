@@ -78,7 +78,8 @@
 
 ## Developer Guide
 
-* [Create a New Module](developer-guide/create-new-module.md)
+* [Setup Development Environment](developer-guide/setup-development-environment.md)
+* [Creating First Extension](developer-guide/creating-first-extension.md)
 
 ## Release Notes
 
