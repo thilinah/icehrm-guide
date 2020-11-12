@@ -13,6 +13,10 @@ IceHrm extensions allow developers to extend the features offered by IceHrm with
 * Create the directory `icehrm/extensions` if it doesn't exist
 * Create a directory named `tasks` inside `icehrm/extensions`
 
+{% hint style="info" %}
+Code for this extension is here: [https://github.com/gamonoid/icehrm/tree/feature/custom-extentions-example/extensions/tasks](https://github.com/gamonoid/icehrm/tree/feature/custom-extentions-example/extensions/tasks)
+{% endhint %}
+
 ### Add meta.json file 
 
 ```
