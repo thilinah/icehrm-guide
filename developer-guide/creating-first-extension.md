@@ -19,7 +19,7 @@ Code for this extension is here: [https://github.com/gamonoid/icehrm/tree/featur
 
 ### Add meta.json file 
 
-```
+```text
 icehrm
     |--extnsions
           |--tasks
@@ -28,7 +28,7 @@ icehrm
 
 The meta.json file for this extension should look like:
 
-```text
+```json
 {
     "label": "My Tasks",
     "menu": ["Tasks", "fa-list"],
@@ -67,7 +67,7 @@ icehrm
 
 #### Extension.php
 
-```text
+```php
 <?php
 namespace Tasks;
 
@@ -95,96 +95,6 @@ class Extension extends IceExtension
     }
 }
 
-```
-
-### Add a Simple Migration
-
-This extension will manage tasks. So we might have to make changes to the database. For that we should add a migration. We can use the core migration classes offered by Icehrm.
-
-```text
-icehrm
-    |--extnsions
-          |--tasks
-               |--src
-                  |--Tasks
-                       |--Extension.php
-                       |--Migration.php
-               |--meta.json
-```
-
-#### Migration.php
-
-```text
-<?php
-namespace Tasks;
-
-use Classes\Migration\AbstractMigration;
-
-class Migration extends AbstractMigration
-{
-    public function up()
-    {
-        $sql = <<<'SQL'
-create table `Tasks` (
-	`id` bigint(20) NOT NULL AUTO_INCREMENT,
-	`employee` bigint(20) NULL,
-	`name` varchar(250) NOT NULL,
-	`description` TEXT NULL,
-	`attachment` varchar(100) NULL,
-	`created` DATETIME default NULL,
-	`updated` DATETIME default NULL,
-	primary key  (`id`),
-	CONSTRAINT `Fk_EmployeeTasks_Employees` FOREIGN KEY (`employee`) REFERENCES `Employees` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) engine=innodb default charset=utf8;
-SQL;
-        return $this->executeQuery($sql);
-    }
-
-    public function down()
-    {
-        $sql = <<<'SQL'
-DROP TABLE IF EXISTS `Tasks`; 
-SQL;
-        return $this->executeQuery($sql);
-    }
-}
-```
-
-This migration will create a table named Tasks in IceHrm database. The migration will be executed only on the first time the extension is enabled. If you are making changes to the migration you need to make sure it gets applied manually.
-
-### Execute Migration when Installing the Extension
-
-For this, we should update the Extension.php a bit:
-
-```text
-<?php
-namespace Tasks;
-
-use Classes\IceExtension;
-
-class Extension extends IceExtension
-{
-
-    public function install() {
-        $migration = new Migration();
-        return $migration->up();
-    }
-
-    public function uninstall() {
-        $migration = new Migration();
-        return $migration->down();
-    }
-
-    public function setupModuleClassDefinitions()
-    {
-
-    }
-
-    public function setupRestEndPoints()
-    {
-
-    }
-}
 ```
 
 ### Adding Extension Include File
@@ -200,7 +110,6 @@ icehrm
                |--src
                   |--Tasks
                        |--Extension.php
-                       |--Migration.php
                |--meta.json
                |--tasks.php
 ```
@@ -211,7 +120,6 @@ icehrm
 <?php
 
 require_once __DIR__.'/src/Tasks/Extension.php';
-require_once __DIR__.'/src/Tasks/Migration.php';
 
 ```
 
@@ -228,7 +136,6 @@ icehrm
                |--src
                   |--Tasks
                        |--Extension.php
-                       |--Migration.php
                |--web
                    |--index.php
                |--meta.json
@@ -237,7 +144,7 @@ icehrm
 
 ### web/index.php
 
-```text
+```php
 <?php
 $user = \Classes\BaseService::getInstance()->getCurrentUser();
 echo "Welcome ".$user->username;

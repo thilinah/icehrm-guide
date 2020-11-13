@@ -6,8 +6,6 @@ description: Here you will learn how to setup your development environment for i
 
 ## Clone the IceHrm repo
 
-We recommend using the master branch
-
 ```
 $ git clone https://github.com/gamonoid/icehrm.git
 ```
@@ -43,6 +41,36 @@ $ npm install
 $ cd ..
 $ npm install -g gulp-cli
 $ gulp
+```
+
+## Add Development Configuration 
+
+Create file **icehrm/app/config.php**
+
+```php
+<?php
+$protocol = $_SERVER["REQUEST_SCHEME"] ? : 'http';
+define('CLIENT_NAME', 'icehrm');
+
+// ------- Vagrant ---------
+ini_set('error_log', '/vagrant/app/data/icehrm.log');
+define('APP_BASE_PATH', '/vagrant/core/');
+define('CLIENT_BASE_PATH', '/vagrant/app/');
+define('BASE_URL',$protocol.'://icehrm.os/web/');
+define('CLIENT_BASE_URL',$protocol.'://icehrm.os/app/');
+
+define('APP_DB', 'icehrm');
+define('APP_USERNAME', 'dev');
+define('APP_PASSWORD', 'dev');
+define('APP_HOST', 'localhost');
+define('APP_CON_STR', 'mysqli://'.APP_USERNAME.':'.APP_PASSWORD.'@'.APP_HOST.'/'.APP_DB);
+// ----------------------------
+
+
+
+//file upload
+define('FILE_TYPES', 'jpg,png,jpeg');
+define('MAX_FILE_SIZE_KB', 10 * 1024);
 ```
 
 ## Start Vagrant
