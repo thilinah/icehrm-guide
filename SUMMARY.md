@@ -81,6 +81,7 @@
 * [Setup Development Environment](developer-guide/setup-development-environment.md)
 * [Creating First Extension](developer-guide/creating-first-extension.md)
 * [Adding a DB Migration](developer-guide/adding-a-migration.md)
+* [Adding Entries to DB](developer-guide/accessing-icehrm-db.md)
 
 ## Release Notes
 

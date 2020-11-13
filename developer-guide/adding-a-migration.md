@@ -3,7 +3,7 @@ description: >-
   Here we will show you how to add a database migration
 ---
 
-# Creating First Extension
+# Creating a Migration
 
 ## Introduction
 
