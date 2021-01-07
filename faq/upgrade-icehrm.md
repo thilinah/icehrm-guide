@@ -1,8 +1,7 @@
-# Upgrade IceHrm
+# Upgrade IceHrmPro
 
 {% hint style="warning" %}
-You usually don't need to make any changes in **icehrm/app** directory.
-But, If you are upgrading to **v28.2.0**, please replace **icehrm/app/index.php** also with the same file in new release.
+You usually don't need to make any changes in **icehrm/app** directory. But, If you are upgrading to **v28.2.0**, please replace **icehrm/app/index.php** also with the same file in new release.
 {% endhint %}
 
 ## Upgrade IceHrm Pro

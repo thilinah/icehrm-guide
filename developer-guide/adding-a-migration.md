@@ -1,9 +1,8 @@
 ---
-description: >-
-  Here we will show you how to add a database migration
+description: Here we will show you how to add a database migration
 ---
 
-# Creating a Migration
+# Adding a DB Migration
 
 ## Introduction
 
@@ -38,15 +37,15 @@ class Migration extends AbstractMigration
     {
         $sql = <<<'SQL'
 create table `Tasks` (
-	`id` bigint(20) NOT NULL AUTO_INCREMENT,
-	`employee` bigint(20) NULL,
-	`name` varchar(250) NOT NULL,
-	`description` TEXT NULL,
-	`attachment` varchar(100) NULL,
-	`created` DATETIME default NULL,
-	`updated` DATETIME default NULL,
-	primary key  (`id`),
-	CONSTRAINT `Fk_EmployeeTasks_Employees` FOREIGN KEY (`employee`) REFERENCES `Employees` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+    `id` bigint(20) NOT NULL AUTO_INCREMENT,
+    `employee` bigint(20) NULL,
+    `name` varchar(250) NOT NULL,
+    `description` TEXT NULL,
+    `attachment` varchar(100) NULL,
+    `created` DATETIME default NULL,
+    `updated` DATETIME default NULL,
+    primary key  (`id`),
+    CONSTRAINT `Fk_EmployeeTasks_Employees` FOREIGN KEY (`employee`) REFERENCES `Employees` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) engine=innodb default charset=utf8;
 SQL;
         return $this->executeQuery($sql);
@@ -108,11 +107,10 @@ class Extension extends IceExtension
 
 require_once __DIR__.'/src/Tasks/Extension.php';
 require_once __DIR__.'/src/Tasks/Migration.php';
-
 ```
 
 {% hint style="warning" %}
-Since the extension is already active the migration will not get executed. Because of this we need to remove it from the Modules table manually. 
+Since the extension is already active the migration will not get executed. Because of this we need to remove it from the Modules table manually.
 {% endhint %}
 
 ```sql
@@ -122,3 +120,4 @@ $> DELETE from Modules where name = 'tasks' and mod_group = 'extension';
 {% hint style="success" %}
 Now reload the page and you will be able to see the new Tasks table in your IceHrm database.
 {% endhint %}
+

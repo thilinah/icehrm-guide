@@ -2,7 +2,7 @@
 
 ## Release note v28.2.0.PRO
 
-###  New features
+### New features
 
 * 🦠 💉 Custom extensions [https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension](https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension)
 

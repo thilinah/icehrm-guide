@@ -1,9 +1,8 @@
 ---
-description: >-
-  Manipulating the database
+description: Manipulating the database
 ---
 
-# Adding Entries to IceHrm Database
+# Adding Entries to DB
 
 ## Introduction
 
@@ -26,7 +25,7 @@ icehrm
                |--meta.json
 ```
 
-** Task.php **
+ **Task.php** 
 
 ```php
 <?php
@@ -100,3 +99,4 @@ Please find all the code upto this point here: [https://github.com/gamonoid/iceh
 {% endhint %}
 
 ![](../.gitbook/assets/icehrm-example-task-extension-model.png)
+

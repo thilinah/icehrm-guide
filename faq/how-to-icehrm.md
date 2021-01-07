@@ -37,9 +37,17 @@ You can update your Billing country and VAT ID under Settings -&gt; Company sect
 
 ### How to Upgrade to IceHrm Cloud
 
-When you create a new IceHrm hosted installation you will get to use a trail of IceHrm Cloud. After the 14 day free trail period you will be able to continue using your installation with IceHrm Lite, which has a limited number of features.
+When you create a new IceHrm hosted installation you will get to use a trail of IceHrm Cloud. After the 45 days free trial period, you will be able to continue using your installation with IceHrm Lite, which has a limited number of features.
 
-You can upgrade your installation, via billing module.
+You can upgrade your installation, via the billing module.
 
 ![](../.gitbook/assets/upgrade_to_icehrm_cloud.png)
+
+### **How to make subscription payments**
+
+When you sign up for a free trial, you get 45 days. Then you can upgrade anytime you want as the previous. Once upgraded you will get an email with a link to make a payment. You can view all invoices and transactions under the billing module.
+
+We do not store customer credit card information. So we don't charge the customer automatically. Every month you will have to make the payment by clicking on the payment link we are sending via Email. 
+
+Also, you may make a one-time payment by adding credit to your account. Then each month when a payment is due we can deduct the correct amount from your credit so you don't have to visit the link and make a payment every month.
 

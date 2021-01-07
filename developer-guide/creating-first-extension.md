@@ -17,7 +17,7 @@ IceHrm extensions allow developers to extend the features offered by IceHrm with
 Code for this extension is here: [https://github.com/gamonoid/icehrm/tree/feature/custom-extentions-example/extensions/tasks](https://github.com/gamonoid/icehrm/tree/feature/custom-extentions-example/extensions/tasks)
 {% endhint %}
 
-### Add meta.json file 
+### Add meta.json file
 
 ```text
 icehrm
@@ -28,7 +28,7 @@ icehrm
 
 The meta.json file for this extension should look like:
 
-```json
+```javascript
 {
     "label": "My Tasks",
     "menu": ["Tasks", "fa-list"],
@@ -42,7 +42,6 @@ The meta.json file for this extension should look like:
     "manager": "\\Tasks\\Extension",
     "headless": false
 }
-
 ```
 
 * **menu**: the name of the main menu and the icon for the main menu
@@ -77,24 +76,23 @@ class Extension extends IceExtension
 {
 
     public function install() {
-        
+
     }
 
     public function uninstall() {
-        
+
     }
 
     public function setupModuleClassDefinitions()
     {
-    
+
     }
 
     public function setupRestEndPoints()
     {
-    
+
     }
 }
-
 ```
 
 ### Adding Extension Include File
@@ -120,7 +118,6 @@ icehrm
 <?php
 
 require_once __DIR__.'/src/Tasks/Extension.php';
-
 ```
 
 ### Adding the View file
@@ -148,7 +145,6 @@ icehrm
 <?php
 $user = \Classes\BaseService::getInstance()->getCurrentUser();
 echo "Welcome ".$user->username;
-
 ```
 
 Here we use a core class from Icehrm to get the currently logged in user

@@ -6,7 +6,7 @@ description: Here you will learn how to setup your development environment for i
 
 ## Clone the IceHrm repo
 
-```
+```text
 $ git clone https://github.com/gamonoid/icehrm.git
 ```
 
@@ -43,7 +43,7 @@ $ npm install -g gulp-cli
 $ gulp
 ```
 
-## Add Development Configuration 
+## Add Development Configuration
 
 Create file **icehrm/app/config.php**
 
@@ -81,5 +81,5 @@ The pre-built IceHrm vagrant box contains php 7.3 / nginx and MySQL 5.7 installe
 $ vagrant up
 ```
 
-Then navigate to [http://icehrm.os](http://icehrm.os) and login with credentails, admin / admin 
+Then navigate to [http://icehrm.os](http://icehrm.os) and login with credentails, admin / admin
 
