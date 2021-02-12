@@ -42,7 +42,8 @@
 
 ## Payroll
 
-* [Payroll Management](payroll/payroll-management.md)
+* [Payroll Management](payroll/payroll-management/README.md)
+  * [Untitled](payroll/payroll-management/untitled.md)
 * [Import - Export Payrolls](payroll/import-export-payrolls.md)
 * [Building Payroll For India](payroll/sample-payroll.md)
 
