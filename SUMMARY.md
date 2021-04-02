@@ -68,6 +68,7 @@
 ## Mobile Application
 
 * [Attendance Tracking](mobile-application/mobile-attendance-tracking.md)
+* [My Leave](mobile-application/my-leave.md)
 
 ## FAQ
 

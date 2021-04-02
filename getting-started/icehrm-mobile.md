@@ -8,7 +8,7 @@ You can download IceHrm mobile app on App Store and Google Play. Currently the a
 
  [![](https://s3.amazonaws.com/icehrm-public/images/playstore-icon.png)](https://play.google.com/store/apps/details?id=com.icehrm.mobile)
 
-## How to log into the IceHrm App? 
+## How to log into the IceHrm Mobile App? 
 
 In order to log in to IceHrm App, you need to have an IceHrm account. 
 
@@ -22,7 +22,7 @@ In order to log in to IceHrm App, you need to have an IceHrm account.
 
 ![](../.gitbook/assets/image%20%2817%29.png)
 
-In order to login to the app you need an IceHrm account. It's supported on all Cloud installations. And IceHrmPro and open source installations from v26.2
+In order to login to the app, you need an IceHrm account. It's supported on all Cloud installations. And IceHrmPro and open-source installations from v26.2
 
 * First download and open IceHrm Mobile App
 * Login to IceHrm Web with your browser

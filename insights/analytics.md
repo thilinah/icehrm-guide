@@ -8,9 +8,9 @@ Here you can check attendance time recorded every day for all the employees or a
 
 ![Attendance Graph](https://icehrm.s3.amazonaws.com/images/blog-images/attendance_graph.png)
 
-## Attendance vs Time sheets Graph
+## Attendance vs Timesheets Graph
 
-In this chart admins/mangers can see how much of a percentage of attendance time goes into time sheets for each employee.
+In this chart, admins/mangers can see how much of a percentage of attendance time goes into timesheets for each employee.
 
 ![Attendance vs Time sheet Graph](https://icehrm.s3.amazonaws.com/images/blog-images/hours_in_office_vs_timesheets.png)
 

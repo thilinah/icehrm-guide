@@ -23,19 +23,19 @@ The IceHrm recruitment module is a set of tools designed to manage the recruitme
 
 **Recruitment Set up** — This is helpful for you to prepare the job advertisement. Under this category, you can edit the employment types, edit experience levels, edit job functions and edit educational levels based on your requirements. Job 
 
-**Job Postings** — This is the module which you can use to create a job advertisement and publish it on social media 
+**Job Postings** — This is the module that you can use to create a job advertisement and publish it on social media 
 
 **Candidates** — Under this, you can store the details of the candidates who have applied for each job advertisements
 
 ### Recruitment Setup
 
-Using recruitment setup you can add/edit Employment Types, Experience levels, Job Functions, Education Levels and Benefits. All these information will be used when posting a job.
+Using recruitment setup you can add/edit Employment Types, Experience levels, Job Functions, Education Levels and Benefits. All this information will be used when posting a job.
 
 **How to add a new employment type?** 
 
 1. Log in to the Admin account 
 2. Under the recruitment module, Click on Recruitment set up 
-3. Go to the Edit Employment Types tab and click on to the Add New Icon
+3. Go to the Edit Employment Types tab and click on the Add New Icon
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
@@ -62,7 +62,7 @@ As of the above, you can add a new job function. In the IceHrm Recruitment set u
 
 **How to create and post a new job position?**
 
-Under the recruitment module, go to the **Job Positions** and click on to **Add New**. Below are the main fields used to create a job posting. Following table will list out main fields used to create job postings
+Under the recruitment module, go to the **Job Positions** and click on **Add New**. Below are the main fields used to create a job posting. The following table will list out main fields used to create job postings
 
 | Fields | Description |
 | :--- | :--- |
@@ -106,11 +106,11 @@ Once you created a job position according to the above steps, you will be able t
 
 ### Sharing your job position on social media and using direct links
 
-You can share created job positions on Google+, Facebook, Twitter and LinkedIn directly from IceHrm using social links on job positions module. Also you can get a direct link to the job position which you can send via email or any other media by clicking on "Job Link" icon.
+You can share created job positions on Google+, Facebook, Twitter and LinkedIn directly from IceHrm using social links on the job positions module. Also, you can get a direct link to the job position which you can send via email or any other media by clicking on the "Job Link" icon.
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 
-You can open up the link and view your job post prior to share it on social media. Then a candidate can apply for this job and the candidate details will be available under candidate listing**.**
+You can open up the link and view your job post prior to share it on social media. Then a candidate can apply for this job and the candidate details will be available under the candidate listing**.**
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
@@ -144,7 +144,7 @@ There are two ways that the candidates get added to IceHrm.
 1. When they apply via Job Post 
 2. Manually added by an admin 
 
-For added a candidate manually, go to the Candidate module under the Recruitment module and click on to Add New. Then fill the required fields. The advantages of this session are you can attach the candidate's CV and record the basic details of the candidate as below example.
+For added a candidate manually, go to the Candidate module under the Recruitment module and click on Add New. Then fill in the required fields. The advantages of this session are you can attach the candidate's CV and record the basic details of the candidate as below example.
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -156,7 +156,7 @@ Once you fill the required fields, you can view the candidate details as below.
 
 ![Candidate Details](https://icehrm.s3.amazonaws.com/images/blog-images/candidates.png)
 
-Here you can schedule interviews and add notes related to the candidate. Notes could be a details about a telephone conversation or candidates expectations.
+Here you can schedule interviews and add notes related to the candidate. Notes could be details about a telephone conversation or candidates expectations.
 
 ### How to book an interview with a candidate? 
 
@@ -172,5 +172,5 @@ Fill the fields as per your requirement and then Save.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-When the interview is scheduled the hiring manager and the interviewers will be notified via an email. The hiring manager is responsible for contacting the candidate and arranging the interview. But we are planing to automate this part of the recruitment also in next release.
+When the interview is scheduled the hiring manager and the interviewers will be notified via email. The hiring manager is responsible for contacting the candidate and arranging the interview. But we are planning to automate this part of the recruitment also in the next release.
 
