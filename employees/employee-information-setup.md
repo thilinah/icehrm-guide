@@ -16,6 +16,28 @@ Also it provides a graphical overview of how each of your company units are conn
 
 ![Company Structure](https://icehrm.s3.amazonaws.com/images/blog-images/Company_stucture.png)
 
+#### How to configure a manager as the head of the company structure and enable to view all employees
+
+Let's take an example of a scenario to explain this situation. 
+
+You have 2 offices in two countries.   
+1 Office In UK - Secondary  
+1 Office in USA -  Main
+
+You need to configure that your USA HR manager to manage all employees and the UK HR manager can only view the UK  employees. To do this:
+
+1. Go to the **Company Structure** under the **Admin module**
+2. Then select the department you want to make changes
+3.  Set a _head_ \(or a manager\) for a department, as shown in the below screenshot
+
+![](../.gitbook/assets/screenshot-2021-02-12-at-14.58.48.png)
+
+4. Then go to the System -&gt; Settings and change the below settings to 1.
+
+![](../.gitbook/assets/screenshot-2021-02-12-at-15.00.02.png)
+
+By Selecting your employee as head of a particular department, that employee will be able to view all employees under that department. You can appoint your USA HR manager to the Head office so the USA manager can see all employees. Then you can select the UK manager as the head of the UK office, so that manager will be able to see only the employees under the UK branch. 
+
 #### Difference Between Users and Employees
 
 A user is a person who can login to icehrm. It’s not required for admin users to have an employee attached but each non admin user must have an associated employee. Having an employee added in icehrm won’t allow the person to login to icehrm. You need to create a user with a Manager or Employee user level for that employee to be able to login to the system.
