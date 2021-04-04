@@ -64,6 +64,7 @@
 
 * [Rest Api](api-and-single-sign-on/rest-api.md)
 * [Using LDAP](api-and-single-sign-on/using-ldap.md)
+* [Sign-In with SAML \(Okta\)](api-and-single-sign-on/sign-in-with-saml-okta.md)
 
 ## Mobile Application
 
