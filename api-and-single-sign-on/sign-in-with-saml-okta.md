@@ -1,5 +1,9 @@
 # Sign-In with SAML \(Okta\)
 
+{% hint style="warning" %}
+IceHrm SAML integration only works with IceHrmPro and IceHrm Open Source. This integration will not work with IceHrm Cloud installtions
+{% endhint %}
+
 ## Creating a Test SAML Application in Okta
 
 Since you are trying to integrate IceHrm with Okta SAML you should already have a SAML Application created with Okta. But if you don't have an application here is a guide to create your SAML Application: [https://developer.okta.com/docs/guides/build-sso-integration/saml2/create-your-app/](https://developer.okta.com/docs/guides/build-sso-integration/saml2/create-your-app/)
