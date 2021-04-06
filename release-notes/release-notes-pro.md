@@ -1,5 +1,29 @@
 # Release Notes IceHrmPro
 
+## Release note v29.0.0.PRO
+
+### 🧲 New features
+
+* Much better UI for recruitment setup and job positions module.
+* SAML support [https://icehrm.gitbook.io/icehrm/api-and-single-sign-on/sign-in-with-saml-okta](https://icehrm.gitbook.io/icehrm/api-and-single-sign-on/sign-in-with-saml-okta)
+* UI improvements on leave settings module.
+* Ability to control who can see employee documents
+* New custom field module. With this module users can manage all the custom fields via a single module.
+* Adding custom field support for company structure.
+* UI improvements for client module.
+* UI improvements for both admin and employee expense modules.
+* Introducing encrypted settings.
+* Adding additional fields such as total time to employee time tracking report.
+* Improvements to icehrm custom extension development [https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension](https://icehrm.gitbook.io/icehrm/developer-guide/creating-first-extension)
+
+### 🛡️ Security improvements
+
+* More restrictive criteria for user passwords.
+* Removing support for legacy API tokens. (if you are using the mobile app your users will need to re authorize)
+* Removing unused custom field values.
+
+### 🐛 Bug fixes
+* Only relevant settings are displayed, under the `Other` tab on settings module
 ## Release note v28.2.0.PRO
 
 ### New features

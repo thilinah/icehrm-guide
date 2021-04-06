@@ -37,11 +37,12 @@
 
 ## Training and Reviews
 
-* [Document Management](training-and-reviews/document-management.md)
 * [Training Module](training-and-reviews/training.md)
+* [Performance Reviews](training-and-reviews/performance-reviews.md)
 
 ## Payroll
 
+* [Salary](payroll/salary.md)
 * [Payroll Management](payroll/payroll-management.md)
 * [Import - Export Payrolls](payroll/import-export-payrolls.md)
 * [Building Payroll For India](payroll/sample-payroll.md)
@@ -59,6 +60,7 @@
 
 * [Company Assets](other-modules/company-assets.md)
 * [Reporting](other-modules/reporting.md)
+* [Data Import](other-modules/importing-data.md)
 
 ## Api and Single Sign-on
 
