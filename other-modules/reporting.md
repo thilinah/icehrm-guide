@@ -4,7 +4,7 @@
 
 _**\(Admin Reports -&gt; Reports\)**_
 
-IceHrm saves all the generated reports under report files section for future references. Admins are entitled to generate following reports.
+IceHrm saves all the generated reports under, report files section for future references. Admins are entitled to generate the following reports.
 
 ![](../.gitbook/assets/admin_reports.png)
 

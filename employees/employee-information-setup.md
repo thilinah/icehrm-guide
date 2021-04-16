@@ -2,9 +2,9 @@
 
 ## Employee Management
 
-Employees module is used to list, edit, add and search employees in your company. You can use the search box to search employees by ID, name or department. Also you can use filter button to filter employees by job title, department or supervisor.
+Employees module is used to list, edit, add and search employees in your company. You can use the search box to search employees by ID, name or department. Also, you can use the filter button to filter employees by job title, department or supervisor.
 
-Each employee is attached to a company structure. A company structure can be a Group, Company, Branch or a Department. Before adding employees you should first define your company structures
+Each employee is attached to a company structure. A company structure can be a Group, Company, Branch or Department. Before adding employees you should first define your company structures
 
 ### Company structure
 

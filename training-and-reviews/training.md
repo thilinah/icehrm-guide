@@ -20,7 +20,7 @@ In training module we have courses, training sessions and training subscription 
 | `Trainer` |  Name of the person who conduct the course |
 | `Payment Type` |  Whether the course is sponsored by the company or paid by the employee |
 
-### Most of the other fields are self descriptive
+### Most of the other fields are self-descriptive
 
 ## Adding a new Training Session
 
@@ -49,11 +49,11 @@ Employees can only subscribe to training sessions having Attendance Type set to 
 
 ## Completing a Training Session
 
-Once an employee participated in a training session he/she can mark the training as completed via `Training=>Training=>My Training Sessions` tab. Once this is done a notification will be sent to the supervisor to approve the training session.
+Once an employee participated in a training session he/she can mark the training as completed via`Training=>Training=>My Training Sessions`tab. Once this is done a notification will be sent to the supervisor to approve the training session.
 
 ### Proof of Completion
 
-If the training session requires a proof of completion, employee has to edit the training session under "My Training Sessions" tab and attach a proof of completion before submitting it for approval
+If the training session requires proof of completion, an employee has to edit the training session under "My Training Sessions" tab and attach a proof of completion before submitting it for approval
 
 ## Approving a Training Session
 

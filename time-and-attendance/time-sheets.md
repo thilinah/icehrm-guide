@@ -1,8 +1,8 @@
 # Timesheets
 
-Timesheet is a document which indicates the hours an employee has worked, separated by days of the week.
+Timesheet is a document that indicates the hours an employee has worked, separated by days of the week.
 
-In IceHrm employees can edit timesheets under `Time Management => Time Sheets`. The current week time sheet is automatically created and time sheets for past weeks can be created by clicking “Create Previous Timesheet” action button on a time sheet.
+In IceHrm employees can edit timesheets under `Time Management => Time Sheets`. The current week timesheet is automatically created and timesheets for past weeks can be created by clicking the “Create Previous Timesheet” action button on a timesheet.
 
 ## Projects and Clients
 
@@ -18,7 +18,7 @@ Employees can edit timesheets via `Time Management => Time Sheets => All My Time
 
 ![](../.gitbook/assets/all-time-sheets.png)
 
-By clicking edit timesheet button you can start adding time entries to the timesheet. Time entries are associated with projects. On each timesheet, you can add time for each project for each day of the week.
+By clicking the edit timesheet button you can start adding time entries to the timesheet. Time entries are associated with projects. On each timesheet, you can add time for each project for each day of the week.
 
 ![](../.gitbook/assets/edit-timesheeet.png)
 
@@ -26,7 +26,7 @@ Here you can add your time. \(make sure to add time in hours as decimals. e.g: f
 
 ![](../.gitbook/assets/timesheet-updated.png)
 
-Make sure to click save button to save your changes to the timesheet. Total time in timesheet list also updated according to your changes.
+Make sure to click the save button to save your changes to the timesheet. Total time in the timesheet list also updated according to your changes.
 
 ### Project List on Timesheet
 
@@ -55,7 +55,7 @@ Supervisor of the employee can view the timesheet under `Time Management => Time
 
 ## Detailed Timesheets
 
-In IceHrm there is an alternative way to add timesheets. This is useful if you want to add additional details like task the employee was working on with exact start and end time to the timesheet.
+In IceHrm there is an alternative way to add timesheets. This is useful if you want to add additional details like the task the employee was working on with the exact start and end time to the timesheet.
 
 In order to activate this feature set the setting `"System: Time-sheet Entry Start and End time Required"` to "Yes" under `System => Settings => System` tab.
 

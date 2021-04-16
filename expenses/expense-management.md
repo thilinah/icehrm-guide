@@ -26,7 +26,7 @@ Fill the necessary fields
 
 > **In addition to this, you can request your employees to attach proofs here. For example, they can attach a receipt of the expense.**
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2882%29.png)
 
 ### How to add an expense category?
 
@@ -38,7 +38,7 @@ Follow the below steps;
 2. In [IceHrm](https://icehrm.com/) we have already defined some expense categories which are in the use of the Industry. If you want to add anything else, you can click on the **Add New** option under the **Expense Categories** tab
 3. Then Add a meaning full **Name** to the expense and **Save**
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 ## Approval Process
 
@@ -62,7 +62,7 @@ You can define 1st, 2nd and 3rd level approvers for employees \(while editing an
 
  Once an employee requests an expense, the manager will receive a notification to the top right corner:
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 > **You can click on the notification to proceed. If not,**
 
@@ -72,15 +72,15 @@ You can define 1st, 2nd and 3rd level approvers for employees \(while editing an
 4. Click on the blue color **Change Status** option to proceed
 5.  Change the status to **Approved** and then click on the **Change Expense Status** option
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ### Pre-Approving Expenses
 
 If the Setting `Expense: Pre-Approve Expenses` is set to Yes \(change the value to 1\), all new expenses will be approved automatically
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 ## Reporting
 

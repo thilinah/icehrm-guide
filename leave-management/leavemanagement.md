@@ -8,17 +8,17 @@ including:
 
 * Leave periods
 * Leave types
-* Work week
+* Workweek
 * Holidays
 * Leave rules
 
 #### Leave Periods
 
-A leave period usually a year but can be different according to company HR processes. Leave periods can’t overlap, which means if an employee applied for annual leaves in leave period for “Year 2014”, his leave balance in leave period “Year 2015” won’t get affected. This is same for all types of leaves. Also if the leave period for year 2015 is not defined, employees won’t be able to apply leaves for 2015.
+A leave period usually a year but can be different according to company HR processes. Leave periods can’t overlap, which means if an employee applied for annual leaves in the leave period for “Year 2014”, his leave balance in the leave period “Year 2015” won’t get affected. This is the same for all types of leaves. Also if the leave period for the year 2015 is not defined, employees won’t be able to apply leaves for 2015.
 
 #### Leave Types
 
-Leave type tab defines types of leaves which can be applied by employees.
+Leave type tab defines types of leaves that can be applied by employees.
 
 ![IceHrm Leave Types](https://icehrm.s3.amazonaws.com/images/blog-images/leave-types.png)
 
