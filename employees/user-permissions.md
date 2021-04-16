@@ -6,7 +6,7 @@ description: >-
 
 # User permissions
 
-With updated user permission module IceHrm now supports following user levels
+With the updated user permission module IceHrm now supports the following user levels:
 
 1. Admin
 2. Manager
@@ -17,7 +17,7 @@ With updated user permission module IceHrm now supports following user levels
 
 Admin user level has all the access to the IceHrm account, while the manager has limited access to administration functionalities. 
 
-For example, under the leave module, a manager can see their subordinates leave days, can approve leaves, grant leaves. But as an admin you can see leave requests from all the employees and act on these requests.
+For example, under the leave module, a manager can see their subordinates leave days, can approve leaves, grant leaves. But as an admin, you can see leave requests from all the employees and act on these requests.
 
 An employee has all the to use the platform as an employee. 
 

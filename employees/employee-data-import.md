@@ -81,7 +81,7 @@ As explained in the above, first we need to create columns for the Approvers.
 
 ![](../.gitbook/assets/image%20%2818%29%20%282%29.png)
 
-2.  Click on the Add button to create columns. First column should be employee\_id. 
+2.  Click on the Add button to create columns. First, column should be employee\_id. 
 
 3. Name the column ID as employee\_id. Data Type should be normal for the Employee ID. Note that the value "is Key field" is False and the  "is ID field" is true
 
@@ -89,7 +89,7 @@ As explained in the above, first we need to create columns for the Approvers.
 
 4. Then create columns for the Approvers. Click on the Add button to create more columns. Name the Column ID as "approver1".
 
-5. Then select the Type as Reference. As the depends on select Employee and you need to type the name of the depends on field. In this example it will be employee\_id. Note that the value "Is Key Field" is true and the  "is ID field" is False
+5. Then select the Type as Reference. As the depends on select Employee and you need to type the name of the depends on field. In this example, it will be employee\_id. Note that the value "Is Key Field" is true and the  "is ID field" is False
 
 ![](../.gitbook/assets/image%20%2841%29.png)
 
@@ -97,7 +97,7 @@ As explained in the above, first we need to create columns for the Approvers.
 
 ![](../.gitbook/assets/image%20%2829%29%20%281%29.png)
 
-7. Then go to the Data Import Files tab. Click on New to create a new Data Import File. Name the File accordingly and Select Employee Data Import option for the Data Import Definitions. Then upload the CSV file and click on Save.
+7. Then go to the Data Import Files tab. Click on New to create a new Data Import File. Name the File accordingly and Select the Employee Data Import option for the Data Import Definitions. Then upload the CSV file and click on Save.
 
 ![](../.gitbook/assets/image%20%2836%29.png)
 

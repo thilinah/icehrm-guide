@@ -31,7 +31,7 @@ The IceHrm recruitment module is a set of tools designed to manage the recruitme
 
 Using recruitment setup you can add/edit Employment Types, Experience levels, Job Functions, Education Levels and Benefits. All this information will be used when posting a job.
 
-**How to add a new employment type?** 
+### **How to add a new employment type?** 
 
 1. Log in to the Admin account 
 2. Under the recruitment module, Click on Recruitment set up 
