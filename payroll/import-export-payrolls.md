@@ -23,5 +23,5 @@ IceHrm team has already created few sample payrolls which you can import and use
 * Save
 * From the list client on "Process" button
 
-  ![](../.gitbook/assets/screen-shot-2017-12-04-at-8.51.40-am.png)
+  ![](../.gitbook/assets/Screen%20Shot%202017-12-04%20at%208.51.40%20AM.png)
 

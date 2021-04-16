@@ -48,7 +48,7 @@ First you should enable REST api via Settings -&gt; Other -&gt; Enable REST Api 
 
 IceHrm uses OAuth 2.0 bearer authentication. So you have to send the bearer token with every request. Each icehrm user can find their auth token by opening Basic Information -&gt; Personal Information -&gt; Api Access \(tab\).
 
-![](../.gitbook/assets/screen-shot-2018-03-15-at-1.07.05-am.png)
+![](../.gitbook/assets/Screen%20Shot%202018-03-15%20at%201.07.05%20AM.png)
 
 ### Making First Api call - Cloud
 

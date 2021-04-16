@@ -37,7 +37,7 @@ Using recruitment setup you can add/edit Employment Types, Experience levels, Jo
 2. Under the recruitment module, Click on Recruitment set up 
 3. Go to the Edit Employment Types tab and click on the Add New Icon
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2834%29%20%281%29.png)
 
 4. Then provide a **name** and **Save**
 
@@ -108,7 +108,7 @@ Once you created a job position according to the above steps, you will be able t
 
 You can share created job positions on Google+, Facebook, Twitter and LinkedIn directly from IceHrm using social links on the job positions module. Also, you can get a direct link to the job position which you can send via email or any other media by clicking on the "Job Link" icon.
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2813%29%20%282%29.png)
 
 You can open up the link and view your job post prior to share it on social media. Then a candidate can apply for this job and the candidate details will be available under the candidate listing**.**
 
@@ -152,7 +152,7 @@ For added a candidate manually, go to the Candidate module under the Recruitment
 
 Once you fill the required fields, you can view the candidate details as below.
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2828%29%20%281%29.png)
 
 ![Candidate Details](https://icehrm.s3.amazonaws.com/images/blog-images/candidates.png)
 

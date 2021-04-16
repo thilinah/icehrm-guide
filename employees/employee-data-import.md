@@ -79,7 +79,7 @@ As explained in the above, first we need to create columns for the Approvers.
 
 1.  To do that, go to the Data under System. Then click on the Add New option under the Data Importers. Name the Date Importer with a meaningful name. Then Select Employee Data as the Data Type.
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2818%29%20%282%29.png)
 
 2.  Click on the Add button to create columns. First column should be employee\_id. 
 
@@ -95,7 +95,7 @@ As explained in the above, first we need to create columns for the Approvers.
 
 6. Repeat the same steps for other levels of approvers as well. And click on the Save button to save the changes. 
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2829%29%20%281%29.png)
 
 7. Then go to the Data Import Files tab. Click on New to create a new Data Import File. Name the File accordingly and Select Employee Data Import option for the Data Import Definitions. Then upload the CSV file and click on Save.
 

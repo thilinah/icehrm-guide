@@ -16,12 +16,12 @@
 ### 🛡️ Security improvements
 
 * More restrictive criteria for user passwords.
-* Removing support for legacy API tokens. (if you are using the mobile app your users will need to re authorize)
+* Removing support for legacy API tokens. \(if you are using the mobile app your users will need to re authorize\)
 * Removing unused custom field values.
 
 ### 🐛 Bug fixes
-* Only relevant settings are displayed, under the `Other` tab on settings module
 
+* Only relevant settings are displayed, under the `Other` tab on settings module
 
 ## Release note v28.2.0.OS
 
