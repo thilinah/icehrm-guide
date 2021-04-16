@@ -18,6 +18,7 @@ The mobile version of the attendance tracking system is convenient, easy to acce
 2. Go to the System Module 
 3. Click on the Setting option 
 4. Then go to the Attendance tab, you will be able to find Attendance: Request Attendance Location on Mobile and enable it to Yes
+5. Update **System: Google Maps Api Key** , Under System-&gt;Settings-&gt;System tab \(instruction for obtaining a key [https://developers.google.com/maps/documentation/javascript/get-api-key](https://developers.google.com/maps/documentation/javascript/get-api-key)\)
 
 
 
