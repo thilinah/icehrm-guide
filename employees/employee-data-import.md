@@ -34,64 +34,76 @@ You can import data into icehrm using CSV files. By default, we support importin
 
 You can create data importers for importing custom fields or any other additional fields into employees.
 
-## Creating a Data Importer for Updating Supervisors
+## Creating a Data Importer for Updating Supervisors and Contract End Date 
 
 Here is an example of creating a Data Importer for updating supervisors and some custom fields
 
-1. Login as Admin and Navigate to System -&gt; Data Importers
+1. Login as Admin and Navigate to `System -> Data -> Data Importers`
 2. Create a new Data Importer named "Supervisor and Custom Field Importer" and Data Type should be "EmployeeDataImporter"
 
-   ![data\_import\_create\_custom\_importer](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_create_custom_importer.png)
+![](../.gitbook/assets/ix.png)
 
 3. Each importer should have one ID column. For employees, the id column should be employee\_id. Here is how you can add this unique id column.
-4. Edit the newly created data importer and add a new column named employee\_id. Note that the value "is ID field" is true
 
-   ![Process data import file](../.gitbook/assets/capture.PNG)
+4. Edit the newly created data importer and add a new column named employee\_id. 
 
-5. Then add the column for Supervisor. We call this type of a column a reference type column because it depends on another row in a different or same entity
+The **Type** of the column should be **Reference**. We call this type of column a reference type column because it depends on another row in a different or same entity. When you select the Type as Reference, select the ideal options for Depends On and Depends On Field as the below screenshot.
 
-   ![Process data import file](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_supervisor_column.png)
+Note that the value "is ID field" is Yes.
 
-6. Note that we have set "is key field" to true.
-7. Then you can add a sample custom field to the employees \(via System -&gt; Field Names Setup -&gt; Employee Custom Fields\).
-8. For now, we will add a custom field named Contract End Date
+**Sample Value** should be a value shown in the sample download. For this column, you can set the sample value as EMP050.
 
-   ![Add custom field](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_add_custom_field.png)
+Under the **Help Text** enter a small description about the column.
 
-9. Now you can add a column to the existing data importer for importing data for "Contract End Date"
+![](../.gitbook/assets/i2.png)
 
-   ![Process data import file](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_add_contract_end_date.png)
+5. Then add the column for Supervisor. This column is also a Reference column.
 
-10. Now you can create the CSV file for importing supervisor and contract end date for employees. In the CSV file, there should be three columns defined for Employee Id, Supervisor and Contract End Date. The supervisor field should hold the employee\_id of the
+![](../.gitbook/assets/i3.png)
 
-    supervisor.
+Note that we have set "Is Id Field" as No.
 
-11. Download the file already created CSV file for this step from [here](https://s3.amazonaws.com/icehrm/images/blog-files/employee_supervisors.csv)
-12. Crate a "Data Import File" for uploading the new file
+Click on the Save button once you add all the columns you require.
 
-    ![Add custom field](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_employee_supervisors_file.png)
+### How to create a custom field for Contract End Date
 
-13. Process the file
+Navigate to `Admin -> Custom Fields -> Add New`
+
+Add a custom field name as Contract End Date
+
+![](../.gitbook/assets/iz.png)
+
+Now you can add a column to the existing Employee Data Importer for importing data for "Contract End Date"
+
+![](../.gitbook/assets/it.png)
+
+6. Now you can create the CSV file to import the superviors and contract end date for employees. In the CSV file, there should be three columns defined for Employee Id, Supervisors and Contract End Date. The supervisor field should hold the employee\_id of the supervisor.
+
+Download the file already created CSV file for this step from [here](https://s3.amazonaws.com/icehrm/images/blog-files/employee_supervisors.csv)
+
+7. Then go to the Data Import Files tab. Click on New to upload a new Data Import File. **Name** the File and select the **Employee Data Import** option for the **Data Import Definitions**. Then upload the CSV file and click on Save.
+
+![Add custom field](https://s3.amazonaws.com/icehrm/images/blog-images/data_import_employee_supervisors_file.png)
+
+
+
+9. Then process the file
 
 ## **Creating a Data Importer for Updating Approvers**
 
-As explained in the above, first we need to create columns for the Approvers. 
+As explained above, first we need to create columns for the Approvers. 
 
-1.  To do that, go to the Data under System. Then click on the Add New option under the Data Importers. Name the Date Importer with a meaningful name. Then Select Employee Data as the Data Type.
+1. To do this, Navigate to System -&gt; Data -&gt; Data Importers. Then click on the Add New option under the Data Importers. Name the Date Importer and then Select Employee Data as the Data Type.
 
-![](../.gitbook/assets/image%20%2818%29%20%282%29.png)
+![](../.gitbook/assets/i4.png)
 
-2.  Click on the Add button to create columns. First, column should be employee\_id. 
+2.  Click on the Add button to create columns. The first column should be employee\_id. 
 
-3. Name the column ID as employee\_id. Data Type should be normal for the Employee ID. Note that the value "is Key field" is False and the  "is ID field" is true
+![](../.gitbook/assets/i5.png)
 
-![Process data import file](../.gitbook/assets/capture.PNG)
+3. Then create columns for the Approvers. Click on the Add button to create more columns. Name the Column ID as "approver1".
 
-4. Then create columns for the Approvers. Click on the Add button to create more columns. Name the Column ID as "approver1".
-
-5. Then select the Type as Reference. As the depends on select Employee and you need to type the name of the depends on field. In this example, it will be employee\_id. Note that the value "Is Key Field" is true and the  "is ID field" is False
-
-![](../.gitbook/assets/image%20%2841%29.png)
+4. Then select the Type as Reference. Select Employee as the Depends On and employee\_id as the Depends on Field. Set the Value as No to "Is Id Field".
 
 6. Repeat the same steps for other levels of approvers as well. And click on the Save button to save the changes. 
 
@@ -99,11 +111,60 @@ As explained in the above, first we need to create columns for the Approvers.
 
 7. Then go to the Data Import Files tab. Click on New to create a new Data Import File. Name the File accordingly and Select the Employee Data Import option for the Data Import Definitions. Then upload the CSV file and click on Save.
 
-![](../.gitbook/assets/image%20%2836%29.png)
-
-8. Sample CSV file for this example is here. 
-
 9. Then click on the Process button. 
 
 ![](../.gitbook/assets/image%20%2826%29.png)
+
+## Creating a User Data Importer
+
+Using [IceHrm](https://icehrm.com) latest features now you can automate the process of creating users. You can do this by creating a data importer.
+
+Login as Admin and Navigate to **System -&gt; Data Importers**
+
+Create a new Data Importer named "**User Data Importer**" and Data Type should be "**UserDataImporter**"
+
+![](../.gitbook/assets/image1%20%281%29.png)
+
+_Each importer should have one ID column._ For this one ID column should be UserName. Here is how you can add this unique id column.
+
+Click on the **Add** button in front of the **Columns** option. You need to add a column to each of these fields in order to create a user account.
+
+1. User Name
+2. Email
+3. User Level
+4. Employee
+
+Let's start with the first column, **User Name**.
+
+![](../.gitbook/assets/image2.png)
+
+Note that the value "**is ID field**" is **Yes**. **Sample Value** should be a value shown in the sample download. For this column, you can set the sample value as user1.
+
+Under the **Help Text** enter a small description about the column.
+
+The second Column is the **Email** column.
+
+![](../.gitbook/assets/image3.png)
+
+Note that the value "**is ID field**" is **No**. **Sample Value** can be an example email address.
+
+The third column is the **User Level** column.
+
+![](../.gitbook/assets/image4.png)
+
+Note that the value "**is ID field**" is **No**. **Sample Value** can be one of the User Levels.
+
+The fourth column is the name of the **Employee**.
+
+![](../.gitbook/assets/image5.png)
+
+Note the **Type** of the column should be **Reference**.
+
+Then Select **Employee** to the **Depends On** option and **employee\_id** as the **Depends on Field**.
+
+_**When you create your csv file, under the employee column, you need to enter the employee\_id data so the IceHrm find the matching employee and update the user.**_
+
+Now you can create the CSV file to import User Data. In the CSV file, there should be four columns defined for **username, email, user\_level and employee**. As mentioned above the employee column should hold the employee\_id of each employee.
+
+Download the sample file already created for this step from [here](https://docs.google.com/spreadsheets/d/1BxGYzw5PybD4PmEvlEqo_paC0Hqxzr64hhJBj3qztYg/edit?usp=sharing). Download it as a csv file when you import it to IceHrm.
 
