@@ -55,7 +55,7 @@ So now we can start adding payroll columns. It's a good idea to prefix your payr
 
 Now you can go to the tab "Payroll Columns" and click on "Add".
 
-![](../.gitbook/assets/payroll-basic-salary-column.png)![](https://github.com/thilinah/icehrm-guide/tree/b698624ec65e91423411c0e2aadd8c2323b351d9/assets/Screen%20Shot%202017-09-08%20at%208.09.13%20AM.png)
+![](../.gitbook/assets/payroll-basic-salary-column.png)
 
 As this column only depends on the Basic Salary component you can just select that salary component from the list. \(Note that in some cases you can add multiple salary components to same column\).
 
@@ -65,11 +65,15 @@ The **column order should be 1** because it should be the first column in your p
 
 ### Adding Payroll Column for Car Allowance
 
-![](https://github.com/thilinah/icehrm-guide/tree/b698624ec65e91423411c0e2aadd8c2323b351d9/assets/Screen%20Shot%202017-09-08%20at%208.25.06%20AM.png)![](../.gitbook/assets/payroll-car-allowance-germany.png)
+![](../.gitbook/assets/payroll-car-allowance-germany.png)
 
 ### Adding: Hours Worked During Month Column
 
-There are employees who do not have a fixed salary but paid on hourly basis. Easiest way to handle these employees is to first create a column to get number of hours worked for the month using attendance. In order to do that you can use pre-defined calculations.![](../.gitbook/assets/screen-shot-2017-09-08-at-2.08.02-pm.png)
+There are employees who do not have a fixed salary but paid on an hourly basis. The easiest way to handle these employees is to first create a column to get the number of hours worked for the month using attendance. In order to do that you can use pre-defined calculations.
+
+![](../.gitbook/assets/screen-shot-2017-09-08-at-2.08.02-pm.png)
+
+
 
 ### Adding: Hourly Pay Column
 
