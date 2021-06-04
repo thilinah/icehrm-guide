@@ -23,6 +23,7 @@
 
 ## Documents
 
+* [HR Form Management](documents/hr-form-management.md)
 * [Document Management](documents/document-management.md)
 
 ## Leave Management
