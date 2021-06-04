@@ -52,11 +52,7 @@ For any employee document, under a document type with the above-mentioned field 
 
 ### Display a Document to a specific Employee
 
-![](../.gitbook/assets/featuretest1.png)
-
-First, you create the Document type and set "`Share With Employee option"` to **NO.** After that when you assign the document to an employee you can make it visible to the **Owner**, **Manager** or **Admin**.
-
-If you have set the`Share With Employee option` to **No** but when you assign the document make it **visible to** the **Owner**, the Owner of the document will be able to see the document but the rest of the employees. 
+When you assign the document to an employee you can make it visible to the **Owner**, **Manager** or **Admin**.
 
 Also, you can make it visible to the employees' manager or the Admin.
 
