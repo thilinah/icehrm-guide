@@ -40,6 +40,10 @@
 * [Training Module](training-and-reviews/training.md)
 * [Performance Reviews](training-and-reviews/performance-reviews.md)
 
+---
+
+* [Travel Module](travel-module.md)
+
 ## Payroll
 
 * [Salary](payroll/salary.md)

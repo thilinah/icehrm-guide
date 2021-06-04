@@ -168,3 +168,17 @@ Now you can create the CSV file to import User Data. In the CSV file, there shou
 
 Download the sample file already created for this step from [here](https://docs.google.com/spreadsheets/d/1BxGYzw5PybD4PmEvlEqo_paC0Hqxzr64hhJBj3qztYg/edit?usp=sharing). Download it as a csv file when you import it to IceHrm.
 
+## Finding Problems When a Data Import Failed
+
+If you have failed to import a file to IceHrm, you can find out what went wrong. You will get an error message once you click on the process button if you're data file is wrong. 
+
+![](../.gitbook/assets/userimporterror.png)
+
+Click on the OK button and then click on the Edit button to check the error.
+
+![](../.gitbook/assets/issue.png)
+
+You can see the error report under the Last Export Result. If you scroll down you can see what's the difference between the expected and actual results. 
+
+
+
