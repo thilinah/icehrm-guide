@@ -7,8 +7,10 @@
 * [Introduction](getting-started/getting-started.md)
 * [Installation](getting-started/installation-and-setup.md)
 * [Manual Installation](getting-started/manual-installation.md)
+* [Securing icehrm installation](getting-started/securing-icehrm-installation.md)
 * [Basic Settings](getting-started/basic-settings.md)
 * [Mobile App](getting-started/icehrm-mobile.md)
+* [AWS S3 File Storage](getting-started/using-aws-s3-for-icehrm-file-storage.md)
 
 ## Employees
 
