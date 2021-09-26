@@ -1,23 +1,44 @@
 # Upgrade IceHrmPro
 
-{% hint style="warning" %}
-You usually don't need to make any changes in **icehrm/app** directory. But, If you are upgrading to **v28.2.0**, please replace **icehrm/app/index.php** also with the same file in new release.
-{% endhint %}
-
 ## Upgrade IceHrm Pro
 
 * Download IceHrmPro release file
-* Backup IceHrm Installation folder and database.
-* Delete all folders inside existing IceHrm installation path except “app” folder
-* Extract latest IceHrmPro release \(zip\) file and copy all folders inside new IceHrmPro installation into existing IceHrm installation path except “app” folder
-* Replace icehrm/app/icehrm.key with the same file included in new release
+* Extract the latest IceHrmPro release \(zip\) file
+* When you extract IceHrmPro.zip you should see a new directory created with IceHrm current version
 
-![](https://s3.amazonaws.com/icehrm-public/images/icehrm-upgrade.gif)
+![](../.gitbook/assets/screenshot-2021-09-26-at-12.40.58.png)
 
-## Upgrade IceHrm Open Source
+* Click on the newly created directory and unzip the zip file inside it.
 
-* Download IceHrm release file
-* Backup IceHrm Installation folder and database.
-* Delete all folders inside existing IceHrm installation path except “app” folder
-* Extract latest IceHrmPro release \(zip\) file and copy all folders inside new IceHrmPro installation into existing IceHrm installation path except “app” folder
+![Inside v30.0.0.PRO](../.gitbook/assets/screenshot-2021-09-26-at-12.43.59.png)
+
+Go into "icehrm\_&lt;version&gt;" directory. Locate "core" and "web" directories, and replace the "web" and "core" directories in your new installation.
+
+![](../.gitbook/assets/screenshot-2021-09-26-at-12.51.56.png)
+
+## Upgrade IceHrm Open Source to IceHrmPro
+
+{% hint style="info" %}
+If you are already using icehrm open source, and purchased IceHrmPro. You can upgrade the installation without losing your data.
+{% endhint %}
+
+* Download IceHrmPro release file
+* Extract the latest IceHrmPro release \(zip\) file
+* When you extract IceHrmPro.zip you should see a new directory created with IceHrm current version
+
+![](../.gitbook/assets/screenshot-2021-09-26-at-12.40.58.png)
+
+* Click on the newly created directory and unzip the zip file inside it.
+
+![Inside v30.0.0.PRO](../.gitbook/assets/screenshot-2021-09-26-at-12.43.59.png)
+
+Go into "icehrm\_&lt;version&gt;" directory. Locate "core" and "web" directories, and replace the "web" and "core" directories in your new installation.
+
+![](../.gitbook/assets/screenshot-2021-09-26-at-12.51.56.png)
+
+* Copy icehrm.key file from the new release into your icehrm/app directory.
+
+![](../.gitbook/assets/screenshot-2021-09-26-at-12.57.28.png)
+
+## 
 
