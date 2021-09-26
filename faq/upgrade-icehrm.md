@@ -8,11 +8,7 @@
 
 ![](../.gitbook/assets/screenshot-2021-09-26-at-12.40.58.png)
 
-* Click on the newly created directory and unzip the zip file inside it.
-
-![Inside v30.0.0.PRO](../.gitbook/assets/screenshot-2021-09-26-at-12.43.59.png)
-
-Go into "icehrm\_&lt;version&gt;" directory. Locate "core" and "web" directories, and replace the "web" and "core" directories in your new installation.
+* Go into "icehrm\_&lt;version&gt;" directory. Locate "core" and "web" directories, and replace the "web" and "core" directories in your new installation.
 
 ![](../.gitbook/assets/screenshot-2021-09-26-at-12.51.56.png)
 
@@ -28,11 +24,7 @@ If you are already using icehrm open source, and purchased IceHrmPro. You can up
 
 ![](../.gitbook/assets/screenshot-2021-09-26-at-12.40.58.png)
 
-* Click on the newly created directory and unzip the zip file inside it.
-
-![Inside v30.0.0.PRO](../.gitbook/assets/screenshot-2021-09-26-at-12.43.59.png)
-
-Go into "icehrm\_&lt;version&gt;" directory. Locate "core" and "web" directories, and replace the "web" and "core" directories in your new installation.
+* Go into "icehrm\_&lt;version&gt;" directory. Locate "core" and "web" directories, and replace the "web" and "core" directories in your new installation.
 
 ![](../.gitbook/assets/screenshot-2021-09-26-at-12.51.56.png)
 
