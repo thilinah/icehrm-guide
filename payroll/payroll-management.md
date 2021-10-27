@@ -14,29 +14,29 @@ You may use IceHrm to achieve following tasks:
 
 When paying salary to your employees you can have it divided into several components. When you create a new installation of IceHrm we pre-define some Salary components and group these salary components accordingly for your convenience.
 
-If required you can add more. \(You may view/edit Salary Components under menu **Payroll =&gt; Salary**\)![](../.gitbook/assets/Screen%20Shot%202017-08-06%20at%207.39.27%20PM.png)**Salary Component Types**![](../.gitbook/assets/Screen%20Shot%202017-08-06%20at%207.44.21%20PM.png)Also in order to make it more easy to define taxes and other deductions on salary components we group these into Salary Component Types
+If required you can add more. (You may view/edit Salary Components under menu **Payroll => Salary**)![](<../.gitbook/assets/Screen Shot 2017-08-06 at 7.39.27 PM.png>)**Salary Component Types**![](<../.gitbook/assets/Screen Shot 2017-08-06 at 7.44.21 PM.png>)Also in order to make it more easy to define taxes and other deductions on salary components we group these into Salary Component Types
 
 ## Defining Salary for Your Employees
 
-You can add salary information for your employees under **Payroll =&gt; Salary =&gt; Employee Salary Components** tab.
+You can add salary information for your employees under **Payroll => Salary => Employee Salary Components **tab.
 
-![](../.gitbook/assets/Screen%20Shot%202017-08-06%20at%207.51.16%20PM.png)This way you can define other salary components like allowances and hourly pay details.![](../.gitbook/assets/Screen%20Shot%202017-08-06%20at%208.38.28%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-08-06 at 7.51.16 PM.png>)This way you can define other salary components like allowances and hourly pay details.![](<../.gitbook/assets/Screen Shot 2017-08-06 at 8.38.28 PM.png>)
 
 ## Creating Company Payroll
 
-Company payroll is available under Payroll =&gt; Payroll menu. We have already added information for calculating payroll for Sri Lanka and Ghana. You can delete all these before starting to work on your payroll. But sometimes these data can come handy as an example for building your payroll.
+Company payroll is available under Payroll => Payroll menu. We have already added information for calculating payroll for Sri Lanka and Ghana. You can delete all these before starting to work on your payroll. But sometimes these data can come handy as an example for building your payroll.
 
 ## Adding a Calculation Group For Germany
 
-First we should start with adding a **Calculation Group.** Go to Calculation Group Menu under Payroll and add a new calculation group. As an example we will be using Germany.
+First we should start with adding a **Calculation Group. **Go to Calculation Group Menu under Payroll and add a new calculation group. As an example we will be using Germany.
 
-![](../.gitbook/assets/Screen%20Shot%202017-08-06%20at%209.04.16%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-08-06 at 9.04.16 PM.png>)
 
 ## Adding Payroll Columns
 
 One of the best ways to decide which columns you need to have in your payroll report is to think of rows in your employee's payslip. Payroll report as a table which holds all your individual employee payslips in each row.
 
-Since you have three salary components Basic, Car Allowance, and Hourly pay we can define the following payroll columns. \(For now, let's assume tax is 19% on total salary\).
+Since you have three salary components Basic, Car Allowance, and Hourly pay we can define the following payroll columns. (For now, let's assume tax is 19% on total salary).
 
 Now here are the list of columns to show on payroll:
 
@@ -57,7 +57,7 @@ Now you can go to the tab "Payroll Columns" and click on "Add".
 
 ![](../.gitbook/assets/payroll-basic-salary-column.png)
 
-As this column only depends on the Basic Salary component you can just select that salary component from the list. \(Note that in some cases you can add multiple salary components to same column\).
+As this column only depends on the Basic Salary component you can just select that salary component from the list. (Note that in some cases you can add multiple salary components to same column).
 
 Also make sure you set the **enable to Yes** and **default value to 0.00**.
 
@@ -79,7 +79,7 @@ There are employees who do not have a fixed salary but paid on an hourly basis. 
 
 We can take hourly pay from salary component and create this column as below:
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%204.30.18%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 4.30.18 PM.png>)
 
 ### Adding: Payment For Hours Worked Column
 
@@ -87,15 +87,15 @@ Based on the previous column you have added, now you can create the hourly pay b
 
 #### First create a new payroll column
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%204.44.14%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 4.44.14 PM.png>)
 
 #### Then, Client on "Add" button next to Calculation Columns
 
 Here you are adding the previously defined **hours per month column as a parameter named X** and **hourly pay column as parameter Y,** so you can use it to do various calculations using these columns
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%204.36.18%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 4.36.18 PM.png>)
 
-Then under the **Function** field you can multiply these columns \(all other basic math expressions will work here\)
+Then under the **Function** field you can multiply these columns (all other basic math expressions will work here)
 
 ![](../.gitbook/assets/screen-shot-2017-09-08-at-4.38.30-pm.png)
 
@@ -103,7 +103,7 @@ Then under the **Function** field you can multiply these columns \(all other bas
 
 Total monthly gross salary should be the sum of basic salary, car allowance and payment for total hours worked. This column can be created as shown below:
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%204.52.21%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 4.52.21 PM.png>)
 
 ### Adding payroll Columns for Employee Details
 
@@ -111,14 +111,14 @@ When you need to indicate your employees details such as Employee Name, Employee
 
 This will be the same as you added the payroll columns before.
 
-* First click on the **Add New** option under the **Payroll Column Tab**. 
-* Add a **name** to the payroll column. Example: Employee First Name
-* Then select the **Get Employee Data** option for the **Predefined Calculations** field. 
-* Select the Payroll Group \(_You can keep this as Common because these details can be common for all of your payroll groups_ \)
+* First click on the **Add New** option under the **Payroll Column Tab**.&#x20;
+* Add a **name **to the payroll column. Example: Employee First Name
+* Then select the **Get Employee Data** option for the **Predefined Calculations** field.&#x20;
+* Select the Payroll Group (_You can keep this as Common because these details can be common for all of your payroll groups_ )
 * Give the **Column Order**.
 * Set the Default Value to 0
-* Then change the **Function Type** to **Simple** \(always select **simple** for these type of columns\)
-* Under the **Function** field, you need to **add the field name** \(If you don't know how to add the field name, go to the **Employee Fields** tab under the **Admin m**odule. There, you can find the relevant field name\)
+* Then change the **Function Type** to **Simple **(always select **simple **for these type of columns)
+* Under the **Function** field, you need to **add the field name **(If you don't know how to add the field name, go to the **Employee Fields** tab under the **Admin m**odule. There, you can find the relevant field name)
 
 ![](../.gitbook/assets/payroll.png)
 
@@ -126,15 +126,15 @@ This will be the same as you added the payroll columns before.
 
 As you have seen you can do some calculations at column level. But things such as tax which are having different percentages and multiple slabs it's better to use calculation methods. Now you should go to the **Calculation Methods** tab and add a new calculation method.
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.01.54%20PM.png)You can create a calculation method based on a Salary component group \(type\), a Salary component or an Existing payroll column. In this case we use an existing payroll column.
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.01.54 PM.png>)You can create a calculation method based on a Salary component group (type), a Salary component or an Existing payroll column. In this case we use an existing payroll column.
 
 Now click on add button on Calculation Process filed to define the actual calculation. According to our example for the full range of gross salary tax is 19%. So we don't need to define any ranges and can calculate the tax as follows.
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.22.25%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.22.25 PM.png>)
 
 Now we need to create a payroll column and add this calculation method to that column.
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.25.35%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.25.35 PM.png>)
 
 Please also play attention how we are assigning **column order** to each column.
 
@@ -142,11 +142,11 @@ Please also play attention how we are assigning **column order** to each column.
 
 Net Salary is Gross salary minus tax. So we create Net Salary column as shown below:
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.30.19%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.30.19 PM.png>)
 
 Now we have finished defining payroll columns. When you go to Payroll columns and search "DE - " you can see all the fields in German payroll.
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.32.01%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.32.01 PM.png>)
 
 ## Create Payslip Template
 
@@ -156,15 +156,15 @@ A payslip template has can be created by adding following items:
 
 1. Company Logo
 2. Company Name
-3. Text  \(For adding special messages to notifications to employees\)
-4. Separators \(For separating sections on payslip\)
+3. Text  (For adding special messages to notifications to employees)
+4. Separators (For separating sections on payslip)
 5. Payroll columns
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.47.19%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.47.19 PM.png>)
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.51.57%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.51.57 PM.png>)
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-08%20at%205.52.09%20PM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-08 at 5.52.09 PM.png>)
 
 ## Create Payroll Report
 
@@ -172,7 +172,7 @@ Payroll Report is the unit used to combine all the payroll columns and calculate
 
 .Goto Payroll Reports tab and create a new Payroll Report.
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%201.01.45%20AM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-09 at 1.01.45 AM.png>)
 
 When you create the payroll report it should be in **Draft** state. Only when it is processing completed it should go to **Completed** state.
 
@@ -182,21 +182,21 @@ Also you need to select all the payroll columns you defined earlier for german p
 
 Above payroll is for monthly paid employees who are in German Payroll Calculation group. So you need to add some employees satisfying above requirements under **"Company Payroll"** tab.
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%201.04.25%20AM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-09 at 1.04.25 AM.png>)
 
 As shown below we have added two employees to German payroll
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%201.09.24%20AM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-09 at 1.09.24 AM.png>)
 
 ## Configure Employee Salary Components
 
-Since the payroll depends on employee salary components you should make sure all employee salary components are defined properly. You can do this by going to **Payroll -&gt; Salary** module and selecting **Employee Salary** tab.
+Since the payroll depends on employee salary components you should make sure all employee salary components are defined properly. You can do this by going to **Payroll -> Salary** module and selecting **Employee Salary** tab.
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%201.13.47%20AM.png)As you can see here **IceHrm Employee** is getting a Basic and Allowance while **Lala Lamees** getting paid per hour. As we have configured our payroll report application now able to calculate the tax and other payroll columns properly.
+![](<../.gitbook/assets/Screen Shot 2017-09-09 at 1.13.47 AM.png>)As you can see here** IceHrm Employee** is getting a Basic and Allowance while **Lala Lamees** getting paid per hour. As we have configured our payroll report application now able to calculate the tax and other payroll columns properly.
 
 Processing Payroll Report
 
-Click on the blue color "Process" button on your payroll report under Payroll Report tab. This will show salaries of all the employees in your payroll. ![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%201.20.22%20AM.png)![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%201.22.38%20AM.png)
+Click on the blue color "Process" button on your payroll report under Payroll Report tab. This will show salaries of all the employees in your payroll. ![](<../.gitbook/assets/Screen Shot 2017-09-09 at 1.20.22 AM.png>)![](<../.gitbook/assets/Screen Shot 2017-09-09 at 1.22.38 AM.png>)
 
 As you can see here IceHrm can now calculate your payroll.
 
@@ -206,7 +206,7 @@ After checking figures manually you can click on finalize button which will chan
 
 Now your employee can login and download payslip for the payroll period 2017-08-01 to 2017-08-31.
 
-Login as the employee and goto **User Reports -&gt; Reports** module.![](../.gitbook/assets/screen-shot-2017-09-09-at-4.01.08-am.png)
+Login as the employee and goto **User Reports -> Reports** module.![](../.gitbook/assets/screen-shot-2017-09-09-at-4.01.08-am.png)
 
 And then download the Payslip from any completed payroll report
 
@@ -214,7 +214,7 @@ And then download the Payslip from any completed payroll report
 
 Payslip for IceHrm Employee will look like this:
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%204.03.37%20AM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-09 at 4.03.37 AM.png>)
 
 ## Generating Payroll for Next Month
 
@@ -222,11 +222,10 @@ Once you configure your payroll for initially, generating it for the second mont
 
 ### Clone a previous Payroll Report using **Copy button**
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%204.06.20%20AM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-09 at 4.06.20 AM.png>)
 
 ### Change Dates and set status to Draft
 
-![](../.gitbook/assets/Screen%20Shot%202017-09-09%20at%204.08.25%20AM.png)
+![](<../.gitbook/assets/Screen Shot 2017-09-09 at 4.08.25 AM.png>)
 
 Then save the new Payroll Report and process and finalize it.
-

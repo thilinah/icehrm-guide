@@ -12,7 +12,7 @@ Let's check how we can add data into the newly created table
 
 In order to communicate with the database you need a model. IceHrm uses AdoDB as the ORM. But it provides an abstraction layer on top of AdoDB.
 
-```text
+```
 icehrm
     |--extnsions
           |--tasks
@@ -25,7 +25,7 @@ icehrm
                |--meta.json
 ```
 
- **Task.php** 
+** Task.php **
 
 ```php
 <?php
@@ -45,7 +45,7 @@ class Task extends BaseModel
 
 #### tasks.php
 
-```text
+```
 <?php
 require_once __DIR__.'/src/Tasks/Extension.php';
 require_once __DIR__.'/src/Tasks/Migration.php';
@@ -99,4 +99,3 @@ Please find all the code upto this point here: [https://github.com/gamonoid/iceh
 {% endhint %}
 
 ![](../.gitbook/assets/icehrm-example-task-extension-model.png)
-

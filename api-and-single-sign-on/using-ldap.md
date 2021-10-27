@@ -18,11 +18,11 @@ For using php ldap on windows please [refer](http://stackoverflow.com/questions/
 
 ### Enabling LDAP
 
-LDAP can be enabled via System -&gt; Settings -&gt; LDAP. Make sure to configure all the parameters correctly
+LDAP can be enabled via System -> Settings -> LDAP. Make sure to configure all the parameters correctly
 
 ### Creating a LDAP User
 
-IceHrm can not extract users automatically from LDAP. You need to create a matching user in IceHrm with the same username. For an example if you have a user in your LDAP with username "**user1"** and ****password **"pass123"**. Then you need to:
+IceHrm can not extract users automatically from LDAP. You need to create a matching user in IceHrm with the same username. For an example if you have a user in your LDAP with username "**user1" **and** **password** "pass123"**. Then you need to:
 
 1. Create a user in icehrm with username "user1"
 2. No need to set a password, as we will use LDAP to authenticate this user
@@ -30,7 +30,7 @@ IceHrm can not extract users automatically from LDAP. You need to create a match
 
 ### No LDAP for user with username "admin"
 
-The user "admin" will always login with local db username and password \(even LDAP is enabled\)
+The user "admin" will always login with local db username and password (even LDAP is enabled)
 
 ### Testing LDAP with a test server
 
@@ -38,24 +38,23 @@ This is a way to debug your LDAP setup. You can try to connect to a test LDAP se
 
 Use these config to test LDAP connection with following test LDAP server [http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/](http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/)
 
-#### Change configs as follows under System-&gt;Settings
+#### Change configs as follows under System->Settings
 
-| Setting | Description |
-| :--- | :--- |
-| `LDAP: Enabled` |  Yes |
-| `LDAP: Server` |  ldap.forumsys.com |
-| `LDAP: Port` |  389 |
-| `LDAP: Root DN` |  dc=example,dc=com |
-| `LDAP: Manager DN` |  cn=read-only-admin,dc=example,dc=com |
-| `LDAP: Manager Password` |  password |
-| `LDAP: Version 3` |  Yes |
-| `LDAP: User Filter` |  uid={} |
+| Setting                  | Description                           |
+| ------------------------ | ------------------------------------- |
+| `LDAP: Enabled`          |  Yes                                  |
+| `LDAP: Server`           |  ldap.forumsys.com                    |
+| `LDAP: Port`             |  389                                  |
+| `LDAP: Root DN`          |  dc=example,dc=com                    |
+| `LDAP: Manager DN`       |  cn=read-only-admin,dc=example,dc=com |
+| `LDAP: Manager Password` |  password                             |
+| `LDAP: Version 3`        |  Yes                                  |
+| `LDAP: User Filter`      |  uid={}                               |
 
-Then create a user with username "riemann" under System-&gt;Users
+Then create a user with username "riemann" under System->Users
 
 Logout and try login with riemann/password
 
 ### Issue with LDAP
 
 If you are facing login issues after enabling LDAP, you can still login as user "admin" and disable LDAP
-

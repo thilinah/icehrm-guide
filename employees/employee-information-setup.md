@@ -14,29 +14,29 @@ Company structure module allows you to define the structure of your company. Let
 
 Also it provides a graphical overview of how each of your company units are connected.
 
-![Company Structure](https://icehrm.s3.amazonaws.com/images/blog-images/Company_stucture.png)
+![Company Structure](https://icehrm.s3.amazonaws.com/images/blog-images/Company\_stucture.png)
 
 #### How to configure a manager as the head of the company structure and enable to view all employees
 
-Let's take an example of a scenario to explain this situation. 
+Let's take an example of a scenario to explain this situation.&#x20;
 
-You have 2 offices in two countries.   
-1 Office In UK - Secondary  
+You have 2 offices in two countries. \
+1 Office In UK - Secondary\
 1 Office in USA -  Main
 
 You need to configure that your USA HR manager to manage all employees and the UK HR manager can only view the UK  employees. To do this:
 
 1. Go to the **Company Structure** under the **Admin module**
 2. Then select the department you want to make changes
-3.  Set a _head_ \(or a manager\) for a department, as shown in the below screenshot
+3. &#x20;Set a _head_ (or a manager) for a department, as shown in the below screenshot
 
 ![](../.gitbook/assets/screenshot-2021-02-12-at-14.58.48.png)
 
-4. Then go to the System -&gt; Settings and change the below settings to 1.
+4\. Then go to the System -> Settings and change the below settings to 1.
 
 ![](../.gitbook/assets/screenshot-2021-02-12-at-15.00.02.png)
 
-By Selecting your employee as head of a particular department, that employee will be able to view all employees under that department. You can appoint your USA HR manager to the Head office so the USA manager can see all employees. Then you can select the UK manager as the head of the UK office, so that manager will be able to see only the employees under the UK branch. 
+By Selecting your employee as head of a particular department, that employee will be able to view all employees under that department. You can appoint your USA HR manager to the Head office so the USA manager can see all employees. Then you can select the UK manager as the head of the UK office, so that manager will be able to see only the employees under the UK branch.&#x20;
 
 #### Difference Between Users and Employees
 
@@ -54,26 +54,26 @@ One of the key features of ICE Hrm, is admins and managers ability to login as a
 
 To login as an employee you can use the switch user icon on employee list or the “Switch Employee” menu in top right hand corner.
 
-![](../.gitbook/assets/employee-list-switch-employee%20%281%29.png)
+![](<../.gitbook/assets/employee-list-switch-employee (1).png>)
 
 #### Supervisors
 
 1. Any employee can be the supervisor of another employee.
 2. The supervisor of an Employee can be added by changing supervisor field of employee edit screen
-3. If the employee is having **Admin** or **Manager** user level, they can view all their subordinates \(employees having the current employee as the supervisor\) via  **Employees =&gt; Employees**  menu
+3. If the employee is having **Admin** or **Manager** user level, they can view all their subordinates (employees having the current employee as the supervisor) via ** Employees => Employees ** menu
 
 #### Indirect Supervisors
 
 1. An employee can have multiple **Indirect Supervisors** which can be set via edit employee.
-2. Indirect supervisors are useful when approving leave requests \(You can allow indirect supervisors to approve leave requests via **Settings -&gt; Leave/PTO**\)
+2. Indirect supervisors are useful when approving leave requests (You can allow indirect supervisors to approve leave requests via **Settings -> Leave/PTO**)
 
 #### Department Heads
 
 1. One or more employees can be added to a department as a head of a department.
-2. A department head can view and manage all employees under that department or substructures of this department give following settings under  **System -&gt; Settings -&gt; System** :
+2. A department head can view and manage all employees under that department or substructures of this department give following settings under ** System -> Settings -> System **:
    * "System: Company Structure Managers Enabled"
    * "System: Child Company Structure Managers Enabled"
-3. You can define  **Department Heads**  via **Admin -&gt; Company Structures**
+3. You can define ** Department Heads ** via **Admin -> Company Structures**
 
 ![](../.gitbook/assets/department-heads.png)
 
@@ -95,13 +95,12 @@ You can view details on how employee data changed over the time you can use `Emp
 
 ## Job Details Setup
 
-_**\(Admin &gt; Job Details Setup\)**_
+_**(Admin > Job Details Setup)**_
 
 Here you can set up all the information related to job titles, pay grades and employment status in your company.
 
 ### Qualifications Setup
 
-_**\(Admin &gt; Qualifications Setup\)**_
+_**(Admin > Qualifications Setup)**_
 
 Skills, Educational Details, Certifications and Languages you define under qualifications setup module will be used by employees or admins to attach these qualifications to their profiles.
-

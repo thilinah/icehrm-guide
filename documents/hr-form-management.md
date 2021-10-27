@@ -4,31 +4,31 @@ description: IceHrm HR Form can be used for different purposes. Such as;
 
 # HR Form Management
 
-> 1. To request employee surveys
+> 1\. To request employee surveys
 
-> 2. Employees’ opinion on something
+> 2\. Employees’ opinion on something
 
-> 3. To get probation review forms filled
+> 3\. To get probation review forms filled
 
-To create a HR form, log into the admin account and navigate to`Employees -> HR Form Management` or directly click on the HR Form Management icon on the Dashboard. 
+To create a HR form, log into the admin account and navigate to`Employees -> HR Form Management` or directly click on the HR Form Management icon on the Dashboard.&#x20;
 
-Click on Add New under the HR Forms tab. First, name the HR form then you can add a description about the HR form. 
+Click on Add New under the HR Forms tab. First, name the HR form then you can add a description about the HR form.&#x20;
 
 ![](../.gitbook/assets/ss1.png)
 
 After that click Add on the Field option to create questions to the HR form.
 
-First, you need to add the question under the Field Label then select the relevant Field Type. 
+First, you need to add the question under the Field Label then select the relevant Field Type.&#x20;
 
-_If you select the Text Area or Multiline Text option, employees will be able to type a single sentence or multiple sentences in order to answer the question._ 
+_If you select the Text Area or Multiline Text option, employees will be able to type a single sentence or multiple sentences in order to answer the question. _
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](<../.gitbook/assets/image (89).png>)
 
-_If you select the Dropdown option which means you can allow employees to select one over options. You can also allow them to select two options by enabling the Searchable dropdown option or select multiple options by enabling the Multiselect option. You can add options under the Options field._ 
+_If you select the Dropdown option which means you can allow employees to select one over options. You can also allow them to select two options by enabling the Searchable dropdown option or select multiple options by enabling the Multiselect option. You can add options under the Options field. _
 
 ![](../.gitbook/assets/ss3.png)
 
-This way add all the questions for the HR Form and finally click on Save. 
+This way add all the questions for the HR Form and finally click on Save.&#x20;
 
 ## How to assign a HR Form to an employee?
 
@@ -50,11 +50,9 @@ With the new features of IceHrm HR forms, Admin can change the status of a compl
 
 ## How to Download a HR Form as PDF report?
 
-Admin can go to the Employee Forms tab Select the employee HR Form and then click on the Download button. 
+Admin can go to the Employee Forms tab Select the employee HR Form and then click on the Download button.&#x20;
 
 ![](../.gitbook/assets/ss7.png)
 
-![](../.gitbook/assets/image%20%2888%29.png)
-
-
+![](<../.gitbook/assets/image (88).png>)
 

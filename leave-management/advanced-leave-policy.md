@@ -12,13 +12,13 @@ Let's think of a company operating in **Germany** and **Singapore**.
 
 ### Setup Leave Periods
 
-In IceHrm each Leave day is attached to a Leave Period. So It's important to configure the Leave Periods. Leave Periods are displayed under  **Admin =&gt; Leave Settings =&gt; Leave Periods** 
+In IceHrm each Leave day is attached to a Leave Period. So It's important to configure the Leave Periods. Leave Periods are displayed under ** Admin => Leave Settings => Leave Periods **
 
 ![](../.gitbook/assets/leave-periods.png)
 
 If your company has not been using icehrm before, it is recommended to delete all previous leave periods and keep only the current leave period.
 
- **After setting up leave types you can manually add all details about carried forward leave days and already taken leave days using** Paid Time off **tab under** Leave Settings\*\*
+** After setting up leave types you can manually add all details about carried forward leave days and already taken leave days using **Paid Time off** tab under **Leave Settings\*\*
 
 ### Leave Types in Singapore
 
@@ -31,13 +31,13 @@ Every employee gets 14 days off per year. Remaining leave days can be carried fo
 **Creating Leave Type for Annual Leave**
 
 1. Login to IceHrm installation as an admin
-2. Goto Admin -&gt; Leave Settings
+2. Goto Admin -> Leave Settings
 3. If you have created a fresh installation, delete existing leave types
-4. Add a new leave type \(name it as "Annual Leave"\)
+4. Add a new leave type (name it as "Annual Leave")
 5. Set _Leaves per Leave Period_ to 14
 6. Set _Admin can assign leave to employees_ to Yes
 7. Set _Employees can apply for this leave type_ to Yes
-8. Set _Leave Carried Forward_ to Yes \(As you need to carry forward remaining leave to next period\)
+8. Set _Leave Carried Forward_ to Yes (As you need to carry forward remaining leave to next period)
 9. Set _Percentage of Leave Carried Forward_ to 100 as you need to carry forward 100% of the remaining leave
 10. Set _Maximum Carried Forward Amount_ to 0. Setting this to 0 will remove the limitation on carried forward leave days
 11. Set _Carried Forward Leave Availability Period_ to _No Limit_. This will allow employees to carry forward _Annual Leave_ indefinitely
@@ -80,7 +80,7 @@ As you can see some employees are based in Singapore and some are based in Germa
 
 **Initial Test for Leave Balances**
 
-For testing the leave balance of each of them you can use the _Employee Leave Entitlement_ report. Go to _Admin Reports_ =&gt; _Reports_ to generate it.
+For testing the leave balance of each of them you can use the _Employee Leave Entitlement_ report. Go to _Admin Reports_ => _Reports_ to generate it.
 
 ![](../.gitbook/assets/employee-leave-entitlement-report.png)
 
@@ -96,11 +96,11 @@ In order to, correct the problem, you need to use leave groups. Leave groups is 
 
 **Defining a Leave Group for Singapore**
 
-Define a Leave Group for Singapore under _Admin =&gt; Leave Settings =&gt; Leave Groups =&gt; Edit Leave Groups_
+Define a Leave Group for Singapore under _Admin => Leave Settings => Leave Groups => Edit Leave Groups_
 
 ![](../.gitbook/assets/define-singapore-leave-group.png)
 
-Then add Singapore employees to this group under _Admin =&gt; Leave Settings =&gt; Leave Groups =&gt; Leave Group Employees_
+Then add Singapore employees to this group under _Admin => Leave Settings => Leave Groups => Leave Group Employees_
 
 ![](../.gitbook/assets/add-singapore-employees-to-leave-group.png)
 
@@ -134,11 +134,11 @@ We still have a problem with above leave entitlement for Singapore. Only working
 
 ![](../.gitbook/assets/leave-type-list-sg-working-mothers.png)
 
-1. Under _Employees =&gt; Employees_ switch to _Nicole Smith_. This will let you use the application as _Nicole Smith_
+1. Under _Employees => Employees_ switch to _Nicole Smith_. This will let you use the application as _Nicole Smith_
 
 ![](../.gitbook/assets/employee-list-switch-employee.png)
 
-1. Open _Leave =&gt; Leave Management =&gt; Leave Entitlement_. This will show all three leave types
+1. Open _Leave => Leave Management => Leave Entitlement_. This will show all three leave types
 
 ![](../.gitbook/assets/leave-entitlement-nicole-smith.png)
 
@@ -200,15 +200,15 @@ _**But still, we have a problem with Vacation Leave. How to apply different amou
 
 Leave rules are a way to alter Leave Types for individual or specific groups of employees. For an example, you can increase the number of leave days only for employees having permanent work contracts by adding a Leave Rule.
 
-**Vacation Leave Rule \(Employees having 2 Years of Experience\)**
+**Vacation Leave Rule (Employees having 2 Years of Experience)**
 
-1. Goto **Admin =&gt; Leave Settings =&gt; Leave Rules** 
-2. Create a new Leave Rule for Leave Type **Vacation**. Set the **Required Experience \(Days\)** to 730 which is 2 years and Number of Leave Days to 27, as we need to give 2 additional leave day to employees who worked more than 2 years. _\*_ This Leave Rule will be applied to the employees having more than 730 days between the joined date listed on profile and the start date of the current leave period.
+1. Goto **Admin => Leave Settings => Leave Rules **
+2. Create a new Leave Rule for Leave Type **Vacation**. Set the **Required Experience (Days)** to 730 which is 2 years and Number of Leave Days to 27, as we need to give 2 additional leave day to employees who worked more than 2 years. _\*_ This Leave Rule will be applied to the employees having more than 730 days between the joined date listed on profile and the start date of the current leave period.
 
 ![](../.gitbook/assets/vacation-leave-rule-2years.png)
 
-1. In order to create the Leave Rule for 3 years, copy the 2-year leave rule and change **Required Experience \(Days\)** to **1095 \(3 Years\)** and Number of Leave Days to 28
-2. In order to create the Leave Rule for 4 years, copy the 3-year leave rule and change **Required Experience \(Days\)** to **1460 \(4 Years\)** and Number of Leave Days to 30
+1. In order to create the Leave Rule for 3 years, copy the 2-year leave rule and change **Required Experience (Days)** to **1095 (3 Years)** and Number of Leave Days to 28
+2. In order to create the Leave Rule for 4 years, copy the 3-year leave rule and change **Required Experience (Days)** to **1460 (4 Years)** and Number of Leave Days to 30
 
 ![](../.gitbook/assets/leave-rules-vacation.png)
 
@@ -228,9 +228,9 @@ Even though you just configured your company leave policy in IceHrm, your employ
 
 Assume you migrated to IceHrm in March 2018. In this case, you can use Paid time off tab to add already taken leave details for employees. For an example assume **Jason Wood** has already taken 5 Vacation Days off. And **Johanna Fischer** still have 6 Vacation days carried forward from the previous year.
 
- **In order to implement this you can add a negative paid time off for Jason Wood positive paid time off for Johanna Fischer.** 
+** In order to implement this you can add a negative paid time off for Jason Wood positive paid time off for Johanna Fischer. **
 
-1. Visit  **Admin =&gt; Leave Settings =&gt; Paid Time off** 
+1. Visit ** Admin => Leave Settings => Paid Time off **
 2. Add -5 Vacation days for **Jason Wood**
 
 ![](../.gitbook/assets/paid-time-off-jw.png)
@@ -257,12 +257,12 @@ Assume **Johanna Fischer** worked 2 additional Saturdays to get your urgent proj
 
 Currently, both offices only work from Monday to Friday. Let's say you want to make Singapore employees work half a day on Saturday also.
 
-1. Visit  **Admin =&gt; Leave Settings =&gt; Work Week** 
+1. Visit ** Admin => Leave Settings => Work Week **
 2. Add a work day for Saturday in Singapore
 
 ![](../.gitbook/assets/work-week-saturday-half.png)
 
- **Note that this will be applied to employees having** Country set to Singapore\*\* on there profile.
+** Note that this will be applied to employees having **Country set to Singapore\*\* on there profile.
 
 ![](../.gitbook/assets/work-week-list.png)
 
@@ -274,4 +274,3 @@ Currently, both offices only work from Monday to Friday. Let's say you want to m
 4. Leave days will be carried forward only from Leave Period defined. For an example, if you have leave periods defined for 2017 and 2018, leave days will be carried forward only from 2017 to 2108. Leave days could have been carried forward from 2016 will be ignored.
 5. After configuring Leave Types if you are seeing wired numbers as balances first check whether you have previous leave periods defined which are actually not required. When you enable leave carry forwarding and there is a previous leave period defined, current leave period will get leave days carried forward from previous leave period.
 6. All the employee leave requests should be approved by the supervisor or an admin. An admin can approve any leave request.
-

@@ -12,21 +12,21 @@ With IceHrm you can use Amazon S3 as your file system. In order to do that you n
 
 ![Create S3 Bucket](../.gitbook/assets/screenshot-2021-06-06-at-11.46.13.png)
 
-2. Make sure the bucket access is public. This doesn't mean the file stored here by IceHrm is public. A secure has is needed every time a file is accessed.
+2\. Make sure the bucket access is public. This doesn't mean the file stored here by IceHrm is public. A secure has is needed every time a file is accessed.
 
 ![](../.gitbook/assets/screenshot-2021-06-06-at-12.08.05.png)
 
-3. Create an IAM user with access to S3. \(You may use restrict permission for this user only to a selected bucket if needed\)
+3\. Create an IAM user with access to S3. (You may use restrict permission for this user only to a selected bucket if needed)
 
 ![](../.gitbook/assets/screenshot-2021-06-06-at-11.49.30.png)
 
 ![](../.gitbook/assets/screenshot-2021-06-06-at-11.52.36.png)
 
-4. Update IceHrm Settings Accordingly Under System-&gt;Settings
+4\. Update IceHrm Settings Accordingly Under System->Settings
 
 ![](../.gitbook/assets/screenshot-2021-06-06-at-12.53.04.png)
 
-5. Set "**System: AWS Region**" setting under **System-&gt;Settings correctly**.
+5\. Set "**System: AWS Region**" setting under **System->Settings correctly**.
 
 ### Testing
 
@@ -38,4 +38,3 @@ With IceHrm you can use Amazon S3 as your file system. In order to do that you n
 {% hint style="warning" %}
 Test and make sure your S3 files can not be accessed publicly.
 {% endhint %}
-
